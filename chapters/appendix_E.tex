@@ -1,0 +1,152 @@
+% ============================================================
+% 付録E 市場データおよび市場ショック指標（$\sigma$）の構築方法
+% ------------------------------------------------------------
+%
+% ============================================================
+
+\chapter*{付録 E：市場データおよび市場ショック指標（$\sigma$）の構築方法}
+\addcontentsline{toc}{chapter}{付録 E：市場データおよび市場ショック指標（$\sigma$）の構築方法}
+
+本付録では、第8章の実証分析で用いた市場データの取得方法、
+市場ショック指標（$\sigma$）の構築手順、
+および記述統計の算出方法を詳細に示す。
+本研究の透明性と再現性を確保するため、データの出典、加工方法、計算式、
+および使用した Python コードを明示する。
+
+\section*{E.1 JEPX スポット価格データの取得方法}
+\addcontentsline{toc}{section}{E.1 JEPX スポット価格データの取得方法}
+
+本研究で使用した電力スポット価格データは、
+一般社団法人日本卸電力取引所（JEPX）が新サイトにおいて公開している
+「スポット市場」データ
+（\url{https://www.jepx.jp/electricpower/market-data/spot/}）
+から取得した。
+
+JEPX 新サイトでは、以下の情報が日次・30分コマ（1日48コマ）単位で
+CSV 形式により提供されている。
+
+\begin{itemize}
+  \item 受渡日（YYYY/MM/DD）
+  \item 時刻コード（1--48）
+  \item システムプライス（円/kWh）
+  \item エリアプライス（北海道〜九州）
+  \item 売り入札量・買い入札量
+  \item 約定総量
+\end{itemize}
+
+本研究では、全国共通のシステムプライスを使用した。
+データ取得期間は 2016年4月1日から 2025年3月31日までである。
+
+\section*{E.2 日次標準偏差（$\sigma_{\mathrm{daily}}$）の算出方法}
+\addcontentsline{toc}{section}{E.2 日次標準偏差（$\sigma_{\mathrm{daily}}$）の算出方法}
+
+1日48コマのシステムプライスを用いて、日次標準偏差を以下の式で算出した。
+
+
+
+\[
+\sigma_{\mathrm{daily}}(t)
+=
+\mathrm{StdDev}
+\left(
+\mathrm{SystemPrice}_{t,1},\ldots,\mathrm{SystemPrice}_{t,48}
+\right)
+\]
+
+
+
+異常値（マイナス価格など）が存在する場合は、その日のデータを除外した。
+
+\section*{E.3 月次市場ショック（$\sigma_{\mathrm{monthly}}$）の算出方法}
+\addcontentsline{toc}{section}{E.3 月次市場ショック（$\sigma_{\mathrm{monthly}}$）の算出方法}
+
+市場ショック指標は、日次標準偏差の月次標準偏差として定義した。
+
+
+
+\[
+\sigma_{\mathrm{monthly}}
+=
+\mathrm{StdDev}\left(\sigma_{\mathrm{daily}} \in \text{month}\right)
+\]
+
+
+
+この指標は、当該月における価格変動の激しさを表すものであり、
+新電力の調達コストの不確実性を捉える proxy として妥当である。
+
+\section*{E.4 価格データの例示}
+\addcontentsline{toc}{section}{E.4 価格データの例示}
+
+表 E-1 に、2021年1月と2020年平常月の
+システムプライスの例を示す。
+
+\begin{table}[H]
+\centering
+\caption{システムプライスの例（抜粋）}
+\begin{tabular}{lcc}
+\toprule
+日付 & 平均価格（円/kWh） & 日次標準偏差 \\
+\midrule
+2021/01/08 & 154.2 & 87.5 \\
+2021/01/12 & 197.3 & 102.4 \\
+2020/10/15 & 7.8 & 2.1 \\
+2020/10/20 & 8.3 & 1.9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+2021年1月の価格変動が極端に大きいことが確認できる。
+
+\section*{E.5 市場ショック指標（$\sigma$）の推移}
+\addcontentsline{toc}{section}{E.5 市場ショック指標（$\sigma$）の推移}
+
+図 E-1 に、2016年4月〜2025年3月の
+市場ショック指標（$\sigma$）の推移を示す。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14cm]{D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf}
+\caption{市場ショック指標（$\sigma$）の推移}
+\end{figure}
+
+2021年1月に突出したピークが観察される。
+
+\section*{E.6 データ利用上の留意点}
+\addcontentsline{toc}{section}{E.6 データ利用上の留意点}
+
+\begin{itemize}
+  \item JEPX 新サイトは旧サイトと異なり、1年分のデータを一括取得できるため、欠損が少ない。
+  \item 本研究では、全国共通のシステムプライスを採用した。
+        エリアプライスは地域差が大きいが、倒産企業の多くが複数エリアで調達していたためである。
+  \item データ加工は日次標準偏差および月次集計に限定し、恣意的な補正は行っていない。
+\end{itemize}
+
+\section*{E.7 記述統計の算出方法}
+\addcontentsline{toc}{section}{E.7 記述統計の算出方法}
+
+第8章の記述統計（表 8-1）は、
+panel\_data\_with\_sigma.csv に含まれる
+4 変数（$\sigma$, $S$, $D$, $\text{default}$）を対象とし、
+Python（pandas）により算出した。
+
+使用したコードは以下の通りである。
+
+\begin{verbatim}
+import pandas as pd
+import os
+
+DATA_DIR = r"D:\texlive\2026\work\figure\JEPX_Spot_Price_Data"
+panel_path = os.path.join(DATA_DIR, "panel_data_with_sigma.csv")
+
+df = pd.read_csv(panel_path, encoding="cp932")
+
+vars = ["sigma", "S", "D", "default"]
+desc = df[vars].describe()
+print(desc)
+\end{verbatim}
+
+算出した統計量は、平均値・標準偏差・最小値・最大値であり、
+欠損値は dropna() により除去した。
+これらの値を第8章の記述統計表に反映した。
+

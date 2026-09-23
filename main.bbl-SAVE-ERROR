@@ -1,0 +1,514 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{IEA2022GasMarket}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gas Market Report 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2023Renewables}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Renewables 2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2024Electricity}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electricity Market Report 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2025AISurge}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AI-driven Electricity Demand Surge: Global Outlook 2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2025EnergySupplyAI}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy Supply Challenges in the Age of AI}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{Campbell2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b7ec0e33525f8b94af88e38cc709b02d}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima Y.},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=59f287dde7c3a399b971ae20b2a4de14}{%
+           family={Hilscher},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3122946440da8d0a3d20845b79fb6d30}{%
+           family={Szilagyi},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{fullhash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{fullhashraw}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{bibnamehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authorbibnamehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authornamehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authorfullhash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authorfullhashraw}{059ebbc6d5129111fc50b0974650f37e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Finance}
+      \field{number}{6}
+      \field{title}{In Search of Distress Risk}
+      \field{volume}{63}
+      \field{year}{2008}
+      \field{pages}{2899\bibrangedash 2939}
+      \range{pages}{41}
+    \endentry
+    \entry{Charalambakis2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=71e15353d9261426733dfcea39f11212}{%
+           family={Charalambakis},
+           familyi={C\bibinitperiod},
+           given={Evangelos\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=29109d998814e23d29b37099008406ff}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \strng{fullhash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \strng{fullhashraw}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \strng{bibnamehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \strng{authorbibnamehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \strng{authornamehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \strng{authorfullhash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \strng{authorfullhashraw}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Corporate Finance}
+      \field{title}{On the prediction of corporate financial distress in the light of the financial crisis}
+      \field{volume}{58}
+      \field{year}{2019}
+      \field{pages}{431\bibrangedash 453}
+      \range{pages}{23}
+    \endentry
+    \entry{UKGov2021BulbSupport}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e2e9e0cbd8b125a9eb847dd8f42f068e}{%
+           family={Government},
+           familyi={G\bibinitperiod},
+           given={UK},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{fullhash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{fullhashraw}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{bibnamehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authorbibnamehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authornamehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authorfullhash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authorfullhashraw}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bulb Energyに対する特別支援措置}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.gov.uk/
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/
+      \endverb
+    \endentry
+    \entry{OECD2022Security}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy Security 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.oecd.org/
+      \endverb
+      \verb{url}
+      \verb https://www.oecd.org/
+      \endverb
+    \endentry
+    \entry{Ofgem2021OctopusTakeover}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4023cf44a7eed26d3c981e66d4f3484d}{%
+           family={Ofgem},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{bibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorbibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authornamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Octopus EnergyによるBulb顧客引き継ぎに関する公表資料}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+      \verb{url}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+    \endentry
+    \entry{Ofgem2021BulbSLR}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4023cf44a7eed26d3c981e66d4f3484d}{%
+           family={Ofgem},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{bibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorbibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authornamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Supplier of Last Resort: Bulb Energy}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+      \verb{url}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+    \endentry
+    \entry{Tinoco2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bcc37cf4936d2eeb48dae1fcaa7398c0}{%
+           family={Tinoco},
+           familyi={T\bibinitperiod},
+           given={Mario\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1bd19c90d4e2060319ebfe6e7ca6e199}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{fullhash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{fullhashraw}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{bibnamehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authorbibnamehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authornamehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authorfullhash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authorfullhashraw}{4080bdd169e9a0f64c97001be49236f7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Banking and Finance}
+      \field{number}{8}
+      \field{title}{Financial distress and bankruptcy prediction among listed companies using accounting, market and macroeconomic variables}
+      \field{volume}{37}
+      \field{year}{2013}
+      \field{pages}{2892\bibrangedash 2904}
+      \range{pages}{13}
+    \endentry
+    \entry{TDB2021PowerCrisis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2b4f5708b297479f145cedd4957b2524}{%
+           family={帝国データバンク},
+           familyi={帝\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{fullhash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{fullhashraw}{2b4f5708b297479f145cedd4957b2524}
+      \strng{bibnamehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authorbibnamehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authornamehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authorfullhash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authorfullhashraw}{2b4f5708b297479f145cedd4957b2524}
+      \field{sortinit}{帝}
+      \field{sortinithash}{f6d90faec6229b7c935832d4f8093139}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{帝国データバンク倒産速報}
+      \field{title}{新電力倒産に関する帝国データバンク報告}
+      \field{year}{2021}
+    \endentry
+    \entry{TSR2021PowerCrisis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=47b87234edecbb94fe8578c5bd10cd73}{%
+           family={東京商工リサーチ},
+           familyi={東\bibinitperiod}}}%
+      }
+      \strng{namehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{fullhash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{fullhashraw}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{bibnamehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authorbibnamehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authornamehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authorfullhash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authorfullhashraw}{47b87234edecbb94fe8578c5bd10cd73}
+      \field{sortinit}{東}
+      \field{sortinithash}{40869f05027ede3b9021f05bd312d5f3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{TSR企業倒産情報}
+      \field{title}{新電力倒産に関する東京商工リサーチ報告}
+      \field{year}{2021}
+    \endentry
+    \entry{CityCouncil2021Support}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=88109aa23d40bd5c2f383e024847a041}{%
+           family={自治体議会},
+           familyi={自\bibinitperiod}}}%
+      }
+      \strng{namehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{fullhash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{fullhashraw}{88109aa23d40bd5c2f383e024847a041}
+      \strng{bibnamehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authorbibnamehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authornamehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authorfullhash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authorfullhashraw}{88109aa23d40bd5c2f383e024847a041}
+      \field{sortinit}{自}
+      \field{sortinithash}{58c5f60d781c9ce2af9ee7cbcb9b9fdc}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{自治体議会資料}
+      \field{title}{新電力との包括契約に関する議事録}
+      \field{year}{2021}
+    \endentry
+    \entry{DenkiShimbun2021Crisis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e52b7a0be8d7f725f5dda73fa457cde4}{%
+           family={電気新聞},
+           familyi={電\bibinitperiod}}}%
+      }
+      \strng{namehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{fullhash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{fullhashraw}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{bibnamehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authorbibnamehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authornamehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authorfullhash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authorfullhashraw}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \field{sortinit}{電}
+      \field{sortinithash}{bd632233c22d5aaff0ee9d274053beb5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{電気新聞}
+      \field{title}{新電力の経営危機に関する報道}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

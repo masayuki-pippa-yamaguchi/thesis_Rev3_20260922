@@ -1,0 +1,132 @@
+% !TeX root = main.tex
+
+\documentclass[a4paper,12pt,openany]{ltjsbook}
+
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\usepackage{scrtime}
+\pgfplotsset{compat=1.18}
+
+% 日本語設定
+\usepackage{luatexja}
+\usepackage{luatexja-fontspec}
+\setmainjfont[BoldFont=IPAexGothic]{IPAexMincho}
+\setsansjfont{IPAexGothic}
+
+% ページレイアウト
+\usepackage[top=30mm,bottom=30mm,left=25mm,right=25mm]{geometry}
+
+% 基本パッケージ
+\usepackage{graphicx}
+\usepackage{here}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{xtab}
+
+% TikZ
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes, calc, fit, backgrounds}
+\usepackage{pdflscape}
+
+% キャプション
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{font=small, labelfont=bf}
+
+% ハイパーリンク
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    pdfborder={0 0 0}
+}
+
+% 参考文献
+\usepackage[
+    backend=biber,
+    style=authoryear,
+    sorting=nyt,
+    maxbibnames=99,
+    uniquename=false,
+    uniquelist=false
+]{biblatex}
+\addbibresource{references.bib}
+
+% fancyhdr
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\chaptermark}[1]{%
+  \markboth{第\thechapter 章\ #1}{}%
+}
+
+\setlength{\footskip}{20pt}
+
+% --------------------------------------------------
+% plain / plainhead / headings を fancy に統一（付録の「第章」対策）
+% --------------------------------------------------
+\makeatletter
+\let\ps@plain\ps@fancy
+\let\ps@plainhead\ps@fancy
+\let\ps@headings\ps@fancy
+\makeatother
+
+% 目次の見栄え調整
+\usepackage{tocloft}
+\setlength{\cftbeforechapskip}{1.5em}
+\setlength{\cftbeforesecskip}{0.3em}
+\setlength{\cftchapnumwidth}{4em}
+\setlength{\cftchapindent}{0em}
+
+\begin{document}
+
+\setstretch{1.25}
+
+% 表紙
+\input{chapters/titlepage}
+
+% frontmatter（目次）
+\frontmatter
+\tableofcontents
+
+% 本文
+\mainmatter
+
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\include{chapters/chapter4}
+\include{chapters/chapter5}
+\include{chapters/chapter6}
+\include{chapters/chapter7}
+\include{chapters/chapter8}
+\include{chapters/chapter9}
+
+\appendix
+
+% 付録のヘッダーは「付録 A：…」だけを使う（重複を防ぐ）
+\renewcommand{\chaptermark}[1]{%
+  \markboth{#1}{}%
+}
+
+% 個別の付録ファイルを読み込む
+\include{chapters/appendix_A}
+\include{chapters/appendix_B}
+\include{chapters/appendix_C}
+\include{chapters/appendix_D}
+\include{chapters/appendix_E}
+\include{chapters/appendix_F}
+
+\backmatter
+\printbibliography
+
+\end{document}
