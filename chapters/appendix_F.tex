@@ -1,312 +1,152 @@
-\chapter*{付録 F：Merton 型構造モデルと B\&S 推定式の数学的関係}
-\addcontentsline{toc}{chapter}{付録 F：Merton 型構造モデルと B\&S 推定式の数学的関係}
-\label{app:merton_bs}
-
-本付録では，本研究が依拠する理論的基盤として，
-Merton（1974）型構造モデルと Bharath and Shumway（2008）（以下 B\&S）の
-推定式との数学的関係を体系的に整理する。
-構造モデルに基づく倒産距離（Distance to Default; DD）の導出，
-B\&S によるロジット推定式との接続，
-さらに本研究の潜在変数モデルおよび Ordered Logit への写像を明示することで，
-理論的整合性と数学的厳密性を確認する。
-
+% ============================================================
+% 付録E 市場データおよび市場ショック指標（$\sigma$）の構築方法
 % ------------------------------------------------------------
-\section*{F.1　Merton 型構造モデルと倒産距離 DD}
-\addcontentsline{toc}{section}{F.1　Merton 型構造モデルと倒産距離 DD}
-
-Merton（1974）の構造モデルでは，企業価値 $V_t$ が幾何ブラウン運動に従うと仮定される。
-
-
-
-\[
-\frac{\mathrm{d}V_t}{V_t}
-=
-\mu\,\mathrm{d}t + \sigma\,\mathrm{d}W_t,
-\]
-
-
-
-ここで $\mu$ は期待成長率，$\sigma$ はボラティリティ，
-$W_t$ は標準ブラウン運動である。
-満期 $T$ において企業価値 $V_T$ が負債額 $F$ を下回るとき，
-株主にとって企業は倒産とみなされる。
-
-幾何ブラウン運動の性質より，
-
-
-
-\[
-\ln V_T
-\sim
-\mathcal{N}
-\left(
-\ln V_0 + (\mu - \tfrac{1}{2}\sigma^2)T,\;
-\sigma^2 T
-\right),
-\]
-
-
-
-となるため，倒産確率は
-
-
-
-\[
-\Pr(V_T < F)
-=
-\Phi\left(
--\frac{\ln(V_0/F) + (\mu - \tfrac{1}{2}\sigma^2)T}{\sigma\sqrt{T}}
-\right),
-\]
-
-
-
-と表される。
-分子の項
-
-
-
-\[
-DD
-=
-\frac{\ln(V_0/F) + (\mu - \tfrac{1}{2}\sigma^2)T}{\sigma\sqrt{T}}
-\]
-
-
-
-が倒産距離（Distance to Default）であり，
-企業価値が倒産閾値から何標準偏差離れているかを表す。
-この DD は確率論に基づき厳密に導出される量であり，
-本研究の潜在倒産距離の基礎となる。
-
-% ------------------------------------------------------------
-\section*{F.2　B\&S 推定式とロジットモデル}
-\addcontentsline{toc}{section}{F.2　B\&S 推定式とロジットモデル}
-
-Bharath and Shumway（2008）は，Merton 型モデルに基づく DD を
-実務的に近似しつつ，倒産確率をロジットモデルで推定する枠組みを提示した。
-彼らのアプローチは次の二段階構造を持つ。
-
-\begin{enumerate}
-  \item 市場データ・財務データから企業価値 $V$ や負債額 $F$ を近似し，DD を計算する。
-  \item DD を含む説明変数ベクトル $X$ に基づき，倒産確率をロジットで推定する。
-\end{enumerate}
-
-ロジット推定式は概念的に次のように表される。
-
-
-
-\[
-\Pr(\text{Default}_{i,t+1}=1 \mid X_{i,t})
-=
-\Lambda\left(
-\alpha + \beta_1 \text{DD}_{i,t} + \beta_2 \text{Size}_{i,t}
-+ \beta_3 \text{Leverage}_{i,t} + \cdots
-\right),
-\]
-
-
-
-ここで $\Lambda(\cdot)$ はロジスティック分布の累積分布関数である。
-
-重要なのは，B\&S が Merton 型モデルを「厳密な閉形式解」としてではなく，
-倒産リスクの構造を捉えるための近似的基盤として用いている点である。
-すなわち，DD は構造モデルから導出されるが，
-最終的な倒産確率の推定はロジットという離散選択モデルの枠組みで行われる。
-
-この構造は，本研究が採用する
-「Merton 型モデル → 潜在変数 → Ordered Logit」
-という接続と数学的に同型である。
-
-% ------------------------------------------------------------
-\section*{F.3　本研究の潜在変数モデルとの接続}
-\addcontentsline{toc}{section}{F.3　本研究の潜在変数モデルとの接続}
-
-本研究では，Merton 型モデルにおける DD の構造を踏まえつつ，
-新電力企業の倒産リスクを「市場依存型倒産距離」として再定義する。
-第3章で導出した潜在倒産距離 $Z^{\ast}_i$ は，
-
-
-
-\[
-Z^{\ast}_i
-=
-a \mu^{\ast}_i - b \sigma^{\ast}_i + c S^{\ast}_i - d D^{\ast}_i,
-\]
-
-
-
-のような線形構造として定式化される。
-これは Merton 型 DD の一次近似として解釈でき，
-収益性 $\mu^{\ast}$，市場ショック $\sigma^{\ast}$，
-支援能力 $S^{\ast}$，負債比率 $D^{\ast}$ が
-Merton 型モデルの $\mu$，$\sigma$，$V/F$ の役割を
-産業特性に応じて再パラメータ化したものである。
-
-潜在変数に基づく倒産確率はロジスティック関数により
-
-
-
-\[
-p_i
-=
-\frac{1}{1 + \exp(-Z^{\ast}_i)}
-\]
-
-
-
-と表される。
-これは B\&S のロジット推定式と数学的に同型である。
-
-さらに，本研究では倒産を二値ではなく複数段階の現象として扱うため，
-潜在変数 $y^*_{i,t}$ を Ordered Logit の枠組みに拡張する。
-
-
-
-\[
-y^*_{i,t}
-=
-\gamma_0 + \gamma_1 \mu_{i,t} + \gamma_2 \sigma_{i,t}
-+ \gamma_3 S_{i,t} + \gamma_4 D_{i,t} + \varepsilon_{i,t},
-\]
-
-
-
-潜在変数が複数の閾値 $\tau_k$ を跨ぐことで倒産ステージが決定される。
-
-
-
-\[
-\text{default\_stage}_{i,t} =
-\begin{cases}
-0 & (y^*_{i,t} < \tau_1) \\
-1 & (\tau_1 \le y^*_{i,t} < \tau_2) \\
-2 & (\tau_2 \le y^*_{i,t})
-\end{cases}
-\]
-
-
-
-この枠組みは，
-Merton → DD → ロジット  
-という構造を  
-Merton → 潜在変数 $y^*$ → Ordered Logit  
-へと拡張したものであり，
-潜在変数モデルとしての数学的厳密性を保持している。
-
-本付録では，Merton 型構造モデルに基づく倒産距離 DD の数学的構造を起点とし，
-Bharath \& Shumway（2008）が行った一般化（proxyDD）との対応関係を整理する。
-さらに，この一般化された倒産距離を一次テイラー展開により線形化し，
-本研究で用いる構造的線形倒産距離 \(Z_{\text{lin}}\) の導出過程を示す。
-この導出の全体像を図 \ref{fig:zlin_flow} に示す。
-
-\begin{figure}[htbp]
-\centering
-\begin{tikzpicture}[node distance=2.2cm]
-
-% --- Merton Model ---
-\node[rectangle, draw, rounded corners, text width=9cm, align=center] (merton)
-{\textbf{Merton 型倒産距離（DD）}\par
-\(\displaystyle 
-DD = \frac{\log(V/Thr) + (\mu_V - 0.5\sigma_V^2)T}{\sigma_V\sqrt{T}}
-\)
-};
-
-% --- B&S Generalization ---
-\node[rectangle, draw, rounded corners, text width=9cm, align=center, below=of merton] (bs)
-{\textbf{B\&S による構造の抽象化}\par
-一般化された倒産距離\par
-\(\displaystyle DD = f(\mu, \sigma, S, Thr)\)
-};
-
-% --- First-order Taylor ---
-\node[rectangle, draw, rounded corners, text width=9cm, align=center, below=of bs] (taylor)
-{\textbf{一次テイラー展開（線形近似）}\par
-\(\displaystyle 
-DD \approx 
-\alpha_0 + \alpha_1(\mu-\mu_0)
-+ \alpha_2(\sigma-\sigma_0)
-+ \alpha_3(S-S_0)
-+ \alpha_4(Thr-Thr_0)
-\)
-};
-
-% --- Reparameterization ---
-\node[rectangle, draw, rounded corners, text width=9cm, align=center, below=of taylor] (zlin)
-{\textbf{本研究の構造的線形倒産距離}\par
-\(\displaystyle 
-Z_{\text{lin}} = a\mu - b\sigma + cS - dThr
-\)
-};
-
-% --- Arrows ---
-\draw[->, thick] (merton.south) --
-    node[midway, right]{\shortstack[l]{観測不能な企業価値を観測可能な proxy に写像\\
-    平均 − 閾値／不確実性の構造を一般化}}
-    (bs.north);
-
-\draw[->, thick] (bs.south) --
-    node[midway, right]{代表点近傍で一次テイラー展開（線形化）}
-    (taylor.north);
-
-\draw[->, thick] (taylor.south) --
-    node[midway, right]{非線形 DD を新電力企業の観測可能変数へ線形写像}
-    (zlin.north);
-
-
-\end{tikzpicture}
-
-\caption{Merton 型倒産距離から構造的線形倒産距離 \(Z_{\text{lin}}\) への導出フロー}
-\label{fig:zlin_flow}
-\end{figure}
-
-
-図 \ref{fig:zlin_flow} が示すように，Merton 型倒産距離 DD は企業価値の
-乗数的変化を対数変換によって線形化した構造を持つ。
-B\&S はこの構造を保持したまま観測可能な財務データへ写像し，
-一般化された倒産距離 \(DD=f(\mu,\sigma,S,Thr)\) を導出している。
-本研究はこの一般化された DD を代表点近傍で一次テイラー展開することで線形化し，
-新電力企業の観測可能変数に基づく構造的線形倒産距離
-\(Z_{\text{lin}} = a\mu - b\sigma + cS - dThr\) を構築する。
-
-さらに，潜在変数を Ordered Logit の閾値構造へ写像することで，
-倒産を二値ではなく複数段階の現象として扱うことが可能となる。
-理論編では倒産プロセスを忠実に表現するため 4 段階構造を採用し，
-実証編では観測可能性の制約を踏まえて 3 区分に簡略化した。
-
-このように，Merton → B\&S → 潜在変数 → Ordered Logit（4段階／3段階）
-という連続的な写像構造により，
-本研究は構造モデルの数学的厳密性と実証分析の現実的制約を両立させている。
-
-
-
-% ------------------------------------------------------------
-\section*{F.4　数学的厳密性と本研究の位置づけ}
-\addcontentsline{toc}{section}{F.4　数学的厳密性と本研究の位置づけ}
-
-以上の整理から，本研究の理論的枠組みは次のように位置づけられる。
+%
+% ============================================================
+
+\chapter*{付録 F：市場データおよび市場ショック指標（$\sigma$）の構築方法}
+\addcontentsline{toc}{chapter}{付録 F：市場データおよび市場ショック指標（$\sigma$）の構築方法}
+
+本付録では、第8章の実証分析で用いた市場データの取得方法、
+市場ショック指標（$\sigma$）の構築手順、
+および記述統計の算出方法を詳細に示す。
+本研究の透明性と再現性を確保するため、データの出典、加工方法、計算式、
+および使用した Python コードを明示する。
+
+\section*{F.1 JEPX スポット価格データの取得方法}
+\addcontentsline{toc}{section}{F.1 JEPX スポット価格データの取得方法}
+
+本研究で使用した電力スポット価格データは、
+一般社団法人日本卸電力取引所（JEPX）が新サイトにおいて公開している
+「スポット市場」データ
+（\url{https://www.jepx.jp/electricpower/market-data/spot/}）
+から取得した。
+
+JEPX 新サイトでは、以下の情報が日次・30分コマ（1日48コマ）単位で
+CSV 形式により提供されている。
 
 \begin{itemize}
-  \item \textbf{Merton 型構造モデル}\\ 
-  幾何ブラウン運動と満期時点での倒産判定に基づき，
-  倒産距離 DD を厳密に導出する確率論的基盤。
-
-  \item \textbf{B\&S 推定式}\\ 
-  DD を含む説明変数に基づき，
-  ロジットモデルで倒産確率を推定する実証的枠組み。
-  構造モデルの近似を用いつつ，離散選択モデルとしての数学的整合性を維持する。
-
-  \item \textbf{本研究の潜在変数モデルと Ordered Logit}\\
-  Merton 型 DD の構造を新電力企業の文脈に即して再パラメータ化し，
-  潜在変数と閾値により倒産ステージを推定する枠組み。
-  B\&S 型ロジットを Ordered Logit へ拡張したものであり，
-  潜在変数モデルとしての数学的厳密性を保持する。
+  \item 受渡日（YYYY/MM/DD）
+  \item 時刻コード（1--48）
+  \item システムプライス（円/kWh）
+  \item エリアプライス（北海道〜九州）
+  \item 売り入札量・買い入札量
+  \item 約定総量
 \end{itemize}
 
-本付録で示したように，本研究は Merton 型構造モデルを
-倒産距離 DD の導出と潜在変数モデルの構造において明示的に用いている。
-そのうえで，B\&S 型ロジット推定と Ordered Logit を通じて，
-新電力企業の倒産リスクを複数段階の現象として推定するという
-理論と実証を接続する枠組みを構築している。
-この点で，本研究は数学的厳密性と実証的有用性を両立する
-構造モデルベースの倒産分析として位置づけられる。
+本研究では、全国共通のシステムプライスを使用した。
+データ取得期間は 2016年4月1日から 2025年3月31日までである。
+
+\section*{F.2 日次標準偏差（$\sigma_{\mathrm{daily}}$）の算出方法}
+\addcontentsline{toc}{section}{F.2 日次標準偏差（$\sigma_{\mathrm{daily}}$）の算出方法}
+
+1日48コマのシステムプライスを用いて、日次標準偏差を以下の式で算出した。
+
+
+
+\[
+\sigma_{\mathrm{daily}}(t)
+=
+\mathrm{StdDev}
+\left(
+\mathrm{SystemPrice}_{t,1},\ldots,\mathrm{SystemPrice}_{t,48}
+\right)
+\]
+
+
+
+異常値（マイナス価格など）が存在する場合は、その日のデータを除外した。
+
+\section*{F.3 月次市場ショック（$\sigma_{\mathrm{monthly}}$）の算出方法}
+\addcontentsline{toc}{section}{F.3 月次市場ショック（$\sigma_{\mathrm{monthly}}$）の算出方法}
+
+市場ショック指標は、日次標準偏差の月次標準偏差として定義した。
+
+
+
+\[
+\sigma_{\mathrm{monthly}}
+=
+\mathrm{StdDev}\left(\sigma_{\mathrm{daily}} \in \text{month}\right)
+\]
+
+
+
+この指標は、当該月における価格変動の激しさを表すものであり、
+新電力の調達コストの不確実性を捉える proxy として妥当である。
+
+\section*{F.4 価格データの例示}
+\addcontentsline{toc}{section}{F.4 価格データの例示}
+
+表 E-1 に、2021年1月と2020年平常月の
+システムプライスの例を示す。
+
+\begin{table}[H]
+\centering
+\caption{システムプライスの例（抜粋）}
+\begin{tabular}{lcc}
+\toprule
+日付 & 平均価格（円/kWh） & 日次標準偏差 \\
+\midrule
+2021/01/08 & 154.2 & 87.5 \\
+2021/01/12 & 197.3 & 102.4 \\
+2020/10/15 & 7.8 & 2.1 \\
+2020/10/20 & 8.3 & 1.9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+2021年1月の価格変動が極端に大きいことが確認できる。
+
+\section*{F.5 市場ショック指標（$\sigma$）の推移}
+\addcontentsline{toc}{section}{F.5 市場ショック指標（$\sigma$）の推移}
+
+図 E-1 に、2016年4月〜2025年3月の
+市場ショック指標（$\sigma$）の推移を示す。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14cm]{D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf}
+\caption{市場ショック指標（$\sigma$）の推移}
+\end{figure}
+
+2021年1月に突出したピークが観察される。
+
+\section*{F.6 データ利用上の留意点}
+\addcontentsline{toc}{section}{F.6 データ利用上の留意点}
+
+\begin{itemize}
+  \item JEPX 新サイトは旧サイトと異なり、1年分のデータを一括取得できるため、欠損が少ない。
+  \item 本研究では、全国共通のシステムプライスを採用した。
+        エリアプライスは地域差が大きいが、倒産企業の多くが複数エリアで調達していたためである。
+  \item データ加工は日次標準偏差および月次集計に限定し、恣意的な補正は行っていない。
+\end{itemize}
+
+\section*{F.7 記述統計の算出方法}
+\addcontentsline{toc}{section}{F.7 記述統計の算出方法}
+
+第8章の記述統計（表 8-1）は、
+panel\_data\_with\_sigma.csv に含まれる
+4 変数（$\sigma$, $S$, $D$, $\text{default}$）を対象とし、
+Python（pandas）により算出した。
+
+使用したコードは以下の通りである。
+
+\begin{verbatim}
+import pandas as pd
+import os
+
+DATA_DIR = r"D:\texlive\2026\work\figure\JEPX_Spot_Price_Data"
+panel_path = os.path.join(DATA_DIR, "panel_data_with_sigma.csv")
+
+df = pd.read_csv(panel_path, encoding="cp932")
+
+vars = ["sigma", "S", "D", "default"]
+desc = df[vars].describe()
+print(desc)
+\end{verbatim}
+
+算出した統計量は、平均値・標準偏差・最小値・最大値であり、
+欠損値は dropna() により除去した。
+これらの値を第8章の記述統計表に反映した。
+

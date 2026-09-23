@@ -1,121 +1,312 @@
-% ============================================================
-% Appendix B（倒産確率の等高線図 & 差分図）
-% ============================================================
+\chapter*{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}
+\addcontentsline{toc}{chapter}{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}
+\label{app:merton_bs}
 
-\chapter*{付録 B：倒産確率の等高線図および差分図}
-\addcontentsline{toc}{chapter}{付録 B：倒産確率の等高線図および差分図}
-
-本付録では，第6章で提示した倒産確率サーフェスの補足として，
-各ケース（A〜F）の倒産確率 $p$ の等高線図（top view）を示す。
-これにより，倒産境界線（$Z_{\text{lin}} = 0$）の形状や，
-収益性 $\mu$ と市場ショック $\sigma$ の組み合わせが倒産確率に与える影響を
-より直感的に把握できる。
-さらに，構造的に意味のある 2 組の比較
-（大企業 vs 地方電力，商社系 vs 地域新電力）
-について，倒産確率の差分図を示し，
-支援能力 $S$ および負債比率 $D$ の影響を定量的に確認する。
+本付録では，本研究が依拠する理論的基盤として，
+Merton（1974）型構造モデルと Bharath and Shumway（2008）（以下 B\&S）の
+推定式との数学的関係を体系的に整理する。
+構造モデルに基づく倒産距離（Distance to Default; DD）の導出，
+B\&S によるロジット推定式との接続，
+さらに本研究の潜在変数モデルおよび Ordered Logit への写像を明示することで，
+理論的整合性と数学的厳密性を確認する。
 
 % ------------------------------------------------------------
-\section*{B.1 ケース別等高線図（A〜F）}
-\addcontentsline{toc}{section}{B.1 ケース別等高線図（A〜F）}
+\section*{B.1　Merton 型構造モデルと倒産距離 DD}
+\addcontentsline{toc}{section}{B.1　Merton 型構造モデルと倒産距離 DD}
 
-以下に，ケースA〜Fの倒産確率 $p$ の等高線図を示す。
-いずれも $\mu \in [-0.10, 0.10]$，$\sigma \in [0.05, 0.50]$ の範囲で計算し，
-倒産境界線（$Z_{\text{lin}} = 0$）を赤線で強調している。
-倒産境界線の位置と形状を比較することで，
-負債比率 $D$ と支援能力 $S$ が倒産リスクに与える影響を視覚的に理解できる。
+Merton（1974）の構造モデルでは，企業価値 $V_t$ が幾何ブラウン運動に従うと仮定される。
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/contour_caseA.png}
-    \caption{ケースA（$D=0.3,\ S=0$）：倒産確率の等高線図。
-    支援能力がなく，負債比率も低いため，境界線は中間的な位置にある。}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/contour_caseB.png}
-    \caption{ケースB（$D=0.3,\ S=3$）：倒産確率の等高線図。
-    強い支援能力により倒産境界線が大きく右へ移動し，
-    市場ショックに対する耐性が高いことがわかる。}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/contour_caseC.png}
-    \caption{ケースC（$D=0.8,\ S=0$）：倒産確率の等高線図。
-    負債過多により境界線が大きく左へ寄り，
-    高ボラティリティ環境で極めて脆弱であることが示される。}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/contour_caseD.png}
-    \caption{ケースD（$D=0.8,\ S=3$）：倒産確率の等高線図。
-    負債比率は高いが支援能力が強いため，
-    ケースCと比べて境界線が右へ戻り，倒産リスクが大幅に緩和されている。}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/contour_caseE.png}
-    \caption{ケースE（$D=0.5,\ S=1$）：倒産確率の等高線図。
-    地域新電力の典型であり，収益性と市場ショックに敏感な構造が確認できる。}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/contour_caseF.png}
-    \caption{ケースF（$D=0.5,\ S=2$）：倒産確率の等高線図。
-    ケースEと比べて境界線が右へ移動し，
-    支援能力の差が倒産リスクを大きく左右することが視覚的に示される。}
-\end{figure}
-
-% ------------------------------------------------------------
-\section*{B.2 差分図（B−C および F−E）}
-\addcontentsline{toc}{section}{B.2 差分図（B−C および F−E）}
-
-本節では，構造的に意味のある 2 組の比較について，
-倒産確率の差分 $\Delta p$ を可視化する。
-差分図は，支援能力 $S$ と負債比率 $D$ の違いが
-倒産確率にどの程度の差を生むかを定量的に示すものである。
-
-\subsection*{B.2.1 大企業 vs 地方電力（ケースB − ケースC）}
 
 
 \[
-\Delta p = p_{\mathrm{B}} - p_{\mathrm{C}}
+\frac{\mathrm{d}V_t}{V_t}
+=
+\mu\,\mathrm{d}t + \sigma\,\mathrm{d}W_t,
 \]
 
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/surface_diff_B_minus_C.png}
-    \caption{倒産確率差分：大企業（ケースB）$-$ 地方電力（ケースC）。
-    全域で $\Delta p > 0$ となり，支援能力の有無が倒産確率に
-    決定的な差を生むことが確認できる。}
-\end{figure}
+ここで $\mu$ は期待成長率，$\sigma$ はボラティリティ，
+$W_t$ は標準ブラウン運動である。
+満期 $T$ において企業価値 $V_T$ が負債額 $F$ を下回るとき，
+株主にとって企業は倒産とみなされる。
 
-\subsection*{B.2.2 商社系 vs 地域新電力（ケースF − ケースE）}
+幾何ブラウン運動の性質より，
+
 
 
 \[
-\Delta p = p_{\mathrm{F}} - p_{\mathrm{E}}
+\ln V_T
+\sim
+\mathcal{N}
+\left(
+\ln V_0 + (\mu - \tfrac{1}{2}\sigma^2)T,\;
+\sigma^2 T
+\right),
 \]
 
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{figures/surface_diff_F_minus_E.png}
-    \caption{倒産確率差分：商社系（ケースF）$-$ 地域新電力（ケースE）。
-    支援能力 $S$ の差が倒産確率に 0.2〜0.3 程度の差を生み，
-    特に $\sigma$ が大きい領域でその効果が最大化する。}
+となるため，倒産確率は
+
+
+
+\[
+\Pr(V_T < F)
+=
+\Phi\left(
+-\frac{\ln(V_0/F) + (\mu - \tfrac{1}{2}\sigma^2)T}{\sigma\sqrt{T}}
+\right),
+\]
+
+
+
+と表される。
+分子の項
+
+
+
+\[
+DD
+=
+\frac{\ln(V_0/F) + (\mu - \tfrac{1}{2}\sigma^2)T}{\sigma\sqrt{T}}
+\]
+
+
+
+が倒産距離（Distance to Default）であり，
+企業価値が倒産閾値から何標準偏差離れているかを表す。
+この DD は確率論に基づき厳密に導出される量であり，
+本研究の潜在倒産距離の基礎となる。
+
+% ------------------------------------------------------------
+\section*{B.2　B\&S 推定式とロジットモデル}
+\addcontentsline{toc}{section}{B.2　B\&S 推定式とロジットモデル}
+
+Bharath and Shumway（2008）は，Merton 型モデルに基づく DD を
+実務的に近似しつつ，倒産確率をロジットモデルで推定する枠組みを提示した。
+彼らのアプローチは次の二段階構造を持つ。
+
+\begin{enumerate}
+  \item 市場データ・財務データから企業価値 $V$ や負債額 $F$ を近似し，DD を計算する。
+  \item DD を含む説明変数ベクトル $X$ に基づき，倒産確率をロジットで推定する。
+\end{enumerate}
+
+ロジット推定式は概念的に次のように表される。
+
+
+
+\[
+\Pr(\text{Default}_{i,t+1}=1 \mid X_{i,t})
+=
+\Lambda\left(
+\alpha + \beta_1 \text{DD}_{i,t} + \beta_2 \text{Size}_{i,t}
++ \beta_3 \text{Leverage}_{i,t} + \cdots
+\right),
+\]
+
+
+
+ここで $\Lambda(\cdot)$ はロジスティック分布の累積分布関数である。
+
+重要なのは，B\&S が Merton 型モデルを「厳密な閉形式解」としてではなく，
+倒産リスクの構造を捉えるための近似的基盤として用いている点である。
+すなわち，DD は構造モデルから導出されるが，
+最終的な倒産確率の推定はロジットという離散選択モデルの枠組みで行われる。
+
+この構造は，本研究が採用する
+「Merton 型モデル → 潜在変数 → Ordered Logit」
+という接続と数学的に同型である。
+
+% ------------------------------------------------------------
+\section*{B.3　本研究の潜在変数モデルとの接続}
+\addcontentsline{toc}{section}{B.3　本研究の潜在変数モデルとの接続}
+
+本研究では，Merton 型モデルにおける DD の構造を踏まえつつ，
+新電力企業の倒産リスクを「市場依存型倒産距離」として再定義する。
+第3章で導出した潜在倒産距離 $Z^{\ast}_i$ は，
+
+
+
+\[
+Z^{\ast}_i
+=
+a \mu^{\ast}_i - b \sigma^{\ast}_i + c S^{\ast}_i - d D^{\ast}_i,
+\]
+
+
+
+のような線形構造として定式化される。
+これは Merton 型 DD の一次近似として解釈でき，
+収益性 $\mu^{\ast}$，市場ショック $\sigma^{\ast}$，
+支援能力 $S^{\ast}$，負債比率 $D^{\ast}$ が
+Merton 型モデルの $\mu$，$\sigma$，$V/F$ の役割を
+産業特性に応じて再パラメータ化したものである。
+
+潜在変数に基づく倒産確率はロジスティック関数により
+
+
+
+\[
+p_i
+=
+\frac{1}{1 + \exp(-Z^{\ast}_i)}
+\]
+
+
+
+と表される。
+これは B\&S のロジット推定式と数学的に同型である。
+
+さらに，本研究では倒産を二値ではなく複数段階の現象として扱うため，
+潜在変数 $y^*_{i,t}$ を Ordered Logit の枠組みに拡張する。
+
+
+
+\[
+y^*_{i,t}
+=
+\gamma_0 + \gamma_1 \mu_{i,t} + \gamma_2 \sigma_{i,t}
++ \gamma_3 S_{i,t} + \gamma_4 D_{i,t} + \varepsilon_{i,t},
+\]
+
+
+
+潜在変数が複数の閾値 $\tau_k$ を跨ぐことで倒産ステージが決定される。
+
+
+
+\[
+\text{default\_stage}_{i,t} =
+\begin{cases}
+0 & (y^*_{i,t} < \tau_1) \\
+1 & (\tau_1 \le y^*_{i,t} < \tau_2) \\
+2 & (\tau_2 \le y^*_{i,t})
+\end{cases}
+\]
+
+
+
+この枠組みは，
+Merton → DD → ロジット  
+という構造を  
+Merton → 潜在変数 $y^*$ → Ordered Logit  
+へと拡張したものであり，
+潜在変数モデルとしての数学的厳密性を保持している。
+
+本付録では，Merton 型構造モデルに基づく倒産距離 DD の数学的構造を起点とし，
+Bharath \& Shumway（2008）が行った一般化（proxyDD）との対応関係を整理する。
+さらに，この一般化された倒産距離を一次テイラー展開により線形化し，
+本研究で用いる構造的線形倒産距離 \(Z_{\text{lin}}\) の導出過程を示す。
+この導出の全体像を図 \ref{fig:zlin_flow} に示す。
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=2.2cm]
+
+% --- Merton Model ---
+\node[rectangle, draw, rounded corners, text width=9cm, align=center] (merton)
+{\textbf{Merton 型倒産距離（DD）}\par
+\(\displaystyle 
+DD = \frac{\log(V/Thr) + (\mu_V - 0.5\sigma_V^2)T}{\sigma_V\sqrt{T}}
+\)
+};
+
+% --- B&S Generalization ---
+\node[rectangle, draw, rounded corners, text width=9cm, align=center, below=of merton] (bs)
+{\textbf{B\&S による構造の抽象化}\par
+一般化された倒産距離\par
+\(\displaystyle DD = f(\mu, \sigma, S, Thr)\)
+};
+
+% --- First-order Taylor ---
+\node[rectangle, draw, rounded corners, text width=9cm, align=center, below=of bs] (taylor)
+{\textbf{一次テイラー展開（線形近似）}\par
+\(\displaystyle 
+DD \approx 
+\alpha_0 + \alpha_1(\mu-\mu_0)
++ \alpha_2(\sigma-\sigma_0)
++ \alpha_3(S-S_0)
++ \alpha_4(Thr-Thr_0)
+\)
+};
+
+% --- Reparameterization ---
+\node[rectangle, draw, rounded corners, text width=9cm, align=center, below=of taylor] (zlin)
+{\textbf{本研究の構造的線形倒産距離}\par
+\(\displaystyle 
+Z_{\text{lin}} = a\mu - b\sigma + cS - dThr
+\)
+};
+
+% --- Arrows ---
+\draw[->, thick] (merton.south) --
+    node[midway, right]{\shortstack[l]{観測不能な企業価値を観測可能な proxy に写像\\
+    平均 − 閾値／不確実性の構造を一般化}}
+    (bs.north);
+
+\draw[->, thick] (bs.south) --
+    node[midway, right]{代表点近傍で一次テイラー展開（線形化）}
+    (taylor.north);
+
+\draw[->, thick] (taylor.south) --
+    node[midway, right]{非線形 DD を新電力企業の観測可能変数へ線形写像}
+    (zlin.north);
+
+
+\end{tikzpicture}
+
+\caption{Merton 型倒産距離から構造的線形倒産距離 \(Z_{\text{lin}}\) への導出フロー}
+\label{fig:zlin_flow}
 \end{figure}
 
-以上の差分図は，第6章で議論したとおり，
-支援能力 $S$ および負債比率 $D$ が倒産確率に与える影響を
-視覚的かつ定量的に示すものである。
-特に，ケースF−E の比較は，
-中規模企業における支援能力の重要性を明確に示している。
+
+図 \ref{fig:zlin_flow} が示すように，Merton 型倒産距離 DD は企業価値の
+乗数的変化を対数変換によって線形化した構造を持つ。
+B\&S はこの構造を保持したまま観測可能な財務データへ写像し，
+一般化された倒産距離 \(DD=f(\mu,\sigma,S,Thr)\) を導出している。
+本研究はこの一般化された DD を代表点近傍で一次テイラー展開することで線形化し，
+新電力企業の観測可能変数に基づく構造的線形倒産距離
+\(Z_{\text{lin}} = a\mu - b\sigma + cS - dThr\) を構築する。
+
+さらに，潜在変数を Ordered Logit の閾値構造へ写像することで，
+倒産を二値ではなく複数段階の現象として扱うことが可能となる。
+理論編では倒産プロセスを忠実に表現するため 4 段階構造を採用し，
+実証編では観測可能性の制約を踏まえて 3 区分に簡略化した。
+
+このように，Merton → B\&S → 潜在変数 → Ordered Logit（4段階／3段階）
+という連続的な写像構造により，
+本研究は構造モデルの数学的厳密性と実証分析の現実的制約を両立させている。
+
+
+
+% ------------------------------------------------------------
+\section*{B.4　数学的厳密性と本研究の位置づけ}
+\addcontentsline{toc}{section}{B.4　数学的厳密性と本研究の位置づけ}
+
+以上の整理から，本研究の理論的枠組みは次のように位置づけられる。
+
+\begin{itemize}
+  \item \textbf{Merton 型構造モデル}\\ 
+  幾何ブラウン運動と満期時点での倒産判定に基づき，
+  倒産距離 DD を厳密に導出する確率論的基盤。
+
+  \item \textbf{B\&S 推定式}\\ 
+  DD を含む説明変数に基づき，
+  ロジットモデルで倒産確率を推定する実証的枠組み。
+  構造モデルの近似を用いつつ，離散選択モデルとしての数学的整合性を維持する。
+
+  \item \textbf{本研究の潜在変数モデルと Ordered Logit}\\
+  Merton 型 DD の構造を新電力企業の文脈に即して再パラメータ化し，
+  潜在変数と閾値により倒産ステージを推定する枠組み。
+  B\&S 型ロジットを Ordered Logit へ拡張したものであり，
+  潜在変数モデルとしての数学的厳密性を保持する。
+\end{itemize}
+
+本付録で示したように，本研究は Merton 型構造モデルを
+倒産距離 DD の導出と潜在変数モデルの構造において明示的に用いている。
+そのうえで，B\&S 型ロジット推定と Ordered Logit を通じて，
+新電力企業の倒産リスクを複数段階の現象として推定するという
+理論と実証を接続する枠組みを構築している。
+この点で，本研究は数学的厳密性と実証的有用性を両立する
+構造モデルベースの倒産分析として位置づけられる。

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  23 SEP 2026 22:44
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  24 SEP 2026 08:44
  restricted system commands enabled.
 **d:/texlive/2026/work/thesis_Rev3_20260922/main
 (d:/texlive/2026/work/thesis_Rev3_20260922/main.tex
@@ -2042,50 +2042,50 @@ File: figures/dd_normal.png Graphic file (type png)
 Package luatex.def Info: figures/dd_normal.png  used on input line 140.
 (luatex.def)             Requested size: 386.96027pt x 267.99548pt.
  [50] [51<./figures/dd_normal.png>] [52] [53] [54] [55]
-LaTeX Font Info:    Calculating math sizes for size <17.27994> on input line 377.
+LaTeX Font Info:    Calculating math sizes for size <17.27994> on input line 383.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 9.32104pt on input line 377.
+(Font)              scaled to size 9.32104pt on input line 383.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 6.65793pt on input line 377.
+(Font)              scaled to size 6.65793pt on input line 383.
 LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 9.32104pt on input line 377.
+(Font)              scaled to size 9.32104pt on input line 383.
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 9.32104pt on input line 377.
+(Font)              scaled to size 9.32104pt on input line 383.
 (load cache: extra_lmsans8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 6.65793pt on input line 377.
+(Font)              scaled to size 6.65793pt on input line 383.
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 6.65793pt on input line 377.
+(Font)              scaled to size 6.65793pt on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 377.
+(hyperref)                removing `math shift' on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 377.
+(hyperref)                removing `subscript' on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 377.
+(hyperref)                removing `math shift' on input line 383.
 
 [56]
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 5.82565pt on input line 434.
+(Font)              scaled to size 5.82565pt on input line 440.
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 4.16121pt on input line 434.
+(Font)              scaled to size 4.16121pt on input line 440.
  [57]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 454.
+(hyperref)                removing `math shift' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 454.
+(hyperref)                removing `subscript' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 454.
+(hyperref)                removing `math shift' on input line 460.
 
 [58] [59] [60]) [61]
 \openout2 = chapters/chapter5.aux
@@ -2416,92 +2416,99 @@ Package luatex.def Info: figures/Bankruptcy_probability_of_New_Power_sec1.png  u
 (luatex.def)             Requested size: 432.48051pt x 133.07103pt.
 ) [131<./figures/Bankruptcy_probability_of_New_Power_sec1.png>]
 \openout2 = chapters/appendix_B.aux
- (./chapters/appendix_B.tex
-<figures/contour_caseA.png, id=1904, 505.89pt x 433.62pt>
+ (./chapters/appendix_B.tex [132
+
+
+
+
+] [133] [134] [135]) [136]
+\openout2 = chapters/appendix_C.aux
+ (./chapters/appendix_C.tex
+<figures/contour_caseA.png, id=1931, 505.89pt x 433.62pt>
 File: figures/contour_caseA.png Graphic file (type png)
 <use figures/contour_caseA.png>
 Package luatex.def Info: figures/contour_caseA.png  used on input line 30.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [132
+ [137
 
 
 
 
 ]
-<figures/contour_caseB.png, id=1909, 505.89pt x 433.62pt>
+<figures/contour_caseB.png, id=1936, 505.89pt x 433.62pt>
 File: figures/contour_caseB.png Graphic file (type png)
 <use figures/contour_caseB.png>
 Package luatex.def Info: figures/contour_caseB.png  used on input line 37.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [133<./figures/contour_caseA.png>]
-<figures/contour_caseC.png, id=1917, 505.89pt x 433.62pt>
+ [138<./figures/contour_caseA.png>]
+<figures/contour_caseC.png, id=1943, 505.89pt x 433.62pt>
 File: figures/contour_caseC.png Graphic file (type png)
 <use figures/contour_caseC.png>
 Package luatex.def Info: figures/contour_caseC.png  used on input line 45.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [134<./figures/contour_caseB.png>]
-<figures/contour_caseD.png, id=1924, 505.89pt x 433.62pt>
+ [139<./figures/contour_caseB.png>]
+<figures/contour_caseD.png, id=1950, 505.89pt x 433.62pt>
 File: figures/contour_caseD.png Graphic file (type png)
 <use figures/contour_caseD.png>
 Package luatex.def Info: figures/contour_caseD.png  used on input line 53.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [135<./figures/contour_caseC.png>]
-<figures/contour_caseE.png, id=1931, 505.89pt x 433.62pt>
+ [140<./figures/contour_caseC.png>]
+<figures/contour_caseE.png, id=1957, 505.89pt x 433.62pt>
 File: figures/contour_caseE.png Graphic file (type png)
 <use figures/contour_caseE.png>
 Package luatex.def Info: figures/contour_caseE.png  used on input line 61.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [136<./figures/contour_caseD.png>]
-<figures/contour_caseF.png, id=1938, 505.89pt x 433.62pt>
+ [141<./figures/contour_caseD.png>]
+<figures/contour_caseF.png, id=1964, 505.89pt x 433.62pt>
 File: figures/contour_caseF.png Graphic file (type png)
 <use figures/contour_caseF.png>
 Package luatex.def Info: figures/contour_caseF.png  used on input line 68.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [137<./figures/contour_caseE.png>]
+ [142<./figures/contour_caseE.png>]
 File: figures/surface_diff_B_minus_C.png Graphic file (type png)
 <use figures/surface_diff_B_minus_C.png>
 Package luatex.def Info: figures/surface_diff_B_minus_C.png  used on input line 94.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
- [138<./figures/contour_caseF.png>]
+ [143<./figures/contour_caseF.png>]
 File: figures/surface_diff_F_minus_E.png Graphic file (type png)
 <use figures/surface_diff_F_minus_E.png>
 Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 111.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
- [139]) [140]
-\openout2 = chapters/appendix_C.aux
- (./chapters/appendix_C.tex [141
+ [144]) [145]
+\openout2 = chapters/appendix_D.aux
+ (./chapters/appendix_D.tex [146
 
 
 
 
-] [142]
-<figures/coef_comparison.png, id=1979, 578.16pt x 361.35pt>
+] [147]
+<figures/coef_comparison.png, id=2006, 578.16pt x 361.35pt>
 File: figures/coef_comparison.png Graphic file (type png)
 <use figures/coef_comparison.png>
 Package luatex.def Info: figures/coef_comparison.png  used on input line 197.
 (luatex.def)             Requested size: 364.19667pt x 227.61862pt.
- [143]
-<figures/roc_comparison.png, id=1992, 505.89pt x 361.35pt>
+ [148]
+<figures/roc_comparison.png, id=2018, 505.89pt x 361.35pt>
 File: figures/roc_comparison.png Graphic file (type png)
 <use figures/roc_comparison.png>
 Package luatex.def Info: figures/roc_comparison.png  used on input line 220.
 (luatex.def)             Requested size: 364.19667pt x 260.14423pt.
- [144<./figures/coef_comparison.png>]
-<figures/scatter_true_vs_pred.png, id=2004, 505.89pt x 361.35pt>
+ [149<./figures/coef_comparison.png>]
+<figures/scatter_true_vs_pred.png, id=2030, 505.89pt x 361.35pt>
 File: figures/scatter_true_vs_pred.png Graphic file (type png)
 <use figures/scatter_true_vs_pred.png>
 Package luatex.def Info: figures/scatter_true_vs_pred.png  used on input line 241.
 (luatex.def)             Requested size: 364.19667pt x 260.14423pt.
- [145<./figures/roc_comparison.png>] [146<./figures/scatter_true_vs_pred.png>]) [147]
-\openout2 = chapters/appendix_D.aux
- (./chapters/appendix_D.tex [148
-
-
-
-
-] [149] [150] [151]) [152]
+ [150<./figures/roc_comparison.png>] [151<./figures/scatter_true_vs_pred.png>]) [152]
 \openout2 = chapters/appendix_E.aux
- (./chapters/appendix_E.tex
+ (./chapters/appendix_E.tex [153
+
+
+
+
+] [154] [155] [156]) [157]
+\openout2 = chapters/appendix_F.aux
+ (./chapters/appendix_F.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
@@ -2514,7 +2521,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
 
-[153
+[158
 
 
 
@@ -2564,19 +2571,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 102.
 
-<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2061, 867.24pt x 289.08pt>
+<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2088, 867.24pt x 289.08pt>
 File: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf Graphic file (type pdf)
 <use D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>
 Package luatex.def Info: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf  used on input line 109.
 (luatex.def)             Requested size: 398.33858pt x 132.7799pt.
-[154] [155<d:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>]) [156]
-\openout2 = chapters/appendix_F.aux
- (./chapters/appendix_F.tex [157
-
-
-
-
-] [158] [159] [160]) [161]
+[159] [160<d:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>]) [161]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 130.
 (load cache: extra_lmromancaps10-regular.luc)
@@ -2648,7 +2648,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7AC5E7B9D629BEDB8868B4FF75FADDF6;18319.
+(rerunfilecheck)             Checksum: 148DAA6854784BDE119D57F0734EDDA4;18319.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
@@ -2657,14 +2657,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of LuaTeX's memory you used:
  51603 strings out of 475900
  195707,2373549 words of node,token memory allocated
- 4775 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 26 glue, 4 kern, 1 glyph, 1697 attribute, 107 glue_spec, 165 attribute_list, 2 write, 13 user_defined, 5 pdf_action nodes
-   avail lists: 1:45,2:52331,3:1671,4:484,5:250,6:96,7:5099,8:64,9:2252,10:49,11:164
+ 4829 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 26 glue, 4 kern, 1 glyph, 1721 attribute, 107 glue_spec, 168 attribute_list, 2 write, 13 user_defined, 5 pdf_action nodes
+   avail lists: 1:45,2:57533,3:1671,4:484,5:250,6:96,7:5099,8:64,9:2252,10:49,11:164
  71950 multiletter control sequences out of 65536+600000
  184 fonts using 108600351 bytes
  119i,17n,115p,2066b,2232s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (171 pages, 13908501 bytes).
+Output written on main.pdf (171 pages, 13908430 bytes).
 
 PDF statistics: 2371 PDF objects out of 2487 (max. 8388607)
  1744 compressed objects within 18 object streams
