@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  23 SEP 2026 11:03
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  23 SEP 2026 22:44
  restricted system commands enabled.
 **d:/texlive/2026/work/thesis_Rev3_20260922/main
 (d:/texlive/2026/work/thesis_Rev3_20260922/main.tex
@@ -1871,48 +1871,48 @@ LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/b/n' will be
 ] [10
 
 ] [11]
-<../figure/jepx_volume_2020_2024.pdf, id=651, 617.97437pt x 401.16374pt>
+<../figure/jepx_volume_2020_2024.pdf, id=656, 617.97437pt x 401.16374pt>
 File: ../figure/jepx_volume_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_volume_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_volume_2020_2024.pdf  used on input line 538.
 (luatex.def)             Requested size: 398.33858pt x 258.58641pt.
  [12]
-<../figure/jepx_participants_2020_2024.pdf, id=661, 617.97437pt x 401.16374pt>
+<../figure/jepx_participants_2020_2024.pdf, id=666, 617.97437pt x 401.16374pt>
 File: ../figure/jepx_participants_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_participants_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_participants_2020_2024.pdf  used on input line 553.
 (luatex.def)             Requested size: 398.33858pt x 258.58641pt.
  [13<../figure/jepx_volume_2020_2024.pdf>]
-<../figure/exit_count_2020_2024.pdf, id=706, 722.7pt x 433.62pt>
+<../figure/exit_count_2020_2024.pdf, id=711, 722.7pt x 433.62pt>
 File: ../figure/exit_count_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/exit_count_2020_2024.pdf>
 Package luatex.def Info: ../figure/exit_count_2020_2024.pdf  used on input line 569.
 (luatex.def)             Requested size: 398.33858pt x 239.0012pt.
  [14<../figure/jepx_participants_2020_2024.pdf>]
-<../figure/jepx_spot_timeseries_2020_2024.pdf, id=750, 730.65158pt x 415.96176pt>
+<../figure/jepx_spot_timeseries_2020_2024.pdf, id=755, 730.65158pt x 415.96176pt>
 File: ../figure/jepx_spot_timeseries_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_spot_timeseries_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_spot_timeseries_2020_2024.pdf  used on input line 584.
 (luatex.def)             Requested size: 426.79134pt x 242.97804pt.
  [15<../figure/exit_count_2020_2024.pdf>]
-<../figure/jepx_spot_hist_2020_2024.pdf, id=792, 611.7323pt x 401.82245pt>
+<../figure/jepx_spot_hist_2020_2024.pdf, id=797, 611.7323pt x 401.82245pt>
 File: ../figure/jepx_spot_hist_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_spot_hist_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_spot_hist_2020_2024.pdf  used on input line 592.
 (luatex.def)             Requested size: 398.33858pt x 261.6536pt.
-<../figure/imbalance_timeseries_2020_2024.pdf, id=793, 730.36928pt x 415.96176pt>
+<../figure/imbalance_timeseries_2020_2024.pdf, id=798, 730.36928pt x 415.96176pt>
 File: ../figure/imbalance_timeseries_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/imbalance_timeseries_2020_2024.pdf>
 Package luatex.def Info: ../figure/imbalance_timeseries_2020_2024.pdf  used on input line 607.
 (luatex.def)             Requested size: 426.79134pt x 243.07324pt.
  [16<../figure/jepx_spot_timeseries_2020_2024.pdf><../figure/jepx_spot_hist_2020_2024.pdf>]
-<../figure/alert_count_2020_2024.pdf, id=885, 605.49023pt x 401.16374pt>
+<../figure/alert_count_2020_2024.pdf, id=890, 605.49023pt x 401.16374pt>
 File: ../figure/alert_count_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/alert_count_2020_2024.pdf>
 Package luatex.def Info: ../figure/alert_count_2020_2024.pdf  used on input line 622.
 (luatex.def)             Requested size: 398.33858pt x 263.92415pt.
  [17<../figure/imbalance_timeseries_2020_2024.pdf>]
-<../figure/alert_vs_price_scatter.pdf, id=935, 612.391pt x 401.16374pt>
+<../figure/alert_vs_price_scatter.pdf, id=941, 612.391pt x 401.16374pt>
 File: ../figure/alert_vs_price_scatter.pdf Graphic file (type pdf)
 <use ../figure/alert_vs_price_scatter.pdf>
 Package luatex.def Info: ../figure/alert_vs_price_scatter.pdf  used on input line 630.
@@ -2036,7 +2036,7 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
 
 
 ] [48] [49]
-<figures/dd_normal.png, id=1284, 394.1124pt x 272.9397pt>
+<figures/dd_normal.png, id=1289, 394.1124pt x 272.9397pt>
 File: figures/dd_normal.png Graphic file (type png)
 <use figures/dd_normal.png>
 Package luatex.def Info: figures/dd_normal.png  used on input line 140.
@@ -2185,7 +2185,7 @@ LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
 LaTeX Warning: Reference `eq:ordered_prob' on page 71 undefined on input line 595.
 
 [71](load cache: extra_lmmono10-regular.luc)
-<figures/ordered_logit_stages.png, id=1458, 578.16pt x 361.35pt>
+<figures/ordered_logit_stages.png, id=1463, 578.16pt x 361.35pt>
 File: figures/ordered_logit_stages.png Graphic file (type png)
 <use figures/ordered_logit_stages.png>
 Package luatex.def Info: figures/ordered_logit_stages.png  used on input line 631.
@@ -2200,24 +2200,24 @@ Package luatex.def Info: figures/ordered_logit_stages.png  used on input line 63
 
 
 ] [76] [77]
-<Python/figures/mu_trend_7firms_logdiff.png, id=1506, 867.24pt x 433.62pt>
+<Python/figures/mu_trend_7firms_logdiff.png, id=1511, 867.24pt x 433.62pt>
 File: Python/figures/mu_trend_7firms_logdiff.png Graphic file (type png)
 <use Python/figures/mu_trend_7firms_logdiff.png>
 Package luatex.def Info: Python/figures/mu_trend_7firms_logdiff.png  used on input line 132.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
-<Python/figures/sigma_trend_7firms.png, id=1508, 867.24pt x 433.62pt>
+<Python/figures/sigma_trend_7firms.png, id=1513, 867.24pt x 433.62pt>
 File: Python/figures/sigma_trend_7firms.png Graphic file (type png)
 <use Python/figures/sigma_trend_7firms.png>
 Package luatex.def Info: Python/figures/sigma_trend_7firms.png  used on input line 166.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
  [78<./Python/figures/mu_trend_7firms_logdiff.png>]
-<Python/figures/debt_ratio_trend_7firms.png, id=1519, 867.24pt x 433.62pt>
+<Python/figures/debt_ratio_trend_7firms.png, id=1524, 867.24pt x 433.62pt>
 File: Python/figures/debt_ratio_trend_7firms.png Graphic file (type png)
 <use Python/figures/debt_ratio_trend_7firms.png>
 Package luatex.def Info: Python/figures/debt_ratio_trend_7firms.png  used on input line 213.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
  [79<./Python/figures/sigma_trend_7firms.png>]
-<Python/figures/dd_monthly_trend.png, id=1529, 867.24pt x 433.62pt>
+<Python/figures/dd_monthly_trend.png, id=1534, 867.24pt x 433.62pt>
 File: Python/figures/dd_monthly_trend.png Graphic file (type png)
 <use Python/figures/dd_monthly_trend.png>
 Package luatex.def Info: Python/figures/dd_monthly_trend.png  used on input line 241.
@@ -2232,97 +2232,97 @@ Package luatex.def Info: Python/figures/dd_monthly_trend.png  used on input line
 
 
 ] [84] [85] [86] [87] [88] [89] [90]
-<figures/interaction_mu_sigma_surface.png, id=1588, 722.7pt x 505.89pt>
+<figures/interaction_mu_sigma_surface.png, id=1597, 722.7pt x 505.89pt>
 File: figures/interaction_mu_sigma_surface.png Graphic file (type png)
 <use figures/interaction_mu_sigma_surface.png>
-Package luatex.def Info: figures/interaction_mu_sigma_surface.png  used on input line 381.
+Package luatex.def Info: figures/interaction_mu_sigma_surface.png  used on input line 402.
 (luatex.def)             Requested size: 364.19667pt x 254.93593pt.
  [91<./figures/interaction_mu_sigma_surface.png>]
-<figures/interaction_S_D_surface.png, id=1600, 722.7pt x 505.89pt>
+<figures/interaction_S_D_surface.png, id=1608, 722.7pt x 505.89pt>
 File: figures/interaction_S_D_surface.png Graphic file (type png)
 <use figures/interaction_S_D_surface.png>
-Package luatex.def Info: figures/interaction_S_D_surface.png  used on input line 410.
+Package luatex.def Info: figures/interaction_S_D_surface.png  used on input line 431.
 (luatex.def)             Requested size: 364.19667pt x 254.93593pt.
  [92<./figures/interaction_S_D_surface.png>] [93]
-<figures/surface_caseA_centered.png, id=1615, 578.16pt x 433.62pt>
+<figures/surface_caseA_centered.png, id=1623, 578.16pt x 433.62pt>
 File: figures/surface_caseA_centered.png Graphic file (type png)
 <use figures/surface_caseA_centered.png>
-Package luatex.def Info: figures/surface_caseA_centered.png  used on input line 528.
+Package luatex.def Info: figures/surface_caseA_centered.png  used on input line 549.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [94]
-<figures/surface_caseB_centered.png, id=1622, 578.16pt x 433.62pt>
+<figures/surface_caseB_centered.png, id=1630, 578.16pt x 433.62pt>
 File: figures/surface_caseB_centered.png Graphic file (type png)
 <use figures/surface_caseB_centered.png>
-Package luatex.def Info: figures/surface_caseB_centered.png  used on input line 545.
+Package luatex.def Info: figures/surface_caseB_centered.png  used on input line 566.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [95<./figures/surface_caseA_centered.png>]
-<figures/surface_caseC_centered.png, id=1630, 578.16pt x 433.62pt>
+<figures/surface_caseC_centered.png, id=1638, 578.16pt x 433.62pt>
 File: figures/surface_caseC_centered.png Graphic file (type png)
 <use figures/surface_caseC_centered.png>
-Package luatex.def Info: figures/surface_caseC_centered.png  used on input line 561.
+Package luatex.def Info: figures/surface_caseC_centered.png  used on input line 582.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [96<./figures/surface_caseB_centered.png>]
-<figures/surface_caseD_centered.png, id=1638, 578.16pt x 433.62pt>
+<figures/surface_caseD_centered.png, id=1646, 578.16pt x 433.62pt>
 File: figures/surface_caseD_centered.png Graphic file (type png)
 <use figures/surface_caseD_centered.png>
-Package luatex.def Info: figures/surface_caseD_centered.png  used on input line 578.
+Package luatex.def Info: figures/surface_caseD_centered.png  used on input line 599.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [97<./figures/surface_caseC_centered.png>]
-<figures/surface_caseE_centered.png, id=1646, 578.16pt x 433.62pt>
+<figures/surface_caseE_centered.png, id=1654, 578.16pt x 433.62pt>
 File: figures/surface_caseE_centered.png Graphic file (type png)
 <use figures/surface_caseE_centered.png>
-Package luatex.def Info: figures/surface_caseE_centered.png  used on input line 596.
+Package luatex.def Info: figures/surface_caseE_centered.png  used on input line 617.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [98<./figures/surface_caseD_centered.png>]
-<figures/surface_caseF_centered.png, id=1654, 578.16pt x 433.62pt>
+<figures/surface_caseF_centered.png, id=1662, 578.16pt x 433.62pt>
 File: figures/surface_caseF_centered.png Graphic file (type png)
 <use figures/surface_caseF_centered.png>
-Package luatex.def Info: figures/surface_caseF_centered.png  used on input line 612.
+Package luatex.def Info: figures/surface_caseF_centered.png  used on input line 633.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [99<./figures/surface_caseE_centered.png>]
-<figures/surface_diff_B_minus_C.png, id=1663, 578.16pt x 433.62pt>
+<figures/surface_diff_B_minus_C.png, id=1671, 578.16pt x 433.62pt>
 File: figures/surface_diff_B_minus_C.png Graphic file (type png)
 <use figures/surface_diff_B_minus_C.png>
-Package luatex.def Info: figures/surface_diff_B_minus_C.png  used on input line 643.
+Package luatex.def Info: figures/surface_diff_B_minus_C.png  used on input line 664.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [100<./figures/surface_caseF_centered.png>] [101<./figures/surface_diff_B_minus_C.png>]
-<figures/surface_diff_F_minus_E.png, id=1684, 578.16pt x 433.62pt>
+<figures/surface_diff_F_minus_E.png, id=1692, 578.16pt x 433.62pt>
 File: figures/surface_diff_F_minus_E.png Graphic file (type png)
 <use figures/surface_diff_F_minus_E.png>
-Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 713.
+Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 734.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [102] [103<./figures/surface_diff_F_minus_E.png>] [104] [105]
-<figures/bs_surface_caseA.png, id=1713, 578.16pt x 433.62pt>
+<figures/bs_surface_caseA.png, id=1722, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseA.png Graphic file (type png)
 <use figures/bs_surface_caseA.png>
-Package luatex.def Info: figures/bs_surface_caseA.png  used on input line 884.
+Package luatex.def Info: figures/bs_surface_caseA.png  used on input line 905.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseB.png, id=1714, 578.16pt x 433.62pt>
+<figures/bs_surface_caseB.png, id=1723, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseB.png Graphic file (type png)
 <use figures/bs_surface_caseB.png>
-Package luatex.def Info: figures/bs_surface_caseB.png  used on input line 894.
+Package luatex.def Info: figures/bs_surface_caseB.png  used on input line 915.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [106<./figures/bs_surface_caseA.png>]
-<figures/bs_surface_caseC.png, id=1724, 578.16pt x 433.62pt>
+<figures/bs_surface_caseC.png, id=1732, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseC.png Graphic file (type png)
 <use figures/bs_surface_caseC.png>
-Package luatex.def Info: figures/bs_surface_caseC.png  used on input line 904.
+Package luatex.def Info: figures/bs_surface_caseC.png  used on input line 925.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseD.png, id=1725, 578.16pt x 433.62pt>
+<figures/bs_surface_caseD.png, id=1733, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseD.png Graphic file (type png)
 <use figures/bs_surface_caseD.png>
-Package luatex.def Info: figures/bs_surface_caseD.png  used on input line 914.
+Package luatex.def Info: figures/bs_surface_caseD.png  used on input line 935.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [107<./figures/bs_surface_caseB.png><./figures/bs_surface_caseC.png>]
-<figures/bs_surface_caseE.png, id=1736, 578.16pt x 433.62pt>
+<figures/bs_surface_caseE.png, id=1744, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseE.png Graphic file (type png)
 <use figures/bs_surface_caseE.png>
-Package luatex.def Info: figures/bs_surface_caseE.png  used on input line 924.
+Package luatex.def Info: figures/bs_surface_caseE.png  used on input line 945.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseF.png, id=1737, 578.16pt x 433.62pt>
+<figures/bs_surface_caseF.png, id=1745, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseF.png Graphic file (type png)
 <use figures/bs_surface_caseF.png>
-Package luatex.def Info: figures/bs_surface_caseF.png  used on input line 934.
+Package luatex.def Info: figures/bs_surface_caseF.png  used on input line 955.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [108<./figures/bs_surface_caseD.png><./figures/bs_surface_caseE.png>] [109<./figures/bs_surface_caseF.png>]) [110]
 \openout2 = chapters/chapter8.aux
@@ -2364,153 +2364,142 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 150.
 
 [114] [115] [116]
-<Python/figures/sign_surface_0.02.png, id=1792, 430.4883pt x 422.2977pt>
-File: Python/figures/sign_surface_0.02.png Graphic file (type png)
-<use Python/figures/sign_surface_0.02.png>
-Package luatex.def Info: Python/figures/sign_surface_0.02.png  used on input line 342.
-(luatex.def)             Requested size: 386.96027pt x 379.61334pt.
-<Python/figures/sign_surface_0.05.png, id=1793, 430.4883pt x 422.2977pt>
-File: Python/figures/sign_surface_0.05.png Graphic file (type png)
-<use Python/figures/sign_surface_0.05.png>
-Package luatex.def Info: Python/figures/sign_surface_0.05.png  used on input line 349.
-(luatex.def)             Requested size: 386.96027pt x 379.61334pt.
- [117<./Python/figures/sign_surface_0.02.png>]
-<Python/figures/sign_surface_0.08.png, id=1800, 430.4883pt x 422.2977pt>
-File: Python/figures/sign_surface_0.08.png Graphic file (type png)
-<use Python/figures/sign_surface_0.08.png>
-Package luatex.def Info: Python/figures/sign_surface_0.08.png  used on input line 356.
-(luatex.def)             Requested size: 386.96027pt x 379.61334pt.
- [118<./Python/figures/sign_surface_0.05.png>] [119<./Python/figures/sign_surface_0.08.png>]) [120] [121]
+<Python/figures/sign_surface_p_combined.png, id=1800, 936.6192pt x 277.2759pt>
+File: Python/figures/sign_surface_p_combined.png Graphic file (type png)
+<use Python/figures/sign_surface_p_combined.png>
+Package luatex.def Info: Python/figures/sign_surface_p_combined.png  used on input line 346.
+(luatex.def)             Requested size: 455.24411pt x 134.77057pt.
+ [117<./Python/figures/sign_surface_p_combined.png>] [118]) [119]
 \openout2 = chapters/chapter9.aux
  (./chapters/chapter9.tex
 第9章
-[122
+[120
 
 
 
 
-] [123] [124] [125]
-<Python/figures/firm_probabilities_by_y_star.png, id=1853, 650.43pt x 361.35pt>
+] [121] [122] [123]
+<Python/figures/firm_probabilities_by_y_star.png, id=1846, 650.43pt x 361.35pt>
 File: Python/figures/firm_probabilities_by_y_star.png Graphic file (type png)
 <use Python/figures/firm_probabilities_by_y_star.png>
 Package luatex.def Info: Python/figures/firm_probabilities_by_y_star.png  used on input line 270.
 (luatex.def)             Requested size: 386.96027pt x 214.98111pt.
-<Python/figures/p2_trend.png, id=1855, 867.24pt x 433.62pt>
+<Python/figures/p2_trend.png, id=1848, 867.24pt x 433.62pt>
 File: Python/figures/p2_trend.png Graphic file (type png)
 <use Python/figures/p2_trend.png>
 Package luatex.def Info: Python/figures/p2_trend.png  used on input line 279.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
- [126<./Python/figures/firm_probabilities_by_y_star.png>]
-<Python/figures/p2_with_estimated_bankruptcies.png, id=1866, 867.24pt x 433.62pt>
+ [124<./Python/figures/firm_probabilities_by_y_star.png>]
+<Python/figures/p2_with_estimated_bankruptcies.png, id=1858, 867.24pt x 433.62pt>
 File: Python/figures/p2_with_estimated_bankruptcies.png Graphic file (type png)
 <use Python/figures/p2_with_estimated_bankruptcies.png>
 Package luatex.def Info: Python/figures/p2_with_estimated_bankruptcies.png  used on input line 299.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
- [127<./Python/figures/p2_trend.png><./Python/figures/p2_with_estimated_bankruptcies.png>]) [128]
+ [125<./Python/figures/p2_trend.png><./Python/figures/p2_with_estimated_bankruptcies.png>]) [126]
 \openout2 = chapters/appendix_A.aux
- (./chapters/appendix_A.tex [129
+ (./chapters/appendix_A.tex [127
 
 
 
 
 ]
-<figures/Bankruptcy_probability_of_Merton_model_with_Z.png, id=1883, 1004.0712pt x 425.6703pt>
+<figures/Bankruptcy_probability_of_Merton_model_with_Z.png, id=1875, 1004.0712pt x 425.6703pt>
 File: figures/Bankruptcy_probability_of_Merton_model_with_Z.png Graphic file (type png)
 <use figures/Bankruptcy_probability_of_Merton_model_with_Z.png>
 Package luatex.def Info: figures/Bankruptcy_probability_of_Merton_model_with_Z.png  used on input line 73.
 (luatex.def)             Requested size: 386.96027pt x 164.0492pt.
- [130<./figures/Bankruptcy_probability_of_Merton_model_with_Z.png>] [131] [132]
-<figures/Bankruptcy_probability_of_New_Power_sec1.png, id=1903, 939.51pt x 289.08pt>
+ [128<./figures/Bankruptcy_probability_of_Merton_model_with_Z.png>] [129] [130]
+<figures/Bankruptcy_probability_of_New_Power_sec1.png, id=1895, 939.51pt x 289.08pt>
 File: figures/Bankruptcy_probability_of_New_Power_sec1.png Graphic file (type png)
 <use figures/Bankruptcy_probability_of_New_Power_sec1.png>
 Package luatex.def Info: figures/Bankruptcy_probability_of_New_Power_sec1.png  used on input line 246.
 (luatex.def)             Requested size: 432.48051pt x 133.07103pt.
-) [133<./figures/Bankruptcy_probability_of_New_Power_sec1.png>]
+) [131<./figures/Bankruptcy_probability_of_New_Power_sec1.png>]
 \openout2 = chapters/appendix_B.aux
  (./chapters/appendix_B.tex
-<figures/contour_caseA.png, id=1913, 505.89pt x 433.62pt>
+<figures/contour_caseA.png, id=1904, 505.89pt x 433.62pt>
 File: figures/contour_caseA.png Graphic file (type png)
 <use figures/contour_caseA.png>
 Package luatex.def Info: figures/contour_caseA.png  used on input line 30.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [134
+ [132
 
 
 
 
 ]
-<figures/contour_caseB.png, id=1918, 505.89pt x 433.62pt>
+<figures/contour_caseB.png, id=1909, 505.89pt x 433.62pt>
 File: figures/contour_caseB.png Graphic file (type png)
 <use figures/contour_caseB.png>
 Package luatex.def Info: figures/contour_caseB.png  used on input line 37.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [135<./figures/contour_caseA.png>]
-<figures/contour_caseC.png, id=1925, 505.89pt x 433.62pt>
+ [133<./figures/contour_caseA.png>]
+<figures/contour_caseC.png, id=1917, 505.89pt x 433.62pt>
 File: figures/contour_caseC.png Graphic file (type png)
 <use figures/contour_caseC.png>
 Package luatex.def Info: figures/contour_caseC.png  used on input line 45.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [136<./figures/contour_caseB.png>]
-<figures/contour_caseD.png, id=1932, 505.89pt x 433.62pt>
+ [134<./figures/contour_caseB.png>]
+<figures/contour_caseD.png, id=1924, 505.89pt x 433.62pt>
 File: figures/contour_caseD.png Graphic file (type png)
 <use figures/contour_caseD.png>
 Package luatex.def Info: figures/contour_caseD.png  used on input line 53.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [137<./figures/contour_caseC.png>]
-<figures/contour_caseE.png, id=1939, 505.89pt x 433.62pt>
+ [135<./figures/contour_caseC.png>]
+<figures/contour_caseE.png, id=1931, 505.89pt x 433.62pt>
 File: figures/contour_caseE.png Graphic file (type png)
 <use figures/contour_caseE.png>
 Package luatex.def Info: figures/contour_caseE.png  used on input line 61.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [138<./figures/contour_caseD.png>]
-<figures/contour_caseF.png, id=1946, 505.89pt x 433.62pt>
+ [136<./figures/contour_caseD.png>]
+<figures/contour_caseF.png, id=1938, 505.89pt x 433.62pt>
 File: figures/contour_caseF.png Graphic file (type png)
 <use figures/contour_caseF.png>
 Package luatex.def Info: figures/contour_caseF.png  used on input line 68.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [139<./figures/contour_caseE.png>]
+ [137<./figures/contour_caseE.png>]
 File: figures/surface_diff_B_minus_C.png Graphic file (type png)
 <use figures/surface_diff_B_minus_C.png>
 Package luatex.def Info: figures/surface_diff_B_minus_C.png  used on input line 94.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
- [140<./figures/contour_caseF.png>]
+ [138<./figures/contour_caseF.png>]
 File: figures/surface_diff_F_minus_E.png Graphic file (type png)
 <use figures/surface_diff_F_minus_E.png>
 Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 111.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
- [141]) [142]
+ [139]) [140]
 \openout2 = chapters/appendix_C.aux
- (./chapters/appendix_C.tex [143
+ (./chapters/appendix_C.tex [141
 
 
 
 
-] [144]
-<figures/coef_comparison.png, id=1988, 578.16pt x 361.35pt>
+] [142]
+<figures/coef_comparison.png, id=1979, 578.16pt x 361.35pt>
 File: figures/coef_comparison.png Graphic file (type png)
 <use figures/coef_comparison.png>
 Package luatex.def Info: figures/coef_comparison.png  used on input line 197.
 (luatex.def)             Requested size: 364.19667pt x 227.61862pt.
- [145]
-<figures/roc_comparison.png, id=2000, 505.89pt x 361.35pt>
+ [143]
+<figures/roc_comparison.png, id=1992, 505.89pt x 361.35pt>
 File: figures/roc_comparison.png Graphic file (type png)
 <use figures/roc_comparison.png>
 Package luatex.def Info: figures/roc_comparison.png  used on input line 220.
 (luatex.def)             Requested size: 364.19667pt x 260.14423pt.
- [146<./figures/coef_comparison.png>]
-<figures/scatter_true_vs_pred.png, id=2012, 505.89pt x 361.35pt>
+ [144<./figures/coef_comparison.png>]
+<figures/scatter_true_vs_pred.png, id=2004, 505.89pt x 361.35pt>
 File: figures/scatter_true_vs_pred.png Graphic file (type png)
 <use figures/scatter_true_vs_pred.png>
 Package luatex.def Info: figures/scatter_true_vs_pred.png  used on input line 241.
 (luatex.def)             Requested size: 364.19667pt x 260.14423pt.
- [147<./figures/roc_comparison.png>] [148<./figures/scatter_true_vs_pred.png>]) [149]
+ [145<./figures/roc_comparison.png>] [146<./figures/scatter_true_vs_pred.png>]) [147]
 \openout2 = chapters/appendix_D.aux
- (./chapters/appendix_D.tex [150
+ (./chapters/appendix_D.tex [148
 
 
 
 
-] [151] [152] [153]) [154]
+] [149] [150] [151]) [152]
 \openout2 = chapters/appendix_E.aux
  (./chapters/appendix_E.tex
 
@@ -2525,7 +2514,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
 
-[155
+[153
 
 
 
@@ -2575,19 +2564,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 102.
 
-<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2069, 867.24pt x 289.08pt>
+<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2061, 867.24pt x 289.08pt>
 File: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf Graphic file (type pdf)
 <use D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>
 Package luatex.def Info: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf  used on input line 109.
 (luatex.def)             Requested size: 398.33858pt x 132.7799pt.
-[156] [157<d:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>]) [158]
+[154] [155<d:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>]) [156]
 \openout2 = chapters/appendix_F.aux
- (./chapters/appendix_F.tex [159
+ (./chapters/appendix_F.tex [157
 
 
 
 
-] [160] [161] [162]) [163]
+] [158] [159] [160]) [161]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 130.
 (load cache: extra_lmromancaps10-regular.luc)
@@ -2633,7 +2622,7 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 130.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 130.
- [164
+ [162
 
 
 
@@ -2645,7 +2634,7 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 130.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 130.
- [165] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux))
+ [163] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -2659,26 +2648,26 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EBF5A438CC5B52F57951131CC1CFA6B9;18184.
+(rerunfilecheck)             Checksum: 7AC5E7B9D629BEDB8868B4FF75FADDF6;18319.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 51618 strings out of 475900
+ 51603 strings out of 475900
  195707,2373549 words of node,token memory allocated
- 4768 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 25 glue, 4 kern, 1 glyph, 1697 attribute, 107 glue_spec, 165 attribute_list, 2 write, 13 user_defined, 5 pdf_action nodes
-   avail lists: 1:45,2:52331,3:1671,4:484,5:250,6:96,7:5100,8:64,9:2268,10:49,11:164
- 71958 multiletter control sequences out of 65536+600000
+ 4775 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 26 glue, 4 kern, 1 glyph, 1697 attribute, 107 glue_spec, 165 attribute_list, 2 write, 13 user_defined, 5 pdf_action nodes
+   avail lists: 1:45,2:52331,3:1671,4:484,5:250,6:96,7:5099,8:64,9:2252,10:49,11:164
+ 71950 multiletter control sequences out of 65536+600000
  184 fonts using 108600351 bytes
  119i,17n,115p,2066b,2232s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (173 pages, 14511260 bytes).
+Output written on main.pdf (171 pages, 13908501 bytes).
 
-PDF statistics: 2379 PDF objects out of 2487 (max. 8388607)
- 1746 compressed objects within 18 object streams
- 582 named destinations out of 1000 (max. 1048576)
- 800 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2371 PDF objects out of 2487 (max. 8388607)
+ 1744 compressed objects within 18 object streams
+ 581 named destinations out of 1000 (max. 1048576)
+ 808 words of extra memory for PDF output out of 10000 (max. 100000000)
 

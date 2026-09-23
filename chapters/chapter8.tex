@@ -279,17 +279,17 @@ Z_{\text{lin}} = a\mu - b\sigma + cS - dD,
 
 ここで，$Z_{\text{lin}}$ が大きいほど企業は安全側に位置し，
 $Z_{\text{lin}}$ が小さいほど倒産側に近づく。
-したがって，倒産確率は
+したがって，倒産確率はロジスティック関数
 
 
 
 \[
-p = \Lambda(-Z_{\text{lin}})
+p = \Lambda(-Z_{\text{lin}}) = \frac{1}{1 + e^{Z_{\text{lin}}}}
 \]
 
 
 
-のように $Z_{\text{lin}}$ の減少に伴って上昇する。
+により単調に決定され，$Z_{\text{lin}}$ の減少に伴って倒産確率は上昇する。
 
 この構造から，潜在変数モデルにおける係数の符号条件は以下のように導かれる。
 
@@ -337,52 +337,45 @@ p = \Lambda(-Z_{\text{lin}})
 潜在倒産距離モデルの理論的妥当性を裏付けるとともに，
 第9章の Ordered Logit 推定における係数解釈の基礎となる。
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{Python/figures/sign_surface_0.02.png}
-    \caption{倒産距離 $Z_{\text{lin}}$ の3D構造：低収益性（$\mu=0.02$）}
-    \label{fig:surface_mu_002}
-\end{figure}
+% ============================================================
+% 新しい図：倒産確率 p の 3 枚同時描画
+% ============================================================
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{Python/figures/sign_surface_0.05.png}
-    \caption{倒産距離 $Z_{\text{lin}}$ の3D構造：中収益性（$\mu=0.05$）}
-    \label{fig:surface_mu_005}
+    \includegraphics[width=\textwidth]{Python/figures/sign_surface_p_combined.png}
+    \caption{倒産確率 $p=\Lambda(-Z_{\text{lin}})$ の3D構造（収益性 $\mu$ の変化による比較）}
+    \label{fig:surface_p_combined}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{Python/figures/sign_surface_0.08.png}
-    \caption{倒産距離 $Z_{\text{lin}}$ の3D構造：高収益性（$\mu=0.08$）}
-    \label{fig:surface_mu_008}
-\end{figure}
-
-図 \ref{fig:surface_mu_002}～図 \ref{fig:surface_mu_008} は，
-倒産距離 $Z_{\text{lin}}$ の三次元構造を，
-収益性 $\mu$ の水準を変化させながら可視化したものである。
+図 \ref{fig:surface_p_combined} は，
+倒産確率 $p=\Lambda(-Z_{\text{lin}})$ の三次元構造を，
+収益性 $\mu$ の水準を変化させながら同一座標系で比較したものである。
 横軸は負債比率 $D$，奥行きは市場ショック感応度 $\sigma$，
-縦軸は倒産距離 $Z_{\text{lin}}$ を表す。
+縦軸は倒産確率 $p$ を表す。
 
-まず，図 \ref{fig:surface_mu_002}（低収益性 $\mu=0.02$）では，
-倒産距離の地形全体が低く沈み，$D$ や $\sigma$ がわずかに増加しただけで
-倒産距離が急速に低下する「危険な地形」が形成されている。
+左図（赤字企業 $\mu=-0.10$）では，
+倒産確率の曲面全体が高く張り出し，
+$D$ や $\sigma$ がわずかに増加しただけで
+倒産確率が急激に上昇する「危険領域」が広く形成されている。
 これは，収益性が低い企業ほど倒産確率が高まるという
 符号条件 $\beta_2 < 0$ と整合的である。
 
-次に，図 \ref{fig:surface_mu_005}（中収益性 $\mu=0.05$）では，
-地形が全体的に持ち上がり，$D$ や $\sigma$ の増加に対する
-倒産距離の低下が緩やかになる。
+中央図（平均的収益性 $\mu=0.05$）では，
+倒産確率の曲面が全体的に押し下げられ，
+$D$ や $\sigma$ の増加に対する倒産確率の上昇が緩やかになる。
 これは，収益性の改善が倒産距離を押し上げ，
 倒産確率を低下させる構造を視覚的に示している。
 
-最後に，図 \ref{fig:surface_mu_008}（高収益性 $\mu=0.08$）では，
-地形がさらに高く持ち上がり，$D$ や $\sigma$ の悪化に対しても
-倒産距離が大きく維持される「安全な地形」が形成される。
+右図（高収益性 $\mu=0.50$）では，
+倒産確率の曲面がさらに大きく押し下げられ，
+$D$ や $\sigma$ の悪化に対しても倒産確率が低く維持される
+「安全領域」が広く形成される。
 これは，収益性が高い企業ほど倒産確率が低下するという
 理論的符号条件と完全に一致する。
 
-以上の三枚の図は，収益性 $\mu$ の変化が倒産距離の地形をどのように変化させるかを
+以上の三枚の図は，
+収益性 $\mu$ の変化が倒産確率の曲面をどのように変化させるかを
 直感的に理解するための補助図であり，
 第7章のシミュレーション結果および第9章の Ordered Logit 推定結果と整合的である。
 
@@ -393,18 +386,92 @@ p = \Lambda(-Z_{\text{lin}})
 
 \section{識別の考え方}
 
-ロジットモデルの識別は，以下の三点から成立する。
+本節では，本研究で用いるロジットモデルおよび Ordered Logit モデルの
+識別構造について整理する。
+ロジットモデルは二値の倒産確率を扱うため，
+潜在変数の閾値（cutpoint）は明示的には登場しない。
+一方，Ordered Logit モデルは段階的な倒産構造を扱うため，
+複数の閾値が識別において中心的な役割を果たす。
+この違いを踏まえたうえで，識別の成立条件を以下に示す。
 
 \begin{enumerate}
-    \item \textbf{変数の符号構造}：理論モデルと整合する符号条件が識別を補助する
-    \item \textbf{相互作用項の導入}：multiplicative な倒産構造を反映し，識別を強化する
-    \item \textbf{潜在変数モデルへの接続}：Ordered Logit の cutpoint により段階構造が識別される
+    \item \textbf{変数の符号構造}：  
+    第4章で導出した倒産距離 $Z_{\text{lin}}$ の符号条件  
+    （$\mu$ は倒産距離を押し上げ，$\sigma$ と $D$ は押し下げる）が  
+    ロジットモデルの識別を補助する。  
+    ロジットモデルでは二値の倒産確率を扱うため，
+    $Z_{\text{lin}}$ の符号構造がそのまま倒産確率の単調性を規定し，
+    係数の識別に寄与する。
+
+    \item \textbf{相互作用項の導入}：  
+    multiplicative な倒産構造（$D \times \sigma$）をモデルに含めることで，
+    単独の効果では説明できない非線形の危険領域を識別できる。  
+    第7章のシミュレーションで確認したように，
+    $D$ と $\sigma$ の同時悪化は倒産確率を加速度的に押し上げるため，
+    相互作用項は識別を強化する役割を持つ。
+
+    \item \textbf{潜在変数モデルへの接続（Ordered Logit）}：  
+    新電力企業の倒産は「財務悪化 → 撤退 → 法的倒産」という  
+    段階的構造を持つため，二値ロジットでは識別できない  
+    中間段階の情報が存在する。  
+    Ordered Logit モデルでは，潜在変数 $y^*$ が複数の閾値  
+    （cutpoints）$\tau_1, \tau_2, \tau_3$ を跨ぐことで  
+    倒産ステージが識別される。  
+    この閾値構造により，段階的な倒産過程を  
+    潜在変数モデルとして整合的に識別することが可能となる。
 \end{enumerate}
 
-特に，新電力企業の倒産は「財務悪化 → 撤退 → 法的倒産」という段階的構造を持つため，
+以上より，ロジットモデルでは符号構造と相互作用項が識別を支える一方，
+Ordered Logit モデルでは cutpoint による段階識別が中心的な役割を果たす。
+特に，新電力企業の倒産は段階的に進行するため，
 二値ロジットよりも Ordered Logit の方が識別可能性が高い。
 
----
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[x=1.2cm, y=1cm]
+
+        % Axis
+        \draw[->] (0,0) -- (10,0) node[right] {$y^*$（潜在倒産距離）};
+
+        % Cutpoints
+        \draw[thick] (2,0.3) -- (2,-0.3);
+        \draw[thick] (5,0.3) -- (5,-0.3);
+        \draw[thick] (8,0.3) -- (8,-0.3);
+
+        % Cutpoint labels
+        \node[below, yshift=-1pt] at (2,-0.3) {$\tau_1$};
+        \node[below, yshift=-1pt] at (5,-0.3) {$\tau_2$};
+        \node[below, yshift=-1pt] at (8,-0.3) {$\tau_3$};
+
+        % ===== 上側のステージ文字列は削除済み =====
+
+        % Braces with higher labels (only these remain)
+        \draw[decorate,decoration={brace, amplitude=5pt}] (0,0.8) -- (2,0.8)
+            node[midway, yshift=20pt] {財務悪化};
+        \draw[decorate,decoration={brace, amplitude=5pt}] (2,0.8) -- (5,0.8)
+            node[midway, yshift=20pt] {撤退・縮小};
+        \draw[decorate,decoration={brace, amplitude=5pt}] (5,0.8) -- (8,0.8)
+            node[midway, yshift=20pt] {深刻悪化};
+        \draw[decorate,decoration={brace, amplitude=5pt}] (8,0.8) -- (10,0.8)
+            node[midway, yshift=20pt] {法的倒産};
+
+    \end{tikzpicture}
+    \caption{Ordered Logit モデルにおける閾値（cutpoints）と倒産ステージの区分}
+    \label{fig:ordered_logit_cutpoints}
+\end{figure}
+
+
+図 \ref{fig:ordered_logit_cutpoints} は，Ordered Logit モデルにおける
+潜在変数 $y^*$ と閾値（cutpoints）$\tau_1, \tau_2, \tau_3$ の関係を示した概念図である。
+新電力企業の倒産は「財務悪化 → 撤退・縮小 → 深刻悪化 → 法的倒産」という
+段階的構造を持つため，潜在倒産距離がどの閾値を跨ぐかによって
+観測される倒産ステージが識別される。
+この閾値構造により，二値ロジットでは識別できない中間段階が
+Ordered Logit モデルにおいて整合的に扱われる。
+
+% ============================================================
+% 8.7 本章のまとめ
+% ============================================================
 
 \section{本章のまとめ}
 
