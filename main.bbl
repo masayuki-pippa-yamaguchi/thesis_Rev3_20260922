@@ -286,6 +286,38 @@
       \verb https://www.gov.uk/
       \endverb
     \endentry
+    \entry{IEAElectricity2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=b33b47b3008c8c47f90a77e0c2dd3060}{%
+           family={{International Energy Agency}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IEA}%
+      }
+      \strng{namehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{bibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorbibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authornamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electricity Market Report 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.iea.org/reports/electricity-market-report-2024
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/reports/electricity-market-report-2024
+      \endverb
+    \endentry
     \entry{OECD2022Security}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=bdbed435a416a918aa494017fda4c7fb}{%
@@ -459,6 +491,35 @@
       \field{note}{TSR企業倒産情報}
       \field{title}{新電力倒産に関する東京商工リサーチ報告}
       \field{year}{2021}
+    \endentry
+    \entry{METI2020RetailData}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=229c68b02d8a4d9ce0f23dad2dd1bc8a}{%
+           family={経済産業省},
+           familyi={経\bibinitperiod}}}%
+      }
+      \strng{namehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{fullhash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{fullhashraw}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{bibnamehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authorbibnamehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authornamehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authorfullhash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authorfullhashraw}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \field{sortinit}{経}
+      \field{sortinithash}{79578c932d64cbb6ea8b71f15fdacafa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{電力小売事業者データ集}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.meti.go.jp/
+      \endverb
+      \verb{url}
+      \verb https://www.meti.go.jp/
+      \endverb
     \endentry
     \entry{CityCouncil2021Support}{misc}{}{}
       \name{author}{1}{}{%
