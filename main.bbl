@@ -181,6 +181,36 @@
       \verb https://www.iea.org/
       \endverb
     \endentry
+    \entry{Amemiya1981}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=51e1a3ce6d15ec2678642fc6ded682da}{%
+           family={Amemiya},
+           familyi={A\bibinitperiod},
+           given={Takeshi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{fullhash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{fullhashraw}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{bibnamehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authorbibnamehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authornamehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authorfullhash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authorfullhashraw}{51e1a3ce6d15ec2678642fc6ded682da}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{4}
+      \field{title}{Qualitative Response Models: A Survey}
+      \field{volume}{19}
+      \field{year}{1981}
+      \field{pages}{1483\bibrangedash 1536}
+      \range{pages}{54}
+    \endentry
     \entry{BharathShumway2008}{article}{}{}
       \name{author}{2}{}{%
         {{hash=9cfd727d48e0b7b57a0f9c2c7db60027}{%
@@ -202,8 +232,47 @@
       \strng{authornamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
       \strng{authorfullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
       \strng{authorfullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{Forecasting Default with the Merton Distance to Default Model}
+      \field{volume}{21}
+      \field{year}{2008}
+      \field{pages}{1339\bibrangedash 1369}
+      \range{pages}{31}
+    \endentry
+    \entry{Bharath2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9cfd727d48e0b7b57a0f9c2c7db60027}{%
+           family={Bharath},
+           familyi={B\bibinitperiod},
+           given={Sreedhar\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=424a8e036f8a13ca7c9fd0ae41fddaed}{%
+           family={Shumway},
+           familyi={S\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{fullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{fullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{bibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorbibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authornamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorfullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorfullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -541,6 +610,101 @@
       \verb{url}
       \verb https://www.iea.org/reports/electricity-market-report-2024
       \endverb
+    \endentry
+    \entry{McFadden1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1327829299e572b76be93fafcdca8d7b}{%
+           family={McFadden},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{fullhash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{fullhashraw}{1327829299e572b76be93fafcdca8d7b}
+      \strng{bibnamehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authorbibnamehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authornamehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authorfullhash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authorfullhashraw}{1327829299e572b76be93fafcdca8d7b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{number}{4}
+      \field{title}{The Measurement of Urban Travel Demand}
+      \field{volume}{3}
+      \field{year}{1974}
+      \field{pages}{303\bibrangedash 328}
+      \range{pages}{26}
+    \endentry
+    \entry{McKelveyZavoina1975}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0e9527c01edc1545dbf5751af3036020}{%
+           family={McKelvey},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=dec2f932c04747f6a5384eeabb29ed8b}{%
+           family={Zavoina},
+           familyi={Z\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{fullhash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{fullhashraw}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{bibnamehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authorbibnamehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authornamehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authorfullhash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authorfullhashraw}{c34a83aa7c84839b502f76cc404dfd28}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Mathematical Sociology}
+      \field{number}{1}
+      \field{title}{A Statistical Model for the Analysis of Ordinal Level Dependent Variables}
+      \field{volume}{4}
+      \field{year}{1975}
+      \field{pages}{103\bibrangedash 120}
+      \range{pages}{18}
+    \endentry
+    \entry{Merton1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1e2894bce14479f5a711418ce8f8ffa}{%
+           family={Merton},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{fullhash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{fullhashraw}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{bibnamehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authorbibnamehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authornamehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authorfullhash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authorfullhashraw}{b1e2894bce14479f5a711418ce8f8ffa}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{2}
+      \field{title}{On the Pricing of Corporate Debt: The Risk Structure of Interest Rates}
+      \field{volume}{29}
+      \field{year}{1974}
+      \field{pages}{449\bibrangedash 470}
+      \range{pages}{22}
     \endentry
     \entry{OECD2022Security}{misc}{}{}
       \name{author}{1}{}{%
