@@ -26,68 +26,70 @@
 \contentsline {subsection}{\numberline {1.3.2}調達：発電事業者・卸電力市場・FIT 電源の位置づけ}{12}{subsection.1.3.2}%
 \contentsline {subsubsection}{（1）発電事業者との相対契約}{12}{section*.16}%
 \contentsline {subsubsection}{（2）卸電力市場（JEPX）での取引}{12}{section*.17}%
-\contentsline {subsubsection}{（3）FIT 電源の位置づけ}{13}{section*.18}%
+\contentsline {subsubsection}{（3）FIT 電源\inhibitglue \footnotes@ve { FIT（Feed-in Tariff：固定価格買取制度）とは，再生可能エネルギーで発電された電力を，国が定めた固定価格で一定期間（通常 20 年程度）電力会社が買い取ることを義務づける制度である。発電事業者にとっては収入が安定する一方，出力は天候に左右されるため，新電力にとっては供給量の不確実性が高く，需給管理を難しくする要因となる。}の位置づけ}{13}{section*.18}%
 \contentsline {subsubsection}{（4）調達ポートフォリオとリスク管理}{13}{section*.19}%
 \contentsline {subsection}{\numberline {1.3.3}需給管理：インバランス制度と広域機関の役割}{13}{subsection.1.3.3}%
 \contentsline {subsection}{\numberline {1.3.4}販売：料金メニュー・付加価値サービス・顧客獲得戦略}{15}{subsection.1.3.4}%
 \contentsline {section}{\numberline {1.4}卸電力市場の詳細}{17}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}市場規模と取引量の推移（2020--2024）}{17}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}市場参加者数の推移（新電力・発電事業者）}{18}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}退出企業数の推移（2020--2024）}{18}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}スポット価格の推移と変動性}{19}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5}インバランス料金の推移}{21}{subsection.1.4.5}%
-\contentsline {subsection}{\numberline {1.4.6}需給逼迫アラート発令回数の推移}{21}{subsection.1.4.6}%
-\contentsline {subsection}{\numberline {1.4.7}JEPX の市場構造（スポット・先渡・時間前）}{23}{subsection.1.4.7}%
-\contentsline {subsection}{\numberline {1.4.8}価格形成メカニズム}{25}{subsection.1.4.8}%
-\contentsline {subsection}{\numberline {1.4.9}市場参加主体の役割}{26}{subsection.1.4.9}%
-\contentsline {subsection}{\numberline {1.4.10}制度的要因と市場への影響}{27}{subsection.1.4.10}%
-\contentsline {section}{\numberline {1.5}新電力のリスク構造}{28}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}市場リスク}{28}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}制度リスク}{28}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}オペレーショナルリスク}{28}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}財務リスク}{28}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}顧客リスク}{29}{subsection.1.5.5}%
-\contentsline {section}{\numberline {1.6}倒産・退出・継続の定義}{29}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}法的倒産}{30}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}実質的倒産}{30}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}市場退出}{31}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}事業継続}{31}{subsection.1.6.4}%
-\contentsline {subsection}{\numberline {1.6.5}事業単位と企業単位の区別}{31}{subsection.1.6.5}%
-\contentsline {subsection}{\numberline {1.6.6}供給停止}{31}{subsection.1.6.6}%
-\contentsline {subsection}{\numberline {1.6.7}廃止届}{32}{subsection.1.6.7}%
-\contentsline {section}{\numberline {1.7}本章のまとめ}{34}{section.1.7}%
-\contentsline {chapter}{\numberline {第2章}問題意識と研究目的}{35}{chapter.2}%
-\contentsline {section}{\numberline {2.1}研究課題の所在}{35}{section.2.1}%
-\contentsline {section}{\numberline {2.2}従来モデルの限界}{39}{section.2.2}%
-\contentsline {section}{\numberline {2.3}問題意識}{42}{section.2.3}%
-\contentsline {section}{\numberline {2.4}研究動機（筆者の企業経験）}{43}{section.2.4}%
-\contentsline {section}{\numberline {2.5}研究目的}{44}{section.2.5}%
-\contentsline {section}{\numberline {2.6}本研究の位置づけ}{44}{section.2.6}%
-\contentsline {chapter}{\numberline {第3章}新電力の倒産構造と仮説}{46}{chapter.3}%
-\contentsline {section}{\numberline {3.1}新電力倒産の特徴：一般倒産研究との相違点}{47}{section.3.1}%
-\contentsline {section}{\numberline {3.2}五つのリスクの統合：四要素モデルへの抽象化}{50}{section.3.2}%
-\contentsline {section}{\numberline {3.3}multiplicative 倒産構造：五つのリスクが同時に悪化する現象}{53}{section.3.3}%
-\contentsline {section}{\numberline {3.4}新電力市場における倒産構造：四要素モデルの位置づけ}{54}{section.3.4}%
-\contentsline {section}{\numberline {3.5}本研究の仮説（H1〜H4）}{55}{section.3.5}%
-\contentsline {section}{\numberline {3.6}本章のまとめと第4章への接続}{58}{section.3.6}%
-\contentsline {chapter}{\numberline {第4章}理論枠組み：Merton モデル，B\&S (2008)，および本研究の線形倒産距離}{59}{chapter.4}%
-\contentsline {section}{\numberline {4.1}倒産理論の位置づけと本研究が Merton 型モデルを採用する理由}{61}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}倒産研究の二つの系譜と本研究の位置づけ}{61}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Bharath \& Shumway (2008) を採用する理論的必然性}{64}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}B\&S を新電力に適用する際の前提修正の必要性}{65}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Merton モデル：multiplicative → log → linear の構造}{66}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}multiplicative → log → linear の理論構造（概念編)}{66}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}multiplicative → log → linear の変換構造が本研究にとって持つ大局的意味}{67}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Merton モデルにおける倒産距離の導出\inhibitglue \footnotes@ve { 前段の「multiplicative → log → linear の理論構造（概念編）」では，Merton 型モデルの価値過程が対数変換によって線形化され，倒産距離 $DD$ や倒産確率 $\Phi (-DD)$ がどのような概念的構造を持つかを説明した。本節ではその概念的説明を受けて，実際に倒産距離 $DD$ がどのように導出されるかを数学的手順（対数変換・正規分布化・閾値条件の整理）に沿って示している。すなわち，前段は「なぜそうなるか」を説明し，本節は「どのように導出するか」を示すものであり，両者は役割が異なる。} }{68}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}連続時間モデルとしての Merton と，離散時間モデルとしての B\&S の相違}{69}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}B\&S（2008）との接続と本研究の位置づけ}{69}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Bharath \& Shumway (2008)：倒産距離の線形化と proxy 化}{70}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}B\&S の naive predictor の理論的意義}{71}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}proxy 化の実務的意義と限界}{72}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}B\&S の限界と，本研究における再構成の必要性}{73}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}本研究の線形倒産距離 $Z_{\text {lin}}$：新電力企業への写像}{73}{section.4.4}%
-\contentsline {section}{\numberline {4.5}連続的倒産距離 $Z_{\text {lin}}$ と Ordered Logit の接続}{76}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Bharath \& Shumway (2008) と本研究の比較}{77}{section.4.6}%
+\contentsline {subsection}{\numberline {1.4.3}退出企業数の推移（2020--2024）}{19}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}スポット価格の推移と変動性}{20}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}インバランス料金の推移}{22}{subsection.1.4.5}%
+\contentsline {subsection}{\numberline {1.4.6}需給逼迫アラート発令回数の推移}{23}{subsection.1.4.6}%
+\contentsline {subsection}{\numberline {1.4.7}JEPX の市場構造（スポット・先渡・時間前）}{25}{subsection.1.4.7}%
+\contentsline {subsection}{\numberline {1.4.8}価格形成メカニズム}{28}{subsection.1.4.8}%
+\contentsline {subsection}{\numberline {1.4.9}市場参加主体の役割}{29}{subsection.1.4.9}%
+\contentsline {subsection}{\numberline {1.4.10}制度的要因と市場への影響}{30}{subsection.1.4.10}%
+\contentsline {section}{\numberline {1.5}新電力のリスク構造}{30}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}市場リスク}{31}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}制度リスク}{31}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}オペレーショナルリスク}{31}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}財務リスク}{32}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}顧客リスク}{32}{subsection.1.5.5}%
+\contentsline {section}{\numberline {1.6}倒産・退出・継続の定義}{32}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}法的倒産}{33}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}実質的倒産}{34}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}市場退出}{34}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}事業継続}{34}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}事業単位と企業単位の区別}{35}{subsection.1.6.5}%
+\contentsline {subsection}{\numberline {1.6.6}供給停止}{35}{subsection.1.6.6}%
+\contentsline {subsection}{\numberline {1.6.7}廃止届}{35}{subsection.1.6.7}%
+\contentsline {section}{\numberline {1.7}本章のまとめ}{37}{section.1.7}%
+\contentsline {chapter}{\numberline {第2章}問題意識と研究目的}{38}{chapter.2}%
+\contentsline {section}{\numberline {2.1}研究課題の所在}{38}{section.2.1}%
+\contentsline {section}{\numberline {2.2}従来モデルの限界}{42}{section.2.2}%
+\contentsline {section}{\numberline {2.3}問題意識}{45}{section.2.3}%
+\contentsline {section}{\numberline {2.4}研究動機（筆者の企業経験）}{46}{section.2.4}%
+\contentsline {section}{\numberline {2.5}研究目的}{47}{section.2.5}%
+\contentsline {section}{\numberline {2.6}本研究の位置づけ}{48}{section.2.6}%
+\contentsline {chapter}{\numberline {第3章}新電力の倒産構造と仮説}{50}{chapter.3}%
+\contentsline {section}{\numberline {3.1}新電力倒産の特徴：一般倒産研究との相違点}{51}{section.3.1}%
+\contentsline {section}{\numberline {3.2}五つのリスクの統合：四要素モデルへの抽象化}{54}{section.3.2}%
+\contentsline {section}{\numberline {3.3}multiplicative 倒産構造：五つのリスクが同時に悪化する現象}{57}{section.3.3}%
+\contentsline {section}{\numberline {3.4}新電力市場における倒産構造：四要素モデルの位置づけ}{58}{section.3.4}%
+\contentsline {section}{\numberline {3.5}本研究の仮説（H1〜H4）}{59}{section.3.5}%
+\contentsline {section}{\numberline {3.6}本章のまとめと第4章への接続}{62}{section.3.6}%
+\contentsline {chapter}{\numberline {第4章}理論枠組み：Merton モデル，B\&S (2008)，および本研究の線形倒産距離}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}倒産理論の位置づけと本研究が Merton 型モデルを採用する理由}{65}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}倒産研究の二つの系譜と本研究の位置づけ}{65}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Bharath \& Shumway (2008) を採用する理論的必然性}{68}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}B\&S を新電力に適用する際の前提修正の必要性}{70}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Merton モデル：multiplicative → log → linear の構造}{70}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}multiplicative → log → linear の理論構造}{71}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}multiplicative → log → linear の変換構造が持つ大局的意味}{72}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Merton モデルにおける倒産距離の導出}{72}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Bharath \& Shumway (2008)：倒産距離の線形化と proxy 化}{73}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}連続時間モデルとしての Merton と，離散時間モデルとしての B\&S の相違}{73}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}B\&S の naive predictor の理論的意義}{73}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}proxy 化の実務的意義と限界}{74}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}B\&S の限界と，本研究における再構成の必要性}{74}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}本研究の線形倒産距離 $Z_{\text {lin}}$：新電力企業への写像}{75}{section.4.4}%
+\contentsline {section}{\numberline {4.5}連続的倒産距離 $Z_{\text {lin}}$ と Ordered Logit の接続}{77}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Ordered Logit モデルの潜在変数構造}{77}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}cutpoint（閾値）の推定と離散カテゴリへの写像}{78}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}本研究における Ordered Logit の役割}{78}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Bharath \& Shumway (2008) と本研究の比較}{78}{section.4.6}%
 \contentsline {chapter}{\numberline {第5章}Ordered Logit モデル：倒産距離 $Z_{\text {lin}}$ の離散化と推定}{80}{chapter.5}%
 \contentsline {section}{\numberline {5.1}記号体系の整理：理論モデルと実証モデルの対応関係}{82}{section.5.1}%
 \contentsline {section}{\numberline {5.2}理論モデル・統計モデル・確率モデルの三層構造}{83}{section.5.2}%

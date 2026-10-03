@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  29 SEP 2026 20:22
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  3 OCT 2026 19:50
  restricted system commands enabled.
 **d:/texlive/2026/work/thesis_Rev3_20260922/main
 (d:/texlive/2026/work/thesis_Rev3_20260922/main.tex
@@ -1227,156 +1227,80 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count372
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count373
-) (d:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
- (d:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (d:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (d:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (d:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (d:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
- (d:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (d:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+) (d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (d:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count374
-) (d:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-)
-\@linkdim=\dimen365
-\Hy@linkcounter=\count375
-\Hy@pagecounter=\count376
- (d:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
-) (d:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-\Hy@SavedSpaceFactor=\count377
- (d:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
-)
-Package hyperref Info: Hyper figures OFF on input line 4199.
-Package hyperref Info: Link nesting OFF on input line 4204.
-Package hyperref Info: Hyper index ON on input line 4207.
-Package hyperref Info: Plain pages OFF on input line 4214.
-Package hyperref Info: Backreferencing OFF on input line 4219.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count378
- (d:/texlive/2026/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen366
- (d:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (d:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-))
-\Fld@menulength=\count379
-\Field@Width=\dimen367
-\Fld@charsize=\dimen368
-Package hyperref Info: Hyper figures OFF on input line 6091.
-Package hyperref Info: Link nesting OFF on input line 6096.
-Package hyperref Info: Hyper index ON on input line 6099.
-Package hyperref Info: backreferencing OFF on input line 6106.
-Package hyperref Info: Link coloring OFF on input line 6111.
-Package hyperref Info: Link coloring with OCG OFF on input line 6116.
-Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count380
-\c@Item=\count381
-\c@Hfootnote=\count382
-)
-Package hyperref Info: Driver (autodetected): hluatex.
- (d:/texlive/2026/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2026-04-24 v7.01q Hyperref driver for luaTeX
-\Fld@listcount=\count383
-\c@bookmark@seq@number=\count384
- (d:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (d:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
-)
-\Hy@SectionHShift=\skip66
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 48.
- (d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
- (d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+ (d:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count385
+\lrq@indent=\count374
  (d:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (d:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (d:/texlive/2026/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count386
-\c@listtotal=\count387
-\c@listcount=\count388
-\c@liststart=\count389
-\c@liststop=\count390
-\c@citecount=\count391
-\c@citetotal=\count392
-\c@multicitecount=\count393
-\c@multicitetotal=\count394
-\c@instcount=\count395
-\c@maxnames=\count396
-\c@minnames=\count397
-\c@maxitems=\count398
-\c@minitems=\count399
-\c@citecounter=\count400
-\c@maxcitecounter=\count401
-\c@savedcitecounter=\count402
-\c@uniquelist=\count403
-\c@uniquename=\count404
-\c@refsection=\count405
-\c@refsegment=\count406
-\c@maxextratitle=\count407
-\c@maxextratitleyear=\count408
-\c@maxextraname=\count409
-\c@maxextradate=\count410
-\c@maxextraalpha=\count411
-\c@abbrvpenalty=\count412
-\c@highnamepenalty=\count413
-\c@lownamepenalty=\count414
-\c@maxparens=\count415
-\c@parenlevel=\count416
-\blx@tempcnta=\count417
-\blx@tempcntb=\count418
-\blx@tempcntc=\count419
-\c@blx@maxsection=\count420
-\blx@maxsegment@0=\count421
-\blx@notetype=\count422
-\blx@parenlevel@text=\count423
-\blx@parenlevel@foot=\count424
-\blx@sectionciteorder@0=\count425
-\blx@sectionciteorderinternal@0=\count426
-\blx@entrysetcounter=\count427
-\blx@biblioinstance=\count428
-\labelnumberwidth=\skip67
-\labelalphawidth=\skip68
-\biblabelsep=\skip69
-\bibitemsep=\skip70
-\bibnamesep=\skip71
-\bibinitsep=\skip72
-\bibparsep=\skip73
-\bibhang=\skip74
+\c@tabx@nest=\count375
+\c@listtotal=\count376
+\c@listcount=\count377
+\c@liststart=\count378
+\c@liststop=\count379
+\c@citecount=\count380
+\c@citetotal=\count381
+\c@multicitecount=\count382
+\c@multicitetotal=\count383
+\c@instcount=\count384
+\c@maxnames=\count385
+\c@minnames=\count386
+\c@maxitems=\count387
+\c@minitems=\count388
+\c@citecounter=\count389
+\c@maxcitecounter=\count390
+\c@savedcitecounter=\count391
+\c@uniquelist=\count392
+\c@uniquename=\count393
+\c@refsection=\count394
+\c@refsegment=\count395
+\c@maxextratitle=\count396
+\c@maxextratitleyear=\count397
+\c@maxextraname=\count398
+\c@maxextradate=\count399
+\c@maxextraalpha=\count400
+\c@abbrvpenalty=\count401
+\c@highnamepenalty=\count402
+\c@lownamepenalty=\count403
+\c@maxparens=\count404
+\c@parenlevel=\count405
+\blx@tempcnta=\count406
+\blx@tempcntb=\count407
+\blx@tempcntc=\count408
+\c@blx@maxsection=\count409
+\blx@maxsegment@0=\count410
+\blx@notetype=\count411
+\blx@parenlevel@text=\count412
+\blx@parenlevel@foot=\count413
+\blx@sectionciteorder@0=\count414
+\blx@sectionciteorderinternal@0=\count415
+\blx@entrysetcounter=\count416
+\blx@biblioinstance=\count417
+\labelnumberwidth=\skip66
+\labelalphawidth=\skip67
+\biblabelsep=\skip68
+\bibitemsep=\skip69
+\bibnamesep=\skip70
+\bibinitsep=\skip71
+\bibparsep=\skip72
+\bibhang=\skip73
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language3
-\c@mincomprange=\count429
-\c@maxcomprange=\count430
-\c@mincompwidth=\count431
+\c@mincomprange=\count418
+\c@maxcomprange=\count419
+\c@mincompwidth=\count420
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1386,88 +1310,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count432
-\c@savedafterword=\count433
-\c@annotator=\count434
-\c@savedannotator=\count435
-\c@author=\count436
-\c@savedauthor=\count437
-\c@bookauthor=\count438
-\c@savedbookauthor=\count439
-\c@commentator=\count440
-\c@savedcommentator=\count441
-\c@editor=\count442
-\c@savededitor=\count443
-\c@editora=\count444
-\c@savededitora=\count445
-\c@editorb=\count446
-\c@savededitorb=\count447
-\c@editorc=\count448
-\c@savededitorc=\count449
-\c@foreword=\count450
-\c@savedforeword=\count451
-\c@holder=\count452
-\c@savedholder=\count453
-\c@introduction=\count454
-\c@savedintroduction=\count455
-\c@namea=\count456
-\c@savednamea=\count457
-\c@nameb=\count458
-\c@savednameb=\count459
-\c@namec=\count460
-\c@savednamec=\count461
-\c@translator=\count462
-\c@savedtranslator=\count463
-\c@shortauthor=\count464
-\c@savedshortauthor=\count465
-\c@shorteditor=\count466
-\c@savedshorteditor=\count467
-\c@labelname=\count468
-\c@savedlabelname=\count469
-\c@institution=\count470
-\c@savedinstitution=\count471
-\c@lista=\count472
-\c@savedlista=\count473
-\c@listb=\count474
-\c@savedlistb=\count475
-\c@listc=\count476
-\c@savedlistc=\count477
-\c@listd=\count478
-\c@savedlistd=\count479
-\c@liste=\count480
-\c@savedliste=\count481
-\c@listf=\count482
-\c@savedlistf=\count483
-\c@location=\count484
-\c@savedlocation=\count485
-\c@organization=\count486
-\c@savedorganization=\count487
-\c@origlocation=\count488
-\c@savedoriglocation=\count489
-\c@origpublisher=\count490
-\c@savedorigpublisher=\count491
-\c@publisher=\count492
-\c@savedpublisher=\count493
-\c@language=\count494
-\c@savedlanguage=\count495
-\c@origlanguage=\count496
-\c@savedoriglanguage=\count497
-\c@pageref=\count498
-\c@savedpageref=\count499
-\shorthandwidth=\skip75
-\shortjournalwidth=\skip76
-\shortserieswidth=\skip77
-\shorttitlewidth=\skip78
-\shortauthorwidth=\skip79
-\shorteditorwidth=\skip80
-\locallabelnumberwidth=\skip81
-\locallabelalphawidth=\skip82
-\localshorthandwidth=\skip83
-\localshortjournalwidth=\skip84
-\localshortserieswidth=\skip85
-\localshorttitlewidth=\skip86
-\localshortauthorwidth=\skip87
-\localshorteditorwidth=\skip88
+\c@afterword=\count421
+\c@savedafterword=\count422
+\c@annotator=\count423
+\c@savedannotator=\count424
+\c@author=\count425
+\c@savedauthor=\count426
+\c@bookauthor=\count427
+\c@savedbookauthor=\count428
+\c@commentator=\count429
+\c@savedcommentator=\count430
+\c@editor=\count431
+\c@savededitor=\count432
+\c@editora=\count433
+\c@savededitora=\count434
+\c@editorb=\count435
+\c@savededitorb=\count436
+\c@editorc=\count437
+\c@savededitorc=\count438
+\c@foreword=\count439
+\c@savedforeword=\count440
+\c@holder=\count441
+\c@savedholder=\count442
+\c@introduction=\count443
+\c@savedintroduction=\count444
+\c@namea=\count445
+\c@savednamea=\count446
+\c@nameb=\count447
+\c@savednameb=\count448
+\c@namec=\count449
+\c@savednamec=\count450
+\c@translator=\count451
+\c@savedtranslator=\count452
+\c@shortauthor=\count453
+\c@savedshortauthor=\count454
+\c@shorteditor=\count455
+\c@savedshorteditor=\count456
+\c@labelname=\count457
+\c@savedlabelname=\count458
+\c@institution=\count459
+\c@savedinstitution=\count460
+\c@lista=\count461
+\c@savedlista=\count462
+\c@listb=\count463
+\c@savedlistb=\count464
+\c@listc=\count465
+\c@savedlistc=\count466
+\c@listd=\count467
+\c@savedlistd=\count468
+\c@liste=\count469
+\c@savedliste=\count470
+\c@listf=\count471
+\c@savedlistf=\count472
+\c@location=\count473
+\c@savedlocation=\count474
+\c@organization=\count475
+\c@savedorganization=\count476
+\c@origlocation=\count477
+\c@savedoriglocation=\count478
+\c@origpublisher=\count479
+\c@savedorigpublisher=\count480
+\c@publisher=\count481
+\c@savedpublisher=\count482
+\c@language=\count483
+\c@savedlanguage=\count484
+\c@origlanguage=\count485
+\c@savedoriglanguage=\count486
+\c@pageref=\count487
+\c@savedpageref=\count488
+\shorthandwidth=\skip74
+\shortjournalwidth=\skip75
+\shortserieswidth=\skip76
+\shorttitlewidth=\skip77
+\shortauthorwidth=\skip78
+\shorteditorwidth=\skip79
+\locallabelnumberwidth=\skip80
+\locallabelalphawidth=\skip81
+\localshorthandwidth=\skip82
+\localshortjournalwidth=\skip83
+\localshortserieswidth=\skip84
+\localshorttitlewidth=\skip85
+\localshortauthorwidth=\skip86
+\localshorteditorwidth=\skip87
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -1480,19 +1404,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (d:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count500
-\c@textcitetotal=\count501
-\c@textcitemaxnames=\count502
-\c@biburlbigbreakpenalty=\count503
-\c@biburlbreakpenalty=\count504
-\c@biburlnumpenalty=\count505
-\c@biburlucpenalty=\count506
-\c@biburllcpenalty=\count507
+\c@textcitecount=\count489
+\c@textcitetotal=\count490
+\c@textcitemaxnames=\count491
+\c@biburlbigbreakpenalty=\count492
+\c@biburlbreakpenalty=\count493
+\c@biburlnumpenalty=\count494
+\c@biburlucpenalty=\count495
+\c@biburllcpenalty=\count496
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count508
+\c@smartand=\count497
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1502,8 +1426,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (d:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count509
-\c@bbx:relatedtotal=\count510
+\c@bbx:relatedcount=\count498
+\c@bbx:relatedtotal=\count499
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1531,7 +1455,82 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (d:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (d:/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)) (d:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+ (d:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (d:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (d:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (d:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+ (d:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (d:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count500
+) (d:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen365
+\Hy@linkcounter=\count501
+\Hy@pagecounter=\count502
+ (d:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+) (d:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count503
+ (d:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count504
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen366
+ (d:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (d:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count505
+\Field@Width=\dimen367
+\Fld@charsize=\dimen368
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count506
+\c@Item=\count507
+\c@Hfootnote=\count508
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+ (d:/texlive/2026/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2026-04-24 v7.01q Hyperref driver for luaTeX
+\Fld@listcount=\count509
+\c@bookmark@seq@number=\count510
+ (d:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (d:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip88
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+ (d:/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip89
 \f@nch@offset@elh=\skip90
@@ -1734,14 +1733,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 99.
-(./main.out) (./main.out)
-\@outlinefile=\write5
-
-\openout5 = main.out
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (d:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(d:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: LuaTeX detected.
@@ -1777,6 +1771,11 @@ Package biblatex Warning: The following entry could not be found
 )
 Package biblatex Info: Reference section=0 on input line 99.
 Package biblatex Info: Reference segment=0 on input line 99.
+Package hyperref Info: Link coloring ON on input line 99.
+ (./main.out) (./main.out)
+\@outlinefile=\write5
+
+\openout5 = main.out
  (./chapters/titlepage.tex(load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
 (Font)              scaled to size 13.31586pt on input line 4.
@@ -1821,19 +1820,19 @@ LaTeX Font Info:    Trying loading font information for U+msb on input line 1.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1]
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 88.
+(Font)              scaled to size 6.47295pt on input line 87.
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 88.
+(Font)              scaled to size 4.62357pt on input line 87.
 (load cache: extra_lmroman7-bold.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/b/n' will be
-(Font)              scaled to size 6.47295pt on input line 91.
+(Font)              scaled to size 6.47295pt on input line 93.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/b/n' will be
-(Font)              scaled to size 6.47295pt on input line 91.
+(Font)              scaled to size 6.47295pt on input line 93.
 (load cache: extra_lmroman5-bold.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/b/n' will be
-(Font)              scaled to size 4.62357pt on input line 91.
+(Font)              scaled to size 4.62357pt on input line 93.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/b/n' will be
-(Font)              scaled to size 4.62357pt on input line 91.
+(Font)              scaled to size 4.62357pt on input line 93.
  [2] [3] [4])
 \tf@toc=\write6
 
@@ -1912,114 +1911,116 @@ LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2] [3]
 LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 165.
+(Font)              scaled to size 9.24713pt on input line 163.
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 165.
+(Font)              scaled to size 9.24713pt on input line 163.
 (load cache: extra_lmsans10-regular.luc) [4] [5] [6] [7] [8] [9] [10](load cache: extra_lmroman9-regular.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 459.
+(Font)              scaled to size 8.32242pt on input line 457.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 459.
+(Font)              scaled to size 8.32242pt on input line 457.
 (load cache: extra_lmroman9-bold.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/b/n' will be
-(Font)              scaled to size 8.32242pt on input line 519.
+(Font)              scaled to size 8.32242pt on input line 517.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/b/n' will be
-(Font)              scaled to size 8.32242pt on input line 519.
+(Font)              scaled to size 8.32242pt on input line 517.
  [11
 
 ] [12
 
 ] [13] [14] [15] [16]
-<../figure/jepx_volume_2020_2024.pdf, id=770, 617.97437pt x 401.16374pt>
+<../figure/jepx_volume_2020_2024.pdf, id=780, 617.97437pt x 401.16374pt>
 File: ../figure/jepx_volume_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_volume_2020_2024.pdf>
-Package luatex.def Info: ../figure/jepx_volume_2020_2024.pdf  used on input line 734.
+Package luatex.def Info: ../figure/jepx_volume_2020_2024.pdf  used on input line 755.
 (luatex.def)             Requested size: 398.33858pt x 258.58641pt.
-<../figure/jepx_participants_2020_2024.pdf, id=771, 617.97437pt x 401.16374pt>
+ [17]
+<../figure/jepx_participants_2020_2024.pdf, id=790, 617.97437pt x 401.16374pt>
 File: ../figure/jepx_participants_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_participants_2020_2024.pdf>
-Package luatex.def Info: ../figure/jepx_participants_2020_2024.pdf  used on input line 749.
+Package luatex.def Info: ../figure/jepx_participants_2020_2024.pdf  used on input line 775.
 (luatex.def)             Requested size: 398.33858pt x 258.58641pt.
- [17<../figure/jepx_volume_2020_2024.pdf>]
-<../figure/exit_count_2020_2024.pdf, id=816, 722.7pt x 433.62pt>
+ [18<../figure/jepx_volume_2020_2024.pdf>]
+<../figure/exit_count_2020_2024.pdf, id=836, 722.7pt x 433.62pt>
 File: ../figure/exit_count_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/exit_count_2020_2024.pdf>
-Package luatex.def Info: ../figure/exit_count_2020_2024.pdf  used on input line 765.
+Package luatex.def Info: ../figure/exit_count_2020_2024.pdf  used on input line 797.
 (luatex.def)             Requested size: 398.33858pt x 239.0012pt.
- [18<../figure/jepx_participants_2020_2024.pdf>]
-<../figure/jepx_spot_timeseries_2020_2024.pdf, id=861, 730.65158pt x 415.96176pt>
+ [19<../figure/jepx_participants_2020_2024.pdf>]
+<../figure/jepx_spot_timeseries_2020_2024.pdf, id=880, 730.65158pt x 415.96176pt>
 File: ../figure/jepx_spot_timeseries_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_spot_timeseries_2020_2024.pdf>
-Package luatex.def Info: ../figure/jepx_spot_timeseries_2020_2024.pdf  used on input line 784.
+Package luatex.def Info: ../figure/jepx_spot_timeseries_2020_2024.pdf  used on input line 821.
 (luatex.def)             Requested size: 426.79134pt x 242.97804pt.
- [19<../figure/exit_count_2020_2024.pdf>]
-<../figure/jepx_spot_hist_2020_2024.pdf, id=903, 611.7323pt x 401.82245pt>
+ [20<../figure/exit_count_2020_2024.pdf>]
+<../figure/jepx_spot_hist_2020_2024.pdf, id=925, 611.7323pt x 401.82245pt>
 File: ../figure/jepx_spot_hist_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_spot_hist_2020_2024.pdf>
-Package luatex.def Info: ../figure/jepx_spot_hist_2020_2024.pdf  used on input line 796.
+Package luatex.def Info: ../figure/jepx_spot_hist_2020_2024.pdf  used on input line 839.
 (luatex.def)             Requested size: 398.33858pt x 261.6536pt.
-<../figure/imbalance_timeseries_2020_2024.pdf, id=904, 730.36928pt x 415.96176pt>
+ [21<../figure/jepx_spot_timeseries_2020_2024.pdf>]
+<../figure/imbalance_timeseries_2020_2024.pdf, id=976, 730.36928pt x 415.96176pt>
 File: ../figure/imbalance_timeseries_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/imbalance_timeseries_2020_2024.pdf>
-Package luatex.def Info: ../figure/imbalance_timeseries_2020_2024.pdf  used on input line 815.
+Package luatex.def Info: ../figure/imbalance_timeseries_2020_2024.pdf  used on input line 868.
 (luatex.def)             Requested size: 426.79134pt x 243.07324pt.
- [20<../figure/jepx_spot_timeseries_2020_2024.pdf><../figure/jepx_spot_hist_2020_2024.pdf>]
-<../figure/alert_count_2020_2024.pdf, id=997, 605.49023pt x 401.16374pt>
+ [22<../figure/jepx_spot_hist_2020_2024.pdf>]
+<../figure/alert_count_2020_2024.pdf, id=1028, 605.49023pt x 401.16374pt>
 File: ../figure/alert_count_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/alert_count_2020_2024.pdf>
-Package luatex.def Info: ../figure/alert_count_2020_2024.pdf  used on input line 840.
+Package luatex.def Info: ../figure/alert_count_2020_2024.pdf  used on input line 896.
 (luatex.def)             Requested size: 398.33858pt x 263.92415pt.
- [21<../figure/imbalance_timeseries_2020_2024.pdf>]
-<../figure/alert_vs_price_scatter.pdf, id=1049, 612.391pt x 401.16374pt>
+ [23<../figure/imbalance_timeseries_2020_2024.pdf>]
+<../figure/alert_vs_price_scatter.pdf, id=1082, 612.391pt x 401.16374pt>
 File: ../figure/alert_vs_price_scatter.pdf Graphic file (type pdf)
 <use ../figure/alert_vs_price_scatter.pdf>
-Package luatex.def Info: ../figure/alert_vs_price_scatter.pdf  used on input line 852.
+Package luatex.def Info: ../figure/alert_vs_price_scatter.pdf  used on input line 916.
 (luatex.def)             Requested size: 398.33858pt x 260.94308pt.
- [22<../figure/alert_count_2020_2024.pdf><../figure/alert_vs_price_scatter.pdf>] [23]
-Overfull \hbox (13.78079pt too wide) in paragraph at lines 920--921
+ [24<../figure/alert_count_2020_2024.pdf>] [25<../figure/alert_vs_price_scatter.pdf>]
+Overfull \hbox (13.78079pt too wide) in paragraph at lines 991--992
  [][] 
  []
 
-[24] [25] [26] [27] [28]
-Overfull \hbox (2.03181pt too wide) in paragraph at lines 1159--1160
+[26] [27] [28] [29] [30] [31]
+Overfull \hbox (2.03181pt too wide) in paragraph at lines 1266--1267
  [][] 
  []
 
-[29] [30] [31] [32] [33]) [34]
+[32] [33] [34] [35] [36]) [37]
 \openout2 = chapters/chapter2.aux
  (./chapters/chapter2.tex
 第2章
-[35
+[38
 
 
 
 
-] [36] [37] [38] [39] [40] [41] [42] [43] [44]) [45]
+] [39] [40] [41] [42] [43] [44] [45] [46] [47]) [48] [49]
 \openout2 = chapters/chapter3.aux
  (./chapters/chapter3.tex
 第3章
-[46
+[50
 
 
 
 
-] [47]
+] [51]
 
-LaTeX Warning: Citation 'METI2021AdjustmentFee' on page 48 undefined on input line 96.
-
-
-LaTeX Warning: Citation 'OCCTO2021ImbalanceReform' on page 48 undefined on input line 96.
+LaTeX Warning: Citation 'METI2021AdjustmentFee' on page 52 undefined on input line 96.
 
 
-LaTeX Warning: Citation 'Ofgem2021PriceCapUpdate' on page 48 undefined on input line 103.
+LaTeX Warning: Citation 'OCCTO2021ImbalanceReform' on page 52 undefined on input line 96.
 
-[48]
 
-LaTeX Warning: Citation 'Ofgem2021PriceCapUpdate' on page 49 undefined on input line 125.
+LaTeX Warning: Citation 'Ofgem2021PriceCapUpdate' on page 52 undefined on input line 103.
+
+[52]
+
+LaTeX Warning: Citation 'Ofgem2021PriceCapUpdate' on page 53 undefined on input line 125.
 
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
 (Font)              scaled to size 3.69885pt on input line 144.
-[49] [50]
+[53] [54]
 LaTeX Font Info:    Calculating math sizes for size <10.79997> on input line 228.
 
 
@@ -2038,10 +2039,10 @@ LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5> not available
 (Font)              size <5> substituted on input line 228.
 
-[51] [52] [53] [54](load cache: extra_lmroman10-italic.luc)
+[55] [56] [57] [58](load cache: extra_lmroman10-italic.luc)
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
 (Font)              No change on input line 394.
- [55]
+ [59]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
 (Font)              No change on input line 400.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
@@ -2053,104 +2054,96 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
 (Font)              No change on input line 423.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 433.
+(Font)              No change on input line 437.
+ [60]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 438.
+(Font)              No change on input line 444.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 442.
- [56]
+(Font)              No change on input line 448.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 452.
+(Font)              No change on input line 463.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 457.
+(Font)              No change on input line 468.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 461.
- [57]) [58]
+(Font)              No change on input line 472.
+ [61]) [62]
 \openout2 = chapters/chapter4.aux
  (./chapters/chapter4.tex
 第4章
-[59
+[63
 
 
 
 
-] [60] [61]
-<Python/figures/multiplicative_structure.png, id=1496, 361.35pt x 216.81pt>
+] [64] [65]
+<Python/figures/multiplicative_structure.png, id=1546, 361.35pt x 216.81pt>
 File: Python/figures/multiplicative_structure.png Graphic file (type png)
 <use Python/figures/multiplicative_structure.png>
 Package luatex.def Info: Python/figures/multiplicative_structure.png  used on input line 159.
 (luatex.def)             Requested size: 150.23138pt x 90.13988pt.
-<Python/figures/log_transform.png, id=1497, 361.35pt x 216.81pt>
+<Python/figures/log_transform.png, id=1547, 361.35pt x 216.81pt>
 File: Python/figures/log_transform.png Graphic file (type png)
 <use Python/figures/log_transform.png>
 Package luatex.def Info: Python/figures/log_transform.png  used on input line 165.
 (luatex.def)             Requested size: 150.23138pt x 90.13988pt.
-<Python/figures/linear_dd.png, id=1498, 361.35pt x 216.81pt>
+<Python/figures/linear_dd.png, id=1548, 361.35pt x 216.81pt>
 File: Python/figures/linear_dd.png Graphic file (type png)
 <use Python/figures/linear_dd.png>
 Package luatex.def Info: Python/figures/linear_dd.png  used on input line 171.
 (luatex.def)             Requested size: 150.23138pt x 90.13988pt.
- [62] [63<./Python/figures/multiplicative_structure.png><./Python/figures/log_transform.png><./Python/figures/linear_dd.png>]
-<figures/dd_normal.png, id=1525, 394.1124pt x 272.9397pt>
+ [66] [67<./Python/figures/multiplicative_structure.png><./Python/figures/log_transform.png><./Python/figures/linear_dd.png>]
+<figures/dd_normal.png, id=1574, 394.1124pt x 272.9397pt>
 File: figures/dd_normal.png Graphic file (type png)
 <use figures/dd_normal.png>
-Package luatex.def Info: figures/dd_normal.png  used on input line 255.
+Package luatex.def Info: figures/dd_normal.png  used on input line 263.
 (luatex.def)             Requested size: 386.96027pt x 267.99548pt.
- [64] [65<./figures/dd_normal.png>] [66] [67]
-LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 410.
+ [68] [69<./figures/dd_normal.png>] [70] [71] [72] [73] [74]
+LaTeX Font Info:    Calculating math sizes for size <17.27994> on input line 538.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 7.76755pt on input line 410.
+(Font)              scaled to size 9.32104pt on input line 538.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 5.54828pt on input line 410.
-LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 7.76755pt on input line 410.
- [68] [69] [70] [71] [72]
-LaTeX Font Info:    Calculating math sizes for size <17.27994> on input line 614.
-LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 9.32104pt on input line 614.
-LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 6.65793pt on input line 614.
+(Font)              scaled to size 6.65793pt on input line 538.
 LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 9.32104pt on input line 614.
+(Font)              scaled to size 9.32104pt on input line 538.
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 9.32104pt on input line 614.
+(Font)              scaled to size 9.32104pt on input line 538.
 (load cache: extra_lmsans8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 6.65793pt on input line 614.
+(Font)              scaled to size 6.65793pt on input line 538.
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
-(Font)              scaled to size 6.65793pt on input line 614.
+(Font)              scaled to size 6.65793pt on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 614.
+(hyperref)                removing `math shift' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 614.
+(hyperref)                removing `subscript' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 614.
+(hyperref)                removing `math shift' on input line 538.
 
-[73]
+[75]
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 5.82565pt on input line 671.
+(Font)              scaled to size 5.82565pt on input line 586.
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 4.16121pt on input line 671.
- [74]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 729.
+(Font)              scaled to size 4.16121pt on input line 586.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 729.
+(hyperref)                removing `math shift' on input line 637.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 729.
+(hyperref)                removing `subscript' on input line 637.
 
-[75] [76] [77]) [78] [79]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 637.
+
+[76] [77] [78]) [79]
 \openout2 = chapters/chapter5.aux
  (./chapters/chapter5.tex
 第5章
@@ -2202,7 +2195,7 @@ Overfull \hbox (14.74709pt too wide) in paragraph at lines 216--233
  []
 
 [84] [85] [86] [87] [88]
-<Python/figures/fig_thresholds.png, id=1733, 1541.76pt x 1027.84pt>
+<Python/figures/fig_thresholds.png, id=1755, 1541.76pt x 1027.84pt>
 File: Python/figures/fig_thresholds.png Graphic file (type png)
 <use Python/figures/fig_thresholds.png>
 Package luatex.def Info: Python/figures/fig_thresholds.png  used on input line 510.
@@ -2233,6 +2226,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 988.
 
 [97]
+LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 1068.
+LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
+(Font)              scaled to size 7.76755pt on input line 1068.
+LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
+(Font)              scaled to size 5.54828pt on input line 1068.
 LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
 (Font)              scaled to size 7.76755pt on input line 1068.
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
@@ -2242,7 +2240,7 @@ LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 1068.
  [98] [99] [100] [101] [102](load cache: extra_lmmono10-regular.luc) [103]
-<figures/ordered_logit_stages.png, id=1857, 578.16pt x 361.35pt>
+<figures/ordered_logit_stages.png, id=1879, 578.16pt x 361.35pt>
 File: figures/ordered_logit_stages.png Graphic file (type png)
 <use figures/ordered_logit_stages.png>
 Package luatex.def Info: figures/ordered_logit_stages.png  used on input line 1529.
@@ -2302,94 +2300,94 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ] [127] [128] [129] [130] [131] [132] [133]
-<figures/interaction_mu_sigma_surface.png, id=2046, 722.7pt x 505.89pt>
+<figures/interaction_mu_sigma_surface.png, id=2069, 722.7pt x 505.89pt>
 File: figures/interaction_mu_sigma_surface.png Graphic file (type png)
 <use figures/interaction_mu_sigma_surface.png>
 Package luatex.def Info: figures/interaction_mu_sigma_surface.png  used on input line 402.
 (luatex.def)             Requested size: 364.19667pt x 254.93593pt.
  [134<./figures/interaction_mu_sigma_surface.png>]
-<figures/interaction_S_D_surface.png, id=2057, 722.7pt x 505.89pt>
+<figures/interaction_S_D_surface.png, id=2080, 722.7pt x 505.89pt>
 File: figures/interaction_S_D_surface.png Graphic file (type png)
 <use figures/interaction_S_D_surface.png>
 Package luatex.def Info: figures/interaction_S_D_surface.png  used on input line 431.
 (luatex.def)             Requested size: 364.19667pt x 254.93593pt.
  [135<./figures/interaction_S_D_surface.png>] [136]
-<figures/surface_caseA_centered.png, id=2072, 578.16pt x 433.62pt>
+<figures/surface_caseA_centered.png, id=2094, 578.16pt x 433.62pt>
 File: figures/surface_caseA_centered.png Graphic file (type png)
 <use figures/surface_caseA_centered.png>
 Package luatex.def Info: figures/surface_caseA_centered.png  used on input line 549.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [137]
-<figures/surface_caseB_centered.png, id=2079, 578.16pt x 433.62pt>
+<figures/surface_caseB_centered.png, id=2101, 578.16pt x 433.62pt>
 File: figures/surface_caseB_centered.png Graphic file (type png)
 <use figures/surface_caseB_centered.png>
 Package luatex.def Info: figures/surface_caseB_centered.png  used on input line 566.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [138<./figures/surface_caseA_centered.png>]
-<figures/surface_caseC_centered.png, id=2087, 578.16pt x 433.62pt>
+<figures/surface_caseC_centered.png, id=2109, 578.16pt x 433.62pt>
 File: figures/surface_caseC_centered.png Graphic file (type png)
 <use figures/surface_caseC_centered.png>
 Package luatex.def Info: figures/surface_caseC_centered.png  used on input line 582.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [139<./figures/surface_caseB_centered.png>]
-<figures/surface_caseD_centered.png, id=2095, 578.16pt x 433.62pt>
+<figures/surface_caseD_centered.png, id=2117, 578.16pt x 433.62pt>
 File: figures/surface_caseD_centered.png Graphic file (type png)
 <use figures/surface_caseD_centered.png>
 Package luatex.def Info: figures/surface_caseD_centered.png  used on input line 599.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [140<./figures/surface_caseC_centered.png>]
-<figures/surface_caseE_centered.png, id=2103, 578.16pt x 433.62pt>
+<figures/surface_caseE_centered.png, id=2125, 578.16pt x 433.62pt>
 File: figures/surface_caseE_centered.png Graphic file (type png)
 <use figures/surface_caseE_centered.png>
 Package luatex.def Info: figures/surface_caseE_centered.png  used on input line 617.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [141<./figures/surface_caseD_centered.png>]
-<figures/surface_caseF_centered.png, id=2111, 578.16pt x 433.62pt>
+<figures/surface_caseF_centered.png, id=2133, 578.16pt x 433.62pt>
 File: figures/surface_caseF_centered.png Graphic file (type png)
 <use figures/surface_caseF_centered.png>
 Package luatex.def Info: figures/surface_caseF_centered.png  used on input line 633.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [142<./figures/surface_caseE_centered.png>]
-<figures/surface_diff_B_minus_C.png, id=2120, 578.16pt x 433.62pt>
+<figures/surface_diff_B_minus_C.png, id=2142, 578.16pt x 433.62pt>
 File: figures/surface_diff_B_minus_C.png Graphic file (type png)
 <use figures/surface_diff_B_minus_C.png>
 Package luatex.def Info: figures/surface_diff_B_minus_C.png  used on input line 664.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [143<./figures/surface_caseF_centered.png>] [144<./figures/surface_diff_B_minus_C.png>]
-<figures/surface_diff_F_minus_E.png, id=2142, 578.16pt x 433.62pt>
+<figures/surface_diff_F_minus_E.png, id=2164, 578.16pt x 433.62pt>
 File: figures/surface_diff_F_minus_E.png Graphic file (type png)
 <use figures/surface_diff_F_minus_E.png>
 Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 734.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [145] [146<./figures/surface_diff_F_minus_E.png>] [147] [148]
-<figures/bs_surface_caseA.png, id=2170, 578.16pt x 433.62pt>
+<figures/bs_surface_caseA.png, id=2192, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseA.png Graphic file (type png)
 <use figures/bs_surface_caseA.png>
 Package luatex.def Info: figures/bs_surface_caseA.png  used on input line 905.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseB.png, id=2171, 578.16pt x 433.62pt>
+<figures/bs_surface_caseB.png, id=2193, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseB.png Graphic file (type png)
 <use figures/bs_surface_caseB.png>
 Package luatex.def Info: figures/bs_surface_caseB.png  used on input line 915.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [149<./figures/bs_surface_caseA.png>]
-<figures/bs_surface_caseC.png, id=2180, 578.16pt x 433.62pt>
+<figures/bs_surface_caseC.png, id=2203, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseC.png Graphic file (type png)
 <use figures/bs_surface_caseC.png>
 Package luatex.def Info: figures/bs_surface_caseC.png  used on input line 925.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseD.png, id=2181, 578.16pt x 433.62pt>
+<figures/bs_surface_caseD.png, id=2204, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseD.png Graphic file (type png)
 <use figures/bs_surface_caseD.png>
 Package luatex.def Info: figures/bs_surface_caseD.png  used on input line 935.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [150<./figures/bs_surface_caseB.png><./figures/bs_surface_caseC.png>]
-<figures/bs_surface_caseE.png, id=2192, 578.16pt x 433.62pt>
+<figures/bs_surface_caseE.png, id=2215, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseE.png Graphic file (type png)
 <use figures/bs_surface_caseE.png>
 Package luatex.def Info: figures/bs_surface_caseE.png  used on input line 945.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseF.png, id=2193, 578.16pt x 433.62pt>
+<figures/bs_surface_caseF.png, id=2216, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseF.png Graphic file (type png)
 <use figures/bs_surface_caseF.png>
 Package luatex.def Info: figures/bs_surface_caseF.png  used on input line 955.
@@ -2434,7 +2432,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 150.
 
 [157] [158] [159]
-<Python/figures/sign_surface_p_combined.png, id=2249, 936.6192pt x 277.2759pt>
+<Python/figures/sign_surface_p_combined.png, id=2271, 936.6192pt x 277.2759pt>
 File: Python/figures/sign_surface_p_combined.png Graphic file (type png)
 <use Python/figures/sign_surface_p_combined.png>
 Package luatex.def Info: Python/figures/sign_surface_p_combined.png  used on input line 346.
@@ -2449,18 +2447,18 @@ Package luatex.def Info: Python/figures/sign_surface_p_combined.png  used on inp
 
 
 ] [164] [165] [166]
-<Python/figures/firm_probabilities_by_y_star.png, id=2294, 650.43pt x 361.35pt>
+<Python/figures/firm_probabilities_by_y_star.png, id=2316, 650.43pt x 361.35pt>
 File: Python/figures/firm_probabilities_by_y_star.png Graphic file (type png)
 <use Python/figures/firm_probabilities_by_y_star.png>
 Package luatex.def Info: Python/figures/firm_probabilities_by_y_star.png  used on input line 270.
 (luatex.def)             Requested size: 386.96027pt x 214.98111pt.
-<Python/figures/p2_trend.png, id=2296, 867.24pt x 433.62pt>
+<Python/figures/p2_trend.png, id=2318, 867.24pt x 433.62pt>
 File: Python/figures/p2_trend.png Graphic file (type png)
 <use Python/figures/p2_trend.png>
 Package luatex.def Info: Python/figures/p2_trend.png  used on input line 279.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
  [167<./Python/figures/firm_probabilities_by_y_star.png>]
-<Python/figures/p2_with_estimated_bankruptcies.png, id=2306, 867.24pt x 433.62pt>
+<Python/figures/p2_with_estimated_bankruptcies.png, id=2329, 867.24pt x 433.62pt>
 File: Python/figures/p2_with_estimated_bankruptcies.png Graphic file (type png)
 <use Python/figures/p2_with_estimated_bankruptcies.png>
 Package luatex.def Info: Python/figures/p2_with_estimated_bankruptcies.png  used on input line 299.
@@ -2473,13 +2471,13 @@ Package luatex.def Info: Python/figures/p2_with_estimated_bankruptcies.png  used
 
 
 ]
-<figures/Bankruptcy_probability_of_Merton_model_with_Z.png, id=2323, 1004.0712pt x 425.6703pt>
+<figures/Bankruptcy_probability_of_Merton_model_with_Z.png, id=2346, 1004.0712pt x 425.6703pt>
 File: figures/Bankruptcy_probability_of_Merton_model_with_Z.png Graphic file (type png)
 <use figures/Bankruptcy_probability_of_Merton_model_with_Z.png>
 Package luatex.def Info: figures/Bankruptcy_probability_of_Merton_model_with_Z.png  used on input line 73.
 (luatex.def)             Requested size: 386.96027pt x 164.0492pt.
  [171<./figures/Bankruptcy_probability_of_Merton_model_with_Z.png>] [172] [173]
-<figures/Bankruptcy_probability_of_New_Power_sec1.png, id=2345, 939.51pt x 289.08pt>
+<figures/Bankruptcy_probability_of_New_Power_sec1.png, id=2367, 939.51pt x 289.08pt>
 File: figures/Bankruptcy_probability_of_New_Power_sec1.png Graphic file (type png)
 <use figures/Bankruptcy_probability_of_New_Power_sec1.png>
 Package luatex.def Info: figures/Bankruptcy_probability_of_New_Power_sec1.png  used on input line 246.
@@ -2494,7 +2492,7 @@ Package luatex.def Info: figures/Bankruptcy_probability_of_New_Power_sec1.png  u
 ] [176] [177] [178]) [179]
 \openout2 = chapters/appendix_C.aux
  (./chapters/appendix_C.tex
-<figures/contour_caseA.png, id=2380, 505.89pt x 433.62pt>
+<figures/contour_caseA.png, id=2402, 505.89pt x 433.62pt>
 File: figures/contour_caseA.png Graphic file (type png)
 <use figures/contour_caseA.png>
 Package luatex.def Info: figures/contour_caseA.png  used on input line 30.
@@ -2505,31 +2503,31 @@ Package luatex.def Info: figures/contour_caseA.png  used on input line 30.
 
 
 ]
-<figures/contour_caseB.png, id=2385, 505.89pt x 433.62pt>
+<figures/contour_caseB.png, id=2407, 505.89pt x 433.62pt>
 File: figures/contour_caseB.png Graphic file (type png)
 <use figures/contour_caseB.png>
 Package luatex.def Info: figures/contour_caseB.png  used on input line 37.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
  [181<./figures/contour_caseA.png>]
-<figures/contour_caseC.png, id=2392, 505.89pt x 433.62pt>
+<figures/contour_caseC.png, id=2414, 505.89pt x 433.62pt>
 File: figures/contour_caseC.png Graphic file (type png)
 <use figures/contour_caseC.png>
 Package luatex.def Info: figures/contour_caseC.png  used on input line 45.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
  [182<./figures/contour_caseB.png>]
-<figures/contour_caseD.png, id=2399, 505.89pt x 433.62pt>
+<figures/contour_caseD.png, id=2421, 505.89pt x 433.62pt>
 File: figures/contour_caseD.png Graphic file (type png)
 <use figures/contour_caseD.png>
 Package luatex.def Info: figures/contour_caseD.png  used on input line 53.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
  [183<./figures/contour_caseC.png>]
-<figures/contour_caseE.png, id=2407, 505.89pt x 433.62pt>
+<figures/contour_caseE.png, id=2429, 505.89pt x 433.62pt>
 File: figures/contour_caseE.png Graphic file (type png)
 <use figures/contour_caseE.png>
 Package luatex.def Info: figures/contour_caseE.png  used on input line 61.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
  [184<./figures/contour_caseD.png>]
-<figures/contour_caseF.png, id=2414, 505.89pt x 433.62pt>
+<figures/contour_caseF.png, id=2436, 505.89pt x 433.62pt>
 File: figures/contour_caseF.png Graphic file (type png)
 <use figures/contour_caseF.png>
 Package luatex.def Info: figures/contour_caseF.png  used on input line 68.
@@ -2552,19 +2550,19 @@ Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 
 
 
 ] [190]
-<figures/coef_comparison.png, id=2454, 578.16pt x 361.35pt>
+<figures/coef_comparison.png, id=2477, 578.16pt x 361.35pt>
 File: figures/coef_comparison.png Graphic file (type png)
 <use figures/coef_comparison.png>
 Package luatex.def Info: figures/coef_comparison.png  used on input line 197.
 (luatex.def)             Requested size: 364.19667pt x 227.61862pt.
  [191]
-<figures/roc_comparison.png, id=2467, 505.89pt x 361.35pt>
+<figures/roc_comparison.png, id=2489, 505.89pt x 361.35pt>
 File: figures/roc_comparison.png Graphic file (type png)
 <use figures/roc_comparison.png>
 Package luatex.def Info: figures/roc_comparison.png  used on input line 220.
 (luatex.def)             Requested size: 364.19667pt x 260.14423pt.
  [192<./figures/coef_comparison.png>]
-<figures/scatter_true_vs_pred.png, id=2479, 505.89pt x 361.35pt>
+<figures/scatter_true_vs_pred.png, id=2501, 505.89pt x 361.35pt>
 File: figures/scatter_true_vs_pred.png Graphic file (type png)
 <use figures/scatter_true_vs_pred.png>
 Package luatex.def Info: figures/scatter_true_vs_pred.png  used on input line 241.
@@ -2625,7 +2623,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 102.
 
-<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2536, 867.24pt x 289.08pt>
+<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2558, 867.24pt x 289.08pt>
 File: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf Graphic file (type pdf)
 <use D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>
 Package luatex.def Info: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf  used on input line 109.
@@ -2664,7 +2662,7 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
 (Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
@@ -2690,10 +2688,6 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
 (Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 139.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
@@ -2721,12 +2715,10 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 139.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
  [206]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 139.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 139.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
@@ -2757,19 +2749,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51921 strings out of 475900
+ 51910 strings out of 475900
  244624,2373549 words of node,token memory allocated
- 7410 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 75 glue, 4 kern, 1 glyph, 2733 attribute, 107 glue_spec, 260 attribute_list, 2 write, 13 user_defined, 10 pdf_action nodes
-   avail lists: 1:36,2:66208,3:2235,4:629,5:290,6:114,7:5981,8:86,9:2734,10:49,11:215
- 72118 multiletter control sequences out of 65536+600000
+ 7627 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 82 glue, 4 kern, 1 glyph, 2810 attribute, 107 glue_spec, 267 attribute_list, 2 write, 13 user_defined, 10 pdf_action nodes
+   avail lists: 1:36,2:66199,3:2235,4:629,5:290,6:111,7:6483,8:86,9:2924,10:49,11:234
+ 72101 multiletter control sequences out of 65536+600000
  184 fonts using 108600351 bytes
  119i,19n,115p,2066b,2380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (215 pages, 14735088 bytes).
+Output written on main.pdf (215 pages, 14742154 bytes).
 
-PDF statistics: 2853 PDF objects out of 2984 (max. 8388607)
- 2175 compressed objects within 22 object streams
- 731 named destinations out of 1000 (max. 1048576)
+PDF statistics: 2876 PDF objects out of 2984 (max. 8388607)
+ 2198 compressed objects within 22 object streams
+ 737 named destinations out of 1000 (max. 1048576)
  872 words of extra memory for PDF output out of 10000 (max. 100000000)
 

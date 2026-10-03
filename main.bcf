@@ -2438,14 +2438,11 @@
     <bcf:citekey order="38" intorder="1">CampbellHilscherSzilagyi2008</bcf:citekey>
     <bcf:citekey order="39" intorder="1">TinocoWilson2013</bcf:citekey>
     <bcf:citekey order="40" intorder="1">CharalambakisGarrett2019</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">Campbell2008</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Tinoco2013</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">Charalambakis2019</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">Merton1974</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">McFadden1974</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">Amemiya1981</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">McKelveyZavoina1975</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">Bharath2008</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Merton1974</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">McFadden1974</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">Amemiya1981</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">McKelveyZavoina1975</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Bharath2008</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

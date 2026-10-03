@@ -311,52 +311,8 @@
       \strng{authornamehash}{059ebbc6d5129111fc50b0974650f37e}
       \strng{authorfullhash}{059ebbc6d5129111fc50b0974650f37e}
       \strng{authorfullhashraw}{059ebbc6d5129111fc50b0974650f37e}
-      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Finance}
-      \field{number}{6}
-      \field{title}{In Search of Distress Risk}
-      \field{volume}{63}
-      \field{year}{2008}
-      \field{pages}{2899\bibrangedash 2939}
-      \range{pages}{41}
-    \endentry
-    \entry{Campbell2008}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=b7ec0e33525f8b94af88e38cc709b02d}{%
-           family={Campbell},
-           familyi={C\bibinitperiod},
-           given={John\bibnamedelima Y.},
-           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-        {{hash=59f287dde7c3a399b971ae20b2a4de14}{%
-           family={Hilscher},
-           familyi={H\bibinitperiod},
-           given={Jens},
-           giveni={J\bibinitperiod}}}%
-        {{hash=3122946440da8d0a3d20845b79fb6d30}{%
-           family={Szilagyi},
-           familyi={S\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{059ebbc6d5129111fc50b0974650f37e}
-      \strng{fullhash}{059ebbc6d5129111fc50b0974650f37e}
-      \strng{fullhashraw}{059ebbc6d5129111fc50b0974650f37e}
-      \strng{bibnamehash}{059ebbc6d5129111fc50b0974650f37e}
-      \strng{authorbibnamehash}{059ebbc6d5129111fc50b0974650f37e}
-      \strng{authornamehash}{059ebbc6d5129111fc50b0974650f37e}
-      \strng{authorfullhash}{059ebbc6d5129111fc50b0974650f37e}
-      \strng{authorfullhashraw}{059ebbc6d5129111fc50b0974650f37e}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -390,10 +346,8 @@
       \strng{authornamehash}{1fee208c8eca5ead9a65e3e77a48271a}
       \strng{authorfullhash}{1fee208c8eca5ead9a65e3e77a48271a}
       \strng{authorfullhashraw}{1fee208c8eca5ead9a65e3e77a48271a}
-      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -404,42 +358,6 @@
       \field{year}{2019}
       \field{pages}{101\bibrangedash 120}
       \range{pages}{20}
-    \endentry
-    \entry{Charalambakis2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=71e15353d9261426733dfcea39f11212}{%
-           family={Charalambakis},
-           familyi={C\bibinitperiod},
-           given={Evangelos\bibnamedelima C.},
-           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=29109d998814e23d29b37099008406ff}{%
-           family={Garrett},
-           familyi={G\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \strng{fullhash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \strng{fullhashraw}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \strng{bibnamehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \strng{authorbibnamehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \strng{authornamehash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \strng{authorfullhash}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \strng{authorfullhashraw}{cd7f417e4f86ad09d8f591cbf5c0b7f7}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Corporate Finance}
-      \field{title}{On the prediction of corporate financial distress in the light of the financial crisis}
-      \field{volume}{58}
-      \field{year}{2019}
-      \field{pages}{431\bibrangedash 453}
-      \range{pages}{23}
     \endentry
     \entry{BEIS2021PriceCapReview}{report}{}{}
       \name{author}{1}{}{%
@@ -902,43 +820,6 @@
       \verb 10.1007/978-3-319-67355-4_3
       \endverb
     \endentry
-    \entry{Tinoco2013}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=bcc37cf4936d2eeb48dae1fcaa7398c0}{%
-           family={Tinoco},
-           familyi={T\bibinitperiod},
-           given={Mario\bibnamedelima H.},
-           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=1bd19c90d4e2060319ebfe6e7ca6e199}{%
-           family={Wilson},
-           familyi={W\bibinitperiod},
-           given={Nick},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{4080bdd169e9a0f64c97001be49236f7}
-      \strng{fullhash}{4080bdd169e9a0f64c97001be49236f7}
-      \strng{fullhashraw}{4080bdd169e9a0f64c97001be49236f7}
-      \strng{bibnamehash}{4080bdd169e9a0f64c97001be49236f7}
-      \strng{authorbibnamehash}{4080bdd169e9a0f64c97001be49236f7}
-      \strng{authornamehash}{4080bdd169e9a0f64c97001be49236f7}
-      \strng{authorfullhash}{4080bdd169e9a0f64c97001be49236f7}
-      \strng{authorfullhashraw}{4080bdd169e9a0f64c97001be49236f7}
-      \field{extraname}{1}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Banking and Finance}
-      \field{number}{8}
-      \field{title}{Financial distress and bankruptcy prediction among listed companies using accounting, market and macroeconomic variables}
-      \field{volume}{37}
-      \field{year}{2013}
-      \field{pages}{2892\bibrangedash 2904}
-      \range{pages}{13}
-    \endentry
     \entry{TinocoWilson2013}{article}{}{}
       \name{author}{2}{}{%
         {{hash=bcc37cf4936d2eeb48dae1fcaa7398c0}{%
@@ -960,10 +841,8 @@
       \strng{authornamehash}{4080bdd169e9a0f64c97001be49236f7}
       \strng{authorfullhash}{4080bdd169e9a0f64c97001be49236f7}
       \strng{authorfullhashraw}{4080bdd169e9a0f64c97001be49236f7}
-      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}

@@ -37,26 +37,7 @@
 \usepackage{subcaption}
 \captionsetup{font=small, labelfont=bf}
 
-% ハイパーリンク
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    citecolor=blue,
-    urlcolor=blue,
-    pdfborder={0 0 0}
-    }
-
-\pdfstringdefDisableCommands{
-  \def\beta{beta}
-  \def\sigma{sigma}
-  \def\mu{mu}
-  \def\varepsilon{epsilon}
-  \def\Zlin{Zlin}
-}
-
-
-% 参考文献
+% 参考文献（biblatex を先に読み込む）
 \usepackage[
     backend=biber,
     style=authoryear,
@@ -66,6 +47,25 @@
     uniquelist=false
 ]{biblatex}
 \addbibresource{references.bib}
+
+% ハイパーリンク（hyperref は必ず後）
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    pdfborder={0 0 0}
+}
+
+\pdfstringdefDisableCommands{
+  \def\beta{beta}
+  \def\sigma{sigma}
+  \def\mu{mu}
+  \def\varepsilon{epsilon}
+  \def\Zlin{Zlin}
+}
+
 
 % fancyhdr
 \usepackage{fancyhdr}
