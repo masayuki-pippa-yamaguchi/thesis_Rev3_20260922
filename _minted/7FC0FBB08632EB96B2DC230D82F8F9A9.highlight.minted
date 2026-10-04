@@ -1,0 +1,37 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} electricity\PYGZus{}sigma\PYGZus{}proxy.py}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+
+\PYG{c+c1}{\PYGZsh{} CSV 読み込み}
+\PYG{n}{df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}electricity\PYGZhy{}prices\PYGZhy{}day\PYGZhy{}a.csv\PYGZdq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} 列名を整形}
+\PYG{n}{df}\PYG{o}{.}\PYG{n}{columns} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}price\PYGZdq{}}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{} 日付を datetime に変換}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{to\PYGZus{}datetime}\PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{} 年月だけにする（YYYY\PYGZhy{}MM）}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}year\PYGZus{}month\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{dt}\PYG{o}{.}\PYG{n}{to\PYGZus{}period}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}M\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{astype}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} 時系列順に並べ替え}
+\PYG{n}{df} \PYG{o}{=} \PYG{n}{df}\PYG{o}{.}\PYG{n}{sort\PYGZus{}values}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{reset\PYGZus{}index}\PYG{p}{(}\PYG{n}{drop}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} \PYGZhy{}\PYGZhy{}\PYGZhy{} σ の代理変数を作成 \PYGZhy{}\PYGZhy{}\PYGZhy{}}
+
+\PYG{c+c1}{\PYGZsh{} ① 前月比（変動率）}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}pct\PYGZus{}change\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}price\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{pct\PYGZus{}change}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} ② 前月差（絶対変動幅）}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}abs\PYGZus{}change\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}price\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{diff}\PYG{p}{()}\PYG{o}{.}\PYG{n}{abs}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} ③ 過去3ヶ月の移動標準偏差（Rolling Std）}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}roll\PYGZus{}std\PYGZus{}3m\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}price\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{rolling}\PYG{p}{(}\PYG{n}{window}\PYG{o}{=}\PYG{l+m+mi}{3}\PYG{p}{)}\PYG{o}{.}\PYG{n}{std}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} 2013〜2023 の期間だけ抽出（研究対象期間）}
+\PYG{n}{df\PYGZus{}period} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{]} \PYG{o}{\PYGZgt{}=} \PYG{l+s+s2}{\PYGZdq{}2013\PYGZhy{}01\PYGZhy{}01\PYGZdq{}}\PYG{p}{)} \PYG{o}{\PYGZam{}} \PYG{p}{(}\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{]} \PYG{o}{\PYGZlt{}=} \PYG{l+s+s2}{\PYGZdq{}2023\PYGZhy{}12\PYGZhy{}31\PYGZdq{}}\PYG{p}{)]}
+
+\PYG{c+c1}{\PYGZsh{} 結果を CSV に保存}
+\PYG{n}{df\PYGZus{}period}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}electricity\PYGZus{}sigma\PYGZus{}proxy\PYGZus{}2013\PYGZus{}2023.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{MintedVerbatim}

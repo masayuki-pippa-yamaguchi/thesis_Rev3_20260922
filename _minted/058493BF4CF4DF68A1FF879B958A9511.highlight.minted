@@ -1,0 +1,40 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{numpy}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{np}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{matplotlib.pyplot}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{plt}
+\PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{scipy.special}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{expit}  \PYG{c+c1}{\PYGZsh{} ロジットCDF}
+
+\PYG{c+c1}{\PYGZsh{} Ordered Logit の推定結果（あなたの結果を手入力）}
+\PYG{n}{beta\PYGZus{}mu} \PYG{o}{=} \PYG{l+m+mf}{9.822e\PYGZhy{}07}
+\PYG{n}{beta\PYGZus{}D}  \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.000769}
+
+\PYG{n}{tau\PYGZus{}01} \PYG{o}{=} \PYG{l+m+mf}{0.4464}
+\PYG{n}{tau\PYGZus{}12} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.9635}
+\PYG{n}{tau\PYGZus{}23} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.3568}
+
+\PYG{c+c1}{\PYGZsh{} 線形予測子 xβ の範囲（UK企業は係数が小さいため \PYGZhy{}1〜1 で十分）}
+\PYG{n}{xb} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{300}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} ロジットCDF}
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{F}\PYG{p}{(}\PYG{n}{z}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{expit}\PYG{p}{(}\PYG{n}{z}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} 各カテゴリの確率}
+\PYG{n}{P0} \PYG{o}{=} \PYG{n}{F}\PYG{p}{(}\PYG{n}{tau\PYGZus{}01} \PYG{o}{\PYGZhy{}} \PYG{n}{xb}\PYG{p}{)}
+\PYG{n}{P1} \PYG{o}{=} \PYG{n}{F}\PYG{p}{(}\PYG{n}{tau\PYGZus{}12} \PYG{o}{\PYGZhy{}} \PYG{n}{xb}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{F}\PYG{p}{(}\PYG{n}{tau\PYGZus{}01} \PYG{o}{\PYGZhy{}} \PYG{n}{xb}\PYG{p}{)}
+\PYG{n}{P2} \PYG{o}{=} \PYG{n}{F}\PYG{p}{(}\PYG{n}{tau\PYGZus{}23} \PYG{o}{\PYGZhy{}} \PYG{n}{xb}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{F}\PYG{p}{(}\PYG{n}{tau\PYGZus{}12} \PYG{o}{\PYGZhy{}} \PYG{n}{xb}\PYG{p}{)}
+\PYG{n}{P3} \PYG{o}{=} \PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}} \PYG{n}{F}\PYG{p}{(}\PYG{n}{tau\PYGZus{}23} \PYG{o}{\PYGZhy{}} \PYG{n}{xb}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} 描画}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{figure}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{))}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{xb}\PYG{p}{,} \PYG{n}{P0}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Stage 0 (Active)\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{xb}\PYG{p}{,} \PYG{n}{P1}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Stage 1 (Administration)\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{xb}\PYG{p}{,} \PYG{n}{P2}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Stage 2 (Liquidation)\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{xb}\PYG{p}{,} \PYG{n}{P3}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Stage 3 (Dissolved)\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{xlabel}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Latent variable xβ\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{ylabel}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Probability\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{title}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Ordered Logit Probability Curves (UK New Power Companies)\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{legend}\PYG{p}{()}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{grid}\PYG{p}{(}\PYG{k+kc}{True}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+\end{MintedVerbatim}

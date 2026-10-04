@@ -1,0 +1,54 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} merge\PYGZus{}status\PYGZus{}and\PYGZus{}dates.py}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+
+\PYG{n}{status\PYGZus{}df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}status.csv\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{dates\PYGZus{}df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}dates.csv\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{merged\PYGZus{}df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{merge}\PYG{p}{(}
+    \PYG{n}{status\PYGZus{}df}\PYG{p}{,}
+    \PYG{n}{dates\PYGZus{}df}\PYG{p}{,}
+    \PYG{n}{on}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}id\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}name\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}number\PYGZdq{}}\PYG{p}{],}
+    \PYG{n}{how}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}left\PYGZdq{}}
+\PYG{p}{)}
+
+\PYG{n}{merged\PYGZus{}df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}start\PYGZus{}date\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{merged\PYGZus{}df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}start\PYGZus{}date\PYGZus{}y\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{fillna}\PYG{p}{(}
+    \PYG{n}{merged\PYGZus{}df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}start\PYGZus{}date\PYGZus{}x\PYGZdq{}}\PYG{p}{]}
+\PYG{p}{)}
+
+\PYG{n}{merged\PYGZus{}df}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}status\PYGZus{}merged.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\PYGZbs{}\PYG{n}{end}\PYG{p}{\PYGZob{}}\PYG{n}{lstlisting}\PYG{p}{\PYGZcb{}}
+
+\PYG{n}{倒産ステージは以下のルールで付与した}\PYG{err}{。}
+
+\PYGZbs{}\PYG{n}{begin}\PYG{p}{\PYGZob{}}\PYG{n}{itemize}\PYG{p}{\PYGZcb{}}
+\PYGZbs{}\PYG{n}{item} \PYG{l+m+mi}{0}\PYG{err}{：}\PYG{n}{active}
+\PYGZbs{}\PYG{n}{item} \PYG{l+m+mi}{1}\PYG{err}{：}\PYG{n}{administration} \PYG{n}{および} \PYG{n}{insolvency}\PYG{o}{\PYGZhy{}}\PYG{n}{proceedings}
+\PYGZbs{}\PYG{n}{item} \PYG{l+m+mi}{2}\PYG{err}{：}\PYG{n}{liquidation}
+\PYGZbs{}\PYG{n}{item} \PYG{l+m+mi}{3}\PYG{err}{：}\PYG{n}{dissolved}
+\PYGZbs{}\PYG{n}{end}\PYG{p}{\PYGZob{}}\PYG{n}{itemize}\PYG{p}{\PYGZcb{}}
+
+\PYGZbs{}\PYG{n}{begin}\PYG{p}{\PYGZob{}}\PYG{n}{lstlisting}\PYG{p}{\PYGZcb{}[}\PYG{n}{language}\PYG{o}{=}\PYG{n}{Python}\PYG{p}{]}
+\PYG{c+c1}{\PYGZsh{} add\PYGZus{}failure\PYGZus{}stage.py}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+
+\PYG{n}{df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}status\PYGZus{}merged.csv\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{assign\PYGZus{}stage}\PYG{p}{(}\PYG{n}{status}\PYG{p}{):}
+    \PYG{n}{s} \PYG{o}{=} \PYG{n+nb}{str}\PYG{p}{(}\PYG{n}{status}\PYG{p}{)}\PYG{o}{.}\PYG{n}{lower}\PYG{p}{()}
+    \PYG{k}{if} \PYG{n}{s} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}active\PYGZdq{}}\PYG{p}{:}
+        \PYG{k}{return} \PYG{l+m+mi}{0}
+    \PYG{k}{elif} \PYG{n}{s} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}insolvency\PYGZhy{}proceedings\PYGZdq{}}\PYG{p}{]:}
+        \PYG{k}{return} \PYG{l+m+mi}{1}
+    \PYG{k}{elif} \PYG{n}{s} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}liquidation\PYGZdq{}}\PYG{p}{:}
+        \PYG{k}{return} \PYG{l+m+mi}{2}
+    \PYG{k}{elif} \PYG{n}{s} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}dissolved\PYGZdq{}}\PYG{p}{:}
+        \PYG{k}{return} \PYG{l+m+mi}{3}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{k}{return} \PYG{k+kc}{None}
+
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}failure\PYGZus{}stage\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}status\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{apply}\PYG{p}{(}\PYG{n}{assign\PYGZus{}stage}\PYG{p}{)}
+\PYG{n}{df}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}status\PYGZus{}with\PYGZus{}stage.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{MintedVerbatim}

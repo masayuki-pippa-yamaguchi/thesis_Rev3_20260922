@@ -326,12 +326,11 @@ Ordered Logit モデルが倒産の前兆を適切に捉えていることがわ
 \end{itemize}
 
 ---
-
 % ============================================================
 % 9.7 英国市場への拡張（枠組み）
 % ============================================================
 
-\section{英国市場への拡張（枠組み）}
+\section{英国市場への拡張}
 
 本研究の日本企業分析を英国市場へ拡張することで，
 倒産距離モデルおよび Ordered Logit 推定のロバスト性を検証できる。
@@ -350,4 +349,950 @@ Ordered Logit モデルが倒産の前兆を適切に捉えていることがわ
 
 本節では枠組みのみを提示し，
 詳細な推定は第10章（英国企業分析）にて示す。
+
+% ============================================================
+% 9.8 英国企業分析の方針と具体的進め方（仮配置）
+% ============================================================
+
+\subsection{英国企業分析プロセスの全体構成：四要素モデルの実証的写像と倒産ステータスの取得}
+\label{sec:uk_analysis_full_process}
+
+本節では，英国企業を対象とした倒産リスク分析のための実証プロセスを体系的に整理する。
+日本企業分析で構築した四要素モデル（収益性 $\mu$，外部ショック感応度 $\sigma$，
+支援能力 $S$，倒産閾値 $D$）を英国企業データへ写像するためには，財務データの整備に加え，
+倒産ステータス（Active, Administration, Liquidation, Dissolved）の取得と時系列化が不可欠である。
+以下では，英国企業分析の全体プロセスを 6 段階に分けて示す。
+
+\textbf{(1) 財務データの収集とパネル化}\\
+Companies House に公開されている財務諸表（Balance Sheet, Profit and Loss 等）を取得し，
+1998--2025 年の企業別パネルデータを構築する。企業ごとに項目名の揺れが大きいため，
+総資産・総負債・自己資本・長期負債などの主要項目を共通の財務指標へ正規化する。
+
+\textbf{(2) 倒産ステータスの取得と倒産日の特定}\\
+英国企業の倒産ステータスは Companies House の ``company status'' により，
+Active, In administration, Liquidation, Dissolved の 4 区分で把握できる。
+本研究では，Administration 開始日を倒産日として採用し，以下のルールで倒産ステージを構築する。
+\begin{itemize}
+    \item Active：存続状態（ステージ 0）
+    \item In administration：倒産発生（ステージ 1）
+    \item Liquidation：清算段階（ステージ 2）
+    \item Dissolved：法人消滅（ステージ 3）
+\end{itemize}
+企業ごとに倒産日を特定し，財務データの年月と突き合わせて時系列パネルへ統合する。
+
+\textbf{(3) 四要素の定義：英国企業への写像}\\
+日本企業分析で得られた知見を踏まえ，英国企業では以下の定義を採用する。
+
+\subparagraph{収益性 $\mu$}
+総資産の対数差分（log-diff）を用いる。
+
+
+\[
+\mu_{i,t} = \log(\text{TotalAssets}_{i,t}) - \log(\text{TotalAssets}_{i,t-1})
+\]
+
+
+
+\subparagraph{外部ショック感応度 $\sigma$}:
+英国卸電力市場（Elexon, Nord Pool 等）の価格変動を外部ショックの主要因とみなし，
+市場価格の標準偏差を $\sigma$ の proxy とする。
+財務データからショック感応度を推定する方法は不確実性が高いため，
+日本企業分析と同様に市場価格ボラティリティを採用する。
+
+\subparagraph{支援能力 $S$}:
+日本企業では支援の実態把握が困難であったため採用しなかったが，
+英国企業では親会社の財務規模や資本構成を Companies House から把握できる。
+本研究では，親会社の総資産規模・自己資本比率をもとに支援余力の proxy を構築する。
+
+\subparagraph{倒産閾値 $D$}:
+負債比率（総負債／総資産）を倒産閾値の proxy とする点は日本企業と共通である。
+
+\textbf{(4) 英国版倒産距離 $Z_{\text{lin}}$ の構築}\\
+以上の四要素を統合し，英国企業の倒産距離を以下の線形構造で定義する。
+
+
+\[
+Z_{\text{lin},i,t}
+= \beta_\mu \mu_{i,t}
++ \beta_\sigma \sigma_{t}
++ \beta_S S_{i,t}
++ \beta_D D_{i,t}
++ \varepsilon_{i,t}.
+\]
+
+
+ここで $\sigma_t$ は市場全体のショック指標，$S_{i,t}$ は企業固有の支援余力，
+$\mu_{i,t}$ および $D_{i,t}$ は財務データに基づく企業固有の指標である。
+
+\textbf{(5) データ統合と解析用パネルの完成}\\
+財務データ，倒産ステータス，市場価格データ，親会社情報を統合し，
+企業 $i$ × 年月 $t$ のパネルデータを完成させる。
+欠損値は NA として統一し，年度間比較可能な形式へ整形する。
+
+\textbf{(6) Ordered Logit による倒産段階の推定}\\
+目的変数として倒産ステージ（0--3）を用い，
+説明変数として四要素（$\mu, \sigma, S, D$）を投入し，
+Ordered Logit モデルにより倒産段階の推定を行う。
+これにより，理論モデルで導出した倒産距離の構造が，
+英国企業の倒産リスクにどのように反映されるかを実証的に検証できる。
+
+以上のプロセスにより，英国企業の倒産リスクを理論モデルと整合的に分析するための
+実証的枠組みが確立される。
+
+\section*{9.X　英国新電力企業データ構築プロセスの概要}
+
+本研究では、英国新電力企業の倒産リスクを分析するために、企業レベルの財務データと倒産ステージ情報を統合したパネルデータを構築した。本節では、データ収集および整形のプロセスを、Python プログラムファイル名とともに整理する。
+
+\subsection*{9.X.1　企業別 B/S の tidy 化と統合（\texttt{financial\_data\_uk.csv}）}
+
+まず、各企業の貸借対照表（B/S）および関連財務情報を、企業ごとに tidy データへ変換した。元の Excel／CSV ファイルから、年度・項目名・金額を縦持ち形式に変換し、欠損値や表記揺れを統一したうえで、企業別に整形した。
+
+これらの企業別 tidy データは、Python を用いて 1 つの統合ファイル \texttt{financial\_data\_uk.csv} にまとめた。この統合処理の役割を担うスクリプトが、以下の \texttt{build\_financial\_data\_uk.py} である。
+
+\vspace{1em} % ← lstlisting の前に空行を入れると安全
+\iffalse
+\begin{lstlisting}[language=Python]
+# build_financial_data_uk.py
+
+import pandas as pd
+import glob
+
+files = glob.glob("data_uk_tidy/*.csv")
+
+df_list = []
+for f in files:
+    tmp = pd.read_csv(f)
+    df_list.append(tmp)
+
+financial_df = pd.concat(df_list, ignore_index=True)
+financial_df.to_csv("financial_data_uk.csv", index=False)
+\end{lstlisting}
+\fi
+この段階で、企業 ID・年度・主要財務指標（売上高、総資産、負債、自己資本など）が整然と並んだ、分析用の基礎データが得られている。
+
+
+
+\subsection*{9.X.2　Companies House API による企業ステータス取得（company\_status.csv）}
+
+次に、英国政府の企業情報データベースである Companies House の REST API を用いて、各企業の法的ステータス（active, administration, liquidation, dissolved 等）を取得した。
+
+この処理は、Python スクリプト \texttt{get\_company\_status\_api.py} によって実装されている。同ファイルでは、事前に定義した企業リスト（company\_id, company\_name, company\_number）をもとに、Companies House API の
+\texttt{/company/\{company\_number\}} エンドポイントへアクセスし、\texttt{company\_status} および必要に応じて \texttt{date\_of\_cessation} を取得し、\texttt{company\_status.csv} として保存している。
+
+
+\begin{minted}{python}
+# get_company_status_api.py
+
+import requests
+import pandas as pd
+
+API_KEY = "（取得した API キー）"
+
+companies = [
+    ("ENG014", "Bulb Energy Ltd", "08469555"),
+    # …略…
+]
+
+def get_status(company_number):
+    url = f"https://api.company-information.service.gov.uk/company/{company_number}"
+    r = requests.get(url, auth=(API_KEY, ""))
+    data = r.json()
+    return data.get("company_status"), data.get("date_of_cessation")
+
+records = []
+for cid, name, number in companies:
+    status, cessation = get_status(number)
+    records.append([cid, name, number, status, cessation])
+
+df = pd.DataFrame(records, columns=[
+    "company_id", "company_name", "company_number",
+    "company_status", "administration_start_date"
+])
+df.to_csv("company_status.csv", index=False)
+\end{minted}
+
+
+\subsection*{9.X.3　filing history からの Administration 開始日の抽出（administration\_dates.csv）}
+
+倒産分析においては、「いつ倒産プロセスに入ったか」という時点情報が重要である。Companies House のメイン API では、すべての企業について倒産開始日が直接得られるわけではないため、提出書類履歴（filing history）を用いて Administration 開始日を抽出した。
+
+この処理は、Python スクリプト \texttt{get\_administration\_date.py} によって実装されている。
+
+
+\begin{minted}{python}
+# get_administration_date.py
+
+import requests
+import pandas as pd
+
+API_KEY = "（同上）"
+
+def get_administration_date(company_number):
+    url = f"https://api.company-information.service.gov.uk/company/{company_number}/filing-history"
+    r = requests.get(url, auth=(API_KEY, ""))
+    data = r.json()
+
+    admin_keywords = [
+        "administrator", "administration",
+        "appointment of administrators",
+        "notice of administrator",
+        "administration order",
+        "in administration"
+    ]
+
+    for item in data.get("items", []):
+        desc = item.get("description", "").lower()
+        date = item.get("date", None)
+        if any(k in desc for k in admin_keywords):
+            return date
+    return None
+\end{minted}
+
+
+\subsection*{9.X.4　企業ステータスと倒産日情報の統合・倒産ステージ付与}
+
+最後に、\texttt{company\_status.csv} と \texttt{administration\_dates.csv} を統合し、倒産ステージ（failure\_stage）を付与した。統合処理は \texttt{merge\_status\_and\_dates.py} によって行われ、倒産ステージ付与は \texttt{add\_failure\_stage.py} によって行われる。
+
+
+\begin{minted}{python}
+# merge_status_and_dates.py
+
+import pandas as pd
+
+status_df = pd.read_csv("company_status.csv")
+dates_df = pd.read_csv("administration_dates.csv")
+
+merged_df = pd.merge(
+    status_df,
+    dates_df,
+    on=["company_id", "company_name", "company_number"],
+    how="left"
+)
+
+merged_df["administration_start_date"] = merged_df["administration_start_date_y"].fillna(
+    merged_df["administration_start_date_x"]
+)
+
+merged_df.to_csv("company_status_merged.csv", index=False)
+\end{lstlisting}
+
+倒産ステージは以下のルールで付与した。
+
+\begin{itemize}
+\item 0：active
+\item 1：administration および insolvency-proceedings
+\item 2：liquidation
+\item 3：dissolved
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+# add_failure_stage.py
+
+import pandas as pd
+
+df = pd.read_csv("company_status_merged.csv")
+
+def assign_stage(status):
+    s = str(status).lower()
+    if s == "active":
+        return 0
+    elif s in ["administration", "insolvency-proceedings"]:
+        return 1
+    elif s == "liquidation":
+        return 2
+    elif s == "dissolved":
+        return 3
+    else:
+        return None
+
+df["failure_stage"] = df["company_status"].apply(assign_stage)
+df.to_csv("company_status_with_stage.csv", index=False)
+\end{minted}
+
+以上の処理により、企業 ID・企業名・企業番号に加え、法的ステータス、倒産開始日、倒産ステージが整理された。本データは、後続の Ordered Logit モデルにおける目的変数として用いる。
+
+
+\subsection*{英国卸電力価格データの取得と加工}
+
+本研究では、英国新電力企業の倒産リスクを分析するにあたり、企業財務データに加えて、
+市場環境を表す外生的変数として、英国卸電力市場のスポット価格（Day-Ahead Baseload）の
+月次平均値を用いる。これらのデータは、英国エネルギー規制当局 Ofgem が公開する
+Wholesale Market Indicators（WMI）に含まれている。
+
+
+\subsubsection*{Ofgem データポータルからのデータ取得}
+
+2024 年以降、Ofgem は旧来の PDF 公開方式を廃止し、すべての市場指標を
+インタラクティブチャート形式で提供している。
+そのため、過去研究で参照されてきた PDF はすべて削除されており、
+現在は以下のデータポータルから CSV を直接ダウンロードする必要がある。
+
+
+\begin{itemize}
+  \item Ofgem Data Portal: \url{https://www.ofgem.gov.uk/data-portal}
+\end{itemize}
+
+
+データポータルにアクセスし、``Wholesale market indicators'' を選択すると、
+複数の市場指標がチャート形式で表示される。
+本研究で必要とするのは、以下のチャートである。
+
+\begin{quote}
+\textbf{Electricity prices: day-ahead baseload contracts -- monthly average (Great Britain)}
+\end{quote}
+
+このチャート右上に ``Download CSV'' ボタンがあり、これを押すことで
+2010 年以降の月次スポット価格データを CSV 形式で取得できる。
+本研究では、この CSV ファイル（electricity-prices-day-a.csv）を用いる。
+
+
+\subsubsection*{データ整形と標準化処理}
+
+ダウンロードした CSV は、日付と価格の 2 列から構成されており、
+そのままでは分析に用いることができないため、以下の処理を施した。
+
+\begin{enumerate}
+  \item 日付を \texttt{datetime} 型に変換し、年月（YYYY-MM）を抽出する。
+  \item 時系列順に並べ替える。
+  \item 月次価格の変動性を表す代理変数（$\sigma$ の代替指標）を生成する。
+\end{enumerate}
+
+本研究では、月次データの性質を踏まえ、以下の 3 種類の代理変数を採用した。
+
+\begin{itemize}
+  \item 前月比（変動率）：$\displaystyle \frac{P_t - P_{t-1}}{P_{t-1}}$
+  \item 絶対変動幅：$\displaystyle |P_t - P_{t-1}|$
+  \item 過去 3 ヶ月の移動標準偏差：$\mathrm{std}(P_{t-2}, P_{t-1}, P_t)$
+\end{itemize}
+
+これらは、価格ショックの大きさや市場の不安定性を捉えるための指標として、
+倒産リスクモデルにおいて広く用いられている。
+
+\subsubsection*{Python による加工処理}
+
+上記の処理は、以下の Python スクリプトを用いて実行した。
+ファイル名は研究の再現性確保のため、冒頭に明記している。
+
+\begin{minted}{python}
+# electricity_sigma_proxy.py
+
+import pandas as pd
+
+# CSV 読み込み
+df = pd.read_csv("electricity-prices-day-a.csv")
+
+# 列名を整形
+df.columns = ["date", "price"]
+
+# 日付を datetime に変換
+df["date"] = pd.to_datetime(df["date"])
+
+# 年月だけにする（YYYY-MM）
+df["year_month"] = df["date"].dt.to_period("M").astype(str)
+
+# 時系列順に並べ替え
+df = df.sort_values("date").reset_index(drop=True)
+
+# --- σ の代理変数を作成 ---
+
+# ① 前月比（変動率）
+df["pct_change"] = df["price"].pct_change()
+
+# ② 前月差（絶対変動幅）
+df["abs_change"] = df["price"].diff().abs()
+
+# ③ 過去3ヶ月の移動標準偏差（Rolling Std）
+df["roll_std_3m"] = df["price"].rolling(window=3).std()
+
+# 2013〜2023 の期間だけ抽出（研究対象期間）
+df_period = df[(df["date"] >= "2013-01-01") & (df["date"] <= "2023-12-31")]
+
+# 結果を CSV に保存
+df_period.to_csv("electricity_sigma_proxy_2013_2023.csv", index=False)
+\end{minted}
+
+この処理により、研究対象期間（2013--2023 年）の
+月次スポット価格とその変動性指標を含むデータセット
+\texttt{electricity\_sigma\_proxy\_2013\_2023.csv} が得られた。
+このデータは、後述する倒産データとの結合、およびロジット推定に用いる。
+
+
+\subsection*{Data Construction and Preprocessing}
+
+本研究では，英国新電力企業の倒産リスクを推定するために，
+企業属性データ，財務データ，および市場ショック指標（電力価格変動）を統合した
+企業 $\times$ 年のパネルデータを構築した。
+本節では，データ整備の各ステップと使用した Python スクリプトを整理する。
+
+\subsubsection*{Step 1: Company Status Data Cleaning}
+
+企業の倒産ステージ（active, administration, liquidation, dissolved）および
+倒産開始日（administration start date）を含む
+\texttt{company\_status\_with\_stage.csv} を基礎データとした。
+
+しかし，元データには以下の問題が存在した：
+
+\begin{itemize}
+  \item ESB Energy（ENG010）と ESB Energy Retail Ltd（ENG025）が同一の会社番号を持つ重複企業である。
+  \item Avro Energy Ltd（ENG015）と Avro Energy Trading Ltd（ENG029）が同一の会社番号を持つ重複企業である。
+  \item CSV 内に不可視文字や空行が含まれており，結合時に多対多結合を引き起こす。
+\end{itemize}
+
+これらを解消するため，以下の Python スクリプト
+\texttt{company\_status\_clean\_final.py} を用いて
+重複企業の統合・削除およびクリーニングを行った。
+
+\begin{quote}
+\textbf{Python file:} \texttt{company\_status\_clean\_final.py}
+\end{quote}
+
+\begin{verbatim}
+df = pd.read_csv("company_status_with_stage.csv")
+df["company_id"] = df["company_id"].astype(str).str.strip()
+df["company_number"] = df["company_number"].astype(str).str.strip()
+
+# Remove ENG025
+df = df[df["company_id"] != "ENG025"]
+
+# Remove duplicated Avro companies and keep ENG015
+df = df[df["company_number"] != "09174794"]
+df_avro = pd.DataFrame([...])
+df = pd.concat([df, df_avro], ignore_index=True)
+
+df = df.drop_duplicates()
+df = df.drop_duplicates(subset=["company_id"], keep="first")
+df.to_csv("company_status_with_stage_clean_final.csv", index=False)
+\end{verbatim}
+
+この処理により，企業数は 36 社から 34 社へ整理された。
+
+\subsubsection*{Step 2: Electricity Price Shock (σ) Construction}
+
+市場ショック指標として，英国電力スポット価格の月次データを用い，
+以下の 3 種類の変動指標を作成した：
+
+
+
+\[
+\text{pct\_change},\quad
+\text{abs\_change},\quad
+\text{roll\_std\_3m}
+\]
+
+
+
+これらは \texttt{electricity\_sigma\_proxy.py} により計算した。
+
+月次データはそのままでは企業年次データと多対多結合を起こすため，
+\texttt{merge\_failure\_sigma.py} 内で年次平均に変換した。
+
+\begin{quote}
+\textbf{Python file:} \texttt{merge\_failure\_sigma.py}
+\end{quote}
+
+\begin{verbatim}
+df_sigma["year"] = pd.to_datetime(df_sigma["date"]).dt.year
+df_sigma_yearly = df_sigma.groupby("year", as_index=False).agg({
+    "pct_change": "mean",
+    "abs_change": "mean",
+    "roll_std_3m": "mean"
+})
+\end{verbatim}
+
+\subsubsection*{Step 3: Constructing the Firm-Year Panel}
+
+企業数 34 社，期間 2013--2023 年の企業 $\times$ 年パネルを生成し，
+倒産年から $t-1, t-2, t-3$ を計算した。
+
+\begin{verbatim}
+years = list(range(2013, 2023 + 1))
+panel = pd.DataFrame([(cid, y) for cid in companies for y in years],
+                     columns=["company_id", "year"])
+df_panel = panel.merge(df_status[["company_id","failure_year","failure_stage"]],
+                       on="company_id", how="left")
+\end{verbatim}
+
+次に，年次化した σ 指標を結合した。
+
+\begin{verbatim}
+df_panel = df_panel.merge(df_sigma_yearly, on="year", how="left")
+
+df_panel = df_panel.merge(
+    df_sigma_yearly.rename({...}),
+    on="t_minus_1", how="left"
+)
+...
+\end{verbatim}
+
+最終的に，企業 34 社 × 11 年 = 374 行の
+完全な企業年次パネル \texttt{panel\_failure\_sigma.csv} が得られた。
+
+\subsubsection*{Summary}
+
+以上の処理により，本研究の倒産分析に必要な
+「企業属性 × 倒産ステージ × 市場ショック」の
+基礎パネルデータが整備された。
+
+次節では，財務データから収益性指標 $\mu$ と負債負担指標 $D$ を構築し，
+本パネルに統合する。
+
+\subsection*{Construction of Financial Variables: Profitability $\mu$ and Leverage $D$}
+
+本節では，英国新電力企業の財務データから，
+収益性指標 $\mu$ と負債負担指標 $D$ を構築する。
+これらは，日本企業を対象とした既存研究（Merton 型近似および Bharath \& Shumway (2008)）と
+同一の定義を用いる。
+
+\subsubsection*{Step 1: Tidy Financial Data}
+
+財務データは企業名，年度，財務項目（item），値（value）からなる tidy 形式であり，
+\texttt{financial\_data\_uk\_tidy.csv} として整理した。
+各企業・各年度・各項目が一意となるように重複行を除去している。
+
+\subsubsection*{Step 2: Required Financial Items}
+
+倒産距離の構築に必要となる財務項目は以下の 3 つである。
+
+
+
+\[
+\text{EBIT},\quad
+\text{TotalAssets},\quad
+\text{TotalLiabilities}
+\]
+
+
+
+これらを抽出し，企業 $\times$ 年の wide 形式に変換した。
+
+\begin{quote}
+\textbf{Python file:} \texttt{compute\_mu\_D.py}
+\end{quote}
+
+\begin{verbatim}
+df_fin = df_fin[df_fin["item"].isin(
+    ["TotalAssets", "TotalLiabilities", "EBIT"]
+)]
+df_fin_wide = df_fin.pivot_table(
+    index=["company","year"], columns="item", values="value"
+).reset_index()
+\end{verbatim}
+
+\subsubsection*{Step 3: Definition of $\mu$ and $D$}
+
+日本企業分析と同様に，収益性 $\mu$ と負債負担 $D$ を次式で定義する。
+
+
+
+\[
+\mu_{i,t} = \frac{\text{EBIT}_{i,t}}{\text{TotalAssets}_{i,t}}
+\]
+
+
+
+
+
+\[
+D_{i,t} = \frac{\text{TotalLiabilities}_{i,t}}{\text{TotalAssets}_{i,t}}
+\]
+
+
+
+Python による計算は以下のとおりである。
+
+\begin{verbatim}
+df_fin_wide["mu"] = df_fin_wide["EBIT"] / df_fin_wide["TotalAssets"]
+df_fin_wide["D"]  = df_fin_wide["TotalLiabilities"] / df_fin_wide["TotalAssets"]
+\end{verbatim}
+
+\subsubsection*{Step 4: Integration with Failure-Sigma Panel}
+
+企業 ID を付与した後，前節で構築した
+「倒産ステージ × 市場ショック（σ）」パネル
+\texttt{panel\_failure\_sigma.csv} と結合し，
+最終的な企業年次パネル \texttt{panel\_failure\_sigma\_mu\_D.csv} を得た。
+
+\begin{verbatim}
+df_final = df_panel.merge(
+    df_fin_wide[["company_id","year","mu","D"]],
+    on=["company_id","year"], how="left"
+)
+\end{verbatim}
+
+このパネルは，次節のロジット推定において，
+倒産確率の説明変数として用いる。
+
+\subsection*{Discussion on the Construction of Profitability $\mu$ for UK Firms}
+
+本研究では，日本企業の倒産リスク分析において，
+収益性指標 $\mu$ を EBIT（営業利益）を用いて次式で定義した。
+
+
+
+\[
+\mu_{i,t}^{(\text{JP})}
+= \frac{\text{EBIT}_{i,t}}{\text{TotalAssets}_{i,t}}.
+\]
+
+
+
+しかし，英国新電力企業の財務データを整理する過程で，
+日本企業と同様の損益計算書（P/L）項目を取得することが困難であるという
+構造的な問題が明らかとなった。
+以下では，その理由と本研究における対応方針を整理する。
+
+\subsection*{Absence of P/L Items in the Tidy UK Financial Dataset}
+
+英国企業の財務情報は Companies House により公開されており，
+PDF 形式の \textit{Full accounts} には損益計算書（Income Statement）が含まれる。
+しかし，API や XBRL を通じて取得可能なデータは貸借対照表（Balance Sheet）項目が中心であり，
+損益計算書の主要項目（Operating profit, Profit before tax, EBITDA 等）は
+API では提供されない。
+
+本研究で tidy 化した財務データ \texttt{financial\_data\_uk\_tidy.csv} に含まれる項目を確認したところ，
+以下のように貸借対照表項目のみが存在し，
+損益計算書項目は含まれていなかった。
+
+\begin{quote}
+\textit{TotalAssets, TotalLiabilities, Equity, CurrentAssets, FixedAssets, Debtors, Creditors, RetainedEarnings, ...}
+\end{quote}
+
+したがって，日本企業分析で用いた EBIT を英国企業に対して同様に構築することは，
+現時点では不可能である。
+
+\subsection*{Proxy Construction of Profitability $\mu$ Using Balance Sheet Items}
+
+卒論指導までの期間を考慮すると，
+PDF から損益計算書項目を抽出し tidy 化する作業は多大な時間を要する。
+そこで本研究では，まずは貸借対照表項目のみを用いて，
+収益性指標 $\mu$ の代理変数を構築する方針を採用する。
+
+貸借対照表において，企業の累積的な収益力を最も反映する項目は Equity（純資産）である。
+Equity は過年度の利益剰余金を含むため，
+企業の財務的健全性および収益力の代理指標として広く用いられている。
+
+以上を踏まえ，本研究では英国企業の収益性指標を次式で定義する。
+
+
+
+\[
+\mu_{i,t}^{(\text{UK})}
+= \frac{\text{Equity}_{i,t}}{\text{TotalAssets}_{i,t}}.
+\]
+
+
+
+これは日本企業分析で用いた EBIT/TotalAssets とは意味が異なるものの，
+貸借対照表のみから構築可能であり，
+企業の財務健全性と収益力を反映する代理変数として妥当である。
+
+\subsection*{今後の課題: P/L を使った精緻化}
+
+なお，英国企業の PDF 版 \textit{Full accounts} には損益計算書が含まれており，
+Operating profit や Profit before tax を抽出することで，
+日本企業分析と同様の EBIT ベースの収益性指標を構築することが可能である。
+
+卒論指導では以下の点を今後の課題として提示する。
+
+\begin{itemize}
+  \item PDF から損益計算書項目（Operating profit, Profit before tax 等）を抽出し tidy 化する。
+  \item EBIT を再構築し，日本企業分析と同一の定義による $\mu$ を導入する。
+  \item 代理変数としての $\mu_{i,t}^{(\text{UK})}$ と比較し，推定結果の頑健性を検証する。
+\end{itemize}
+
+以上の方針により，本研究は卒論指導までに英国企業の倒産リスク分析を
+一定の完成度で提示しつつ，
+今後の精緻化の方向性も明確に示すことができる。
+
+\subsection*{英国企業データの整備と Ordered Logit 推定}
+
+本研究では、日本企業に対して実施した倒産リスク分析と同一の枠組みを英国新電力企業に適用するため、Companies House に公開されている財務諸表（Balance Sheet）を収集し、企業ごとに異なる項目名を正規化したうえで、財務指標を構築した。本節では、英国企業データの整備過程、項目名の正規化、欠損値処理、分析用 CSV の生成、そして Ordered Logit 推定の実装について記録する。
+
+\subsubsection*{英国企業の財務諸表項目のばらつきと正規化}
+英国企業の財務諸表は、同じ Balance Sheet であっても企業ごとに項目名が大きく異なる。例えば、純資産（Equity）に相当する項目は、企業によって
+\begin{itemize}
+    \item Equity
+    \item TotalEquity
+    \item ShareholdersFunds
+    \item NetAssets
+    \item RetainedEarnings
+    \item ShareCapital, SharePremium
+\end{itemize}
+など複数の名称で記載されている。また、総資産（TotalAssets）や総負債（TotalLiabilities）についても、企業ごとに
+\begin{itemize}
+    \item TotalAssets, Total\_assets, TotalCurrentAssets, TotalFixedAssets
+    \item TotalLiabilities, Total\_liabilities, CurrentLiabilitiesWithin1Y, CreditorsWithinOneYear
+\end{itemize}
+など多様な表記が存在した。
+
+本研究では、三十数社の財務諸表を対象に、PDF・XBRL 由来の項目名をすべて抽出し、約 100 種類以上の項目名を確認した。そのうち、倒産リスク指標の構築に必要な
+
+
+\[
+\text{Equity},\quad \text{TotalAssets},\quad \text{TotalLiabilities}
+\]
+
+
+に該当する項目を完全に網羅し、正規化辞書を作成した。
+
+さらに、企業ごとに表記ゆれ（大文字・小文字、アンダースコア、複合語）が存在するため、最終的には「部分一致」による正規化を採用した。以下は最終的に採用した正規化コードである。
+
+\begin{verbatim}
+# 部分一致による項目名の正規化（最終版）
+def classify_item(item):
+    item_lower = item.lower()
+
+    if ("equity" in item_lower or "netassets" in item_lower or
+        "retained" in item_lower or "sharecapital" in item_lower or
+        "sharepremium" in item_lower or "profitandloss" in item_lower):
+        return "Equity"
+
+    if ("asset" in item_lower or "currentassets" in item_lower or
+        "fixedassets" in item_lower or "intangibleassets" in item_lower or
+        "totalassets" in item_lower):
+        return "TotalAssets"
+
+    if ("liabil" in item_lower or "creditor" in item_lower or
+        "payable" in item_lower or "tradepayables" in item_lower or
+        "totalcurrentliabilities" in item_lower):
+        return "TotalLiabilities"
+
+    return item
+\end{verbatim}
+
+この正規化により、全企業の財務諸表項目が
+
+
+\[
+\text{Equity},\quad \text{TotalAssets},\quad \text{TotalLiabilities}
+\]
+
+
+の 3 種類に統一され、倒産リスク指標の計算が可能となった。
+
+\subsubsection*{欠損値処理と分析用 CSV の生成}
+英国企業の財務諸表は、企業規模が小さい場合や提出形式が簡易版（abridged accounts）の場合、項目が欠損していることが多い。特に、TotalAssets が欠損している場合には
+
+
+\[
+\mu_{\text{proxy}} = \frac{\text{Equity}}{\text{TotalAssets}},\qquad
+D = \frac{\text{TotalLiabilities}}{\text{TotalAssets}}
+\]
+
+
+が計算できないため、これらは欠損値（NaN）として処理した。
+
+また、年度の表記に「2013-Dec」「2014-Mar」など月情報が含まれていたため、先頭 4 桁のみ抽出して整数の年度に変換した。
+
+最終的に、以下の Python コードにより、Ordered Logit 推定に必要な
+
+
+\[
+\text{company\_id},\ \text{year},\ \mu_{\text{proxy}},\ D,\ \text{failure\_stage}
+\]
+
+
+を含む分析用 CSV（\texttt{panel\_failure\_sigma\_mu\_D\_proxy\_clean.csv}）を生成した。
+
+\begin{verbatim}
+df_fin["year"] = df_fin["year"].astype(str).str[:4].astype(int)
+df_final_clean = df_final.dropna(subset=["mu_proxy", "D"])
+df_final_clean.to_csv("panel_failure_sigma_mu_D_proxy_clean.csv", index=False)
+\end{verbatim}
+
+この処理により、Ordered Logit 推定に使用可能な 183 行の完全データが得られた。
+
+\subsubsection*{Ordered Logit 推定の Python コード}
+倒産ステージ（0＝Active、1＝Administration、2＝Liquidation、3＝Dissolved）を目的変数とし、説明変数として
+
+
+\[
+\mu_{\text{proxy}},\quad D
+\]
+
+
+を用いた Ordered Logit モデルを推定した。推定に用いた Python コードは以下の通りである。
+
+\begin{verbatim}
+import pandas as pd
+import numpy as np
+from statsmodels.miscmodels.ordinal_model import OrderedModel
+
+df = pd.read_csv("panel_failure_sigma_mu_D_proxy_clean.csv")
+
+df["failure_stage"] = pd.to_numeric(df["failure_stage"],
+                                    errors="coerce").astype("Int64")
+df = df.dropna(subset=["failure_stage"])
+df = df.replace([np.inf, -np.inf], np.nan)
+
+df2 = df[["failure_stage", "mu_proxy", "D"]].dropna()
+
+X = df2[["mu_proxy", "D"]]
+y = df2["failure_stage"].astype(int)
+
+model = OrderedModel(y, X, distr='logit')
+res = model.fit(method='bfgs')
+
+print(res.summary())
+\end{verbatim}
+
+\subsubsection*{Ordered Logit 推定結果（表形式）}
+
+推定結果は表 \ref{tab:ordered_logit_results} の通りである。
+
+\begin{table}[H]
+\centering
+\caption{Ordered Logit 推定結果}
+\label{tab:ordered_logit_results}
+\begin{tabular}{lrrrrr}
+\hline
+変数 & 係数 & 標準誤差 & z値 & p値 & 95\%CI下限--上限 \\
+\hline
+mu\_proxy & 9.82e-07 & 1.31e-05 & 0.075 & 0.940 & -2.46e-05 -- 2.66e-05 \\
+D & -0.000769 & 0.000582 & -1.320 & 0.187 & -0.002 -- 0.000 \\
+cutpoint 0/1 & 0.4464 & 0.158 & 2.830 & 0.005 & 0.137 -- 0.756 \\
+cutpoint 1/2 & -0.9635 & 0.248 & -3.878 & 0.000 & -1.450 -- -0.477 \\
+cutpoint 2/3 & -0.3568 & 0.204 & -1.752 & 0.080 & -0.756 -- 0.042 \\
+\hline
+\end{tabular}
+\end{table}
+
+また、オッズ比は表 \ref{tab:ordered_logit_odds} の通りである。
+
+\begin{table}[H]
+\centering
+\caption{Ordered Logit 推定結果：オッズ比}
+\label{tab:ordered_logit_odds}
+\begin{tabular}{lrr}
+\hline
+変数 & 係数 & オッズ比 \\
+\hline
+mu\_proxy & 9.82e-07 & 1.000001 \\
+D & -0.000769 & 0.999231 \\
+cutpoint 0/1 & 0.4464 & 1.562651 \\
+cutpoint 1/2 & -0.9635 & 0.381543 \\
+cutpoint 2/3 & -0.3568 & 0.699936 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection*{推定結果の解釈}
+推定結果より、$\mu_{\text{proxy}}$ の係数は $9.8\times10^{-7}$（p＝0.94）、$D$ の係数は $-0.0008$（p＝0.19）となり、いずれも統計的に有意ではなかった。これは、英国新電力企業の倒産ステージが財務指標によって説明されないことを示している。
+
+英国新電力企業は資産規模が小さく、財務指標が狭い範囲に集中するため、倒産ステージの進行に対する説明力が弱い。また、倒産は主として卸電力価格の急騰、価格キャップ制度、供給義務、ヘッジ不足など制度的・市場的要因によって発生するため、財務指標が倒産ステージを説明しないことは合理的である。
+
+以上の結果を踏まえ、英国新電力企業の倒産リスクは財務指標よりも制度的要因や市場構造に依存している可能性が高いことが示唆される。
+
+\subsection*{Ordered Logit に基づく倒産ステージ確率曲線の描画}
+
+Ordered Logit モデルでは、潜在変数 $x\beta$ に対して各カテゴリの発生確率
+
+
+\[
+P(Y=k \mid x) = \Lambda(\tau_k - x\beta) - \Lambda(\tau_{k-1} - x\beta)
+\]
+
+
+を計算できる。本研究では、推定された係数（$\beta$）および cutpoint（$\tau_k$）を用いて、
+倒産ステージ（0, 1, 2, 3）の確率曲線を描画した。
+
+以下は、推定結果に基づき確率曲線を描画する Python コードである。
+
+\begin{minted}{python}
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.special import expit  # ロジットCDF
+
+# Ordered Logit の推定結果（あなたの結果を手入力）
+beta_mu = 9.822e-07
+beta_D  = -0.000769
+
+tau_01 = 0.4464
+tau_12 = -0.9635
+tau_23 = -0.3568
+
+# 線形予測子 xβ の範囲（UK企業は係数が小さいため -1〜1 で十分）
+xb = np.linspace(-1, 1, 300)
+
+# ロジットCDF
+def F(z):
+    return expit(z)
+
+# 各カテゴリの確率
+P0 = F(tau_01 - xb)
+P1 = F(tau_12 - xb) - F(tau_01 - xb)
+P2 = F(tau_23 - xb) - F(tau_12 - xb)
+P3 = 1 - F(tau_23 - xb)
+
+# 描画
+plt.figure(figsize=(8,6))
+plt.plot(xb, P0, label="Stage 0 (Active)")
+plt.plot(xb, P1, label="Stage 1 (Administration)")
+plt.plot(xb, P2, label="Stage 2 (Liquidation)")
+plt.plot(xb, P3, label="Stage 3 (Dissolved)")
+
+plt.xlabel("Latent variable xβ")
+plt.ylabel("Probability")
+plt.title("Ordered Logit Probability Curves (UK New Power Companies)")
+plt.legend()
+plt.grid(True)
+plt.show()
+\end{minted}
+
+\subsubsection*{Ordered Logit に基づく倒産ステージ確率曲線の解釈}
+
+図 \ref{fig:ordered_logit_uk} は、Ordered Logit モデルに基づき、
+潜在変数 $x\beta$ に対する倒産ステージ（0＝Active、1＝Administration、
+2＝Liquidation、3＝Dissolved）の発生確率を描画したものである。
+
+潜在変数 $x\beta$ は、
+
+
+\[
+x\beta = \beta_{\mu} \cdot \mu_{\text{proxy}} + \beta_D \cdot D
+\]
+
+
+で表され、企業の財務状態を 1 次元に圧縮した指標と解釈できる。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\linewidth]{ordered_logit_probability_curves_uk.png}
+    \caption{Ordered Logit に基づく倒産ステージ確率曲線（英国新電力企業）}
+    \label{fig:ordered_logit_uk}
+\end{figure}
+
+図より、ステージ0（Active）の確率は $x\beta$ が低いほど高く、
+$x\beta$ の上昇とともに低下する。一方、ステージ3（Dissolved）の確率は
+$x\beta$ の上昇とともに増加しており、財務状態が悪化すると倒産ステージが
+進行するという Ordered Logit モデルの基本構造が確認できる。
+
+ステージ1（Administration）およびステージ2（Liquidation）の確率は
+全体として低く、ほぼ平坦である。これは、英国新電力企業の倒産ステージが
+財務指標によって決定されるのではなく、Administration から Liquidation、
+さらに Dissolved へと制度的に進行するためである。
+
+本研究の推計結果では、$\mu_{\text{proxy}}$ および $D$ の係数は
+いずれも統計的に有意ではなく、財務指標が倒産ステージを説明しないことが
+示された。一方、cutpoint（閾値）パラメータは有意であり、倒産ステージの
+境界は統計的に識別されている。したがって、図に示された確率曲線は、
+財務指標の影響が弱い一方で、倒産ステージの制度的構造が明確に存在する
+ことを視覚的に示している。
+
+なお、本研究では、英国企業の財務諸表に損益計算書（P/L）が含まれていない
+ため、収益性指標 $\mu$ を貸借対照表（B/S）に基づく代理変数
+
+
+\[
+\mu_{\text{proxy}} = \frac{\text{Equity}}{\text{TotalAssets}}
+\]
+
+
+として構築した。本来、$\mu$ は営業利益（Operating Profit）や
+EBIT を用いて定義されるべき指標であり、資産価値の期待成長率をより適切に
+反映する。したがって、P/L の抽出と整備を行い、営業利益に基づく
+$\mu$ を用いた推計を実施することは、本分析のさらなる精緻化に向けた
+重要な課題である。今後の研究では、PDF 形式で公開されている P/L の
+体系的な抽出・正規化を進め、より理論的に整合的な収益性指標を用いた
+倒産リスク分析を行う予定である。
 

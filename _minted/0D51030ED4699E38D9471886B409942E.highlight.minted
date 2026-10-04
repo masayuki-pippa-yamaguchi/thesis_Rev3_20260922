@@ -1,0 +1,28 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} get\PYGZus{}administration\PYGZus{}date.py}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{requests}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+
+\PYG{n}{API\PYGZus{}KEY} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}（同上）\PYGZdq{}}
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{get\PYGZus{}administration\PYGZus{}date}\PYG{p}{(}\PYG{n}{company\PYGZus{}number}\PYG{p}{):}
+    \PYG{n}{url} \PYG{o}{=} \PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}https://api.company\PYGZhy{}information.service.gov.uk/company/}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{company\PYGZus{}number}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{/filing\PYGZhy{}history\PYGZdq{}}
+    \PYG{n}{r} \PYG{o}{=} \PYG{n}{requests}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{n}{url}\PYG{p}{,} \PYG{n}{auth}\PYG{o}{=}\PYG{p}{(}\PYG{n}{API\PYGZus{}KEY}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{))}
+    \PYG{n}{data} \PYG{o}{=} \PYG{n}{r}\PYG{o}{.}\PYG{n}{json}\PYG{p}{()}
+
+    \PYG{n}{admin\PYGZus{}keywords} \PYG{o}{=} \PYG{p}{[}
+        \PYG{l+s+s2}{\PYGZdq{}administrator\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}administration\PYGZdq{}}\PYG{p}{,}
+        \PYG{l+s+s2}{\PYGZdq{}appointment of administrators\PYGZdq{}}\PYG{p}{,}
+        \PYG{l+s+s2}{\PYGZdq{}notice of administrator\PYGZdq{}}\PYG{p}{,}
+        \PYG{l+s+s2}{\PYGZdq{}administration order\PYGZdq{}}\PYG{p}{,}
+        \PYG{l+s+s2}{\PYGZdq{}in administration\PYGZdq{}}
+    \PYG{p}{]}
+
+    \PYG{k}{for} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n}{data}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}items\PYGZdq{}}\PYG{p}{,} \PYG{p}{[]):}
+        \PYG{n}{desc} \PYG{o}{=} \PYG{n}{item}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}description\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{lower}\PYG{p}{()}
+        \PYG{n}{date} \PYG{o}{=} \PYG{n}{item}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{,} \PYG{k+kc}{None}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n+nb}{any}\PYG{p}{(}\PYG{n}{k} \PYG{o+ow}{in} \PYG{n}{desc} \PYG{k}{for} \PYG{n}{k} \PYG{o+ow}{in} \PYG{n}{admin\PYGZus{}keywords}\PYG{p}{):}
+            \PYG{k}{return} \PYG{n}{date}
+    \PYG{k}{return} \PYG{k+kc}{None}
+\end{MintedVerbatim}

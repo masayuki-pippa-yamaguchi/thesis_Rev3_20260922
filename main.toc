@@ -192,32 +192,37 @@
 \contentsline {section}{\numberline {9.4}倒産ステージ確率の動学的推移}{168}{section.9.4}%
 \contentsline {section}{\numberline {9.5}倒産確率の年次平均と倒産件数の比較}{169}{section.9.5}%
 \contentsline {section}{\numberline {9.6}総合評価}{170}{section.9.6}%
-\contentsline {section}{\numberline {9.7}英国市場への拡張（枠組み）}{170}{section.9.7}%
-\contentsline {chapter}{付録 A：Merton モデルにおける倒産距離の数学的導出}{171}{appendix*.116}%
-\contentsline {section}{A.1 Merton モデルの基本構造}{171}{section*.117}%
-\contentsline {section}{A.2 倒産閾値の標準正規分布への写像}{172}{section*.119}%
-\contentsline {chapter}{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}{176}{appendix*.127}%
-\contentsline {section}{B.1　Merton 型構造モデルと倒産距離 DD}{176}{section*.128}%
-\contentsline {section}{B.2　B\&S 推定式とロジットモデル}{177}{section*.129}%
-\contentsline {section}{B.3　本研究の潜在変数モデルとの接続}{178}{section*.130}%
-\contentsline {section}{B.4　数学的厳密性と本研究の位置づけ}{180}{section*.132}%
-\contentsline {chapter}{付録 C：倒産確率の等高線図および差分図}{181}{appendix*.133}%
-\contentsline {section}{C.1 ケース別等高線図（A〜F）}{181}{section*.134}%
-\contentsline {section}{C.2 差分図（B−C および F−E）}{187}{section*.141}%
-\contentsline {chapter}{付録 D：B\&S 推定式に基づく proxy 妥当性シミュレーション}{190}{appendix*.146}%
-\contentsline {section}{D.1　分析の目的と概要}{190}{section*.147}%
-\contentsline {section}{D.2　B\&S 推定式シミュレーション結果の可視化}{192}{section*.153}%
-\contentsline {chapter}{付録 E：倒産企業の貸借対照表（官報決算公告）}{197}{appendix*.162}%
-\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{197}{section*.163}%
-\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{198}{section*.165}%
-\contentsline {section}{E-3 （株）シナジアパワーの貸借対照表}{199}{section*.167}%
-\contentsline {section}{E-4 （株）エフエネの貸借対照表}{200}{section*.169}%
-\contentsline {section}{E-5 洸陽電機（現：シン・エナジー）貸借対照表}{201}{section*.171}%
-\contentsline {chapter}{付録 F：市場データおよび市場ショック指標（$\sigma $）の構築方法}{202}{appendix*.173}%
-\contentsline {section}{F.1 JEPX スポット価格データの取得方法}{202}{section*.174}%
-\contentsline {section}{F.2 日次標準偏差（$\sigma _{\mathrm {daily}}$）の算出方法}{203}{section*.175}%
-\contentsline {section}{F.3 月次市場ショック（$\sigma _{\mathrm {monthly}}$）の算出方法}{203}{section*.176}%
-\contentsline {section}{F.4 価格データの例示}{203}{section*.177}%
-\contentsline {section}{F.5 市場ショック指標（$\sigma $）の推移}{204}{section*.179}%
-\contentsline {section}{F.6 データ利用上の留意点}{204}{section*.181}%
-\contentsline {section}{F.7 記述統計の算出方法}{204}{section*.182}%
+\contentsline {section}{\numberline {9.7}英国市場への拡張}{170}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}英国企業分析プロセスの全体構成：四要素モデルの実証的写像と倒産ステータスの取得}{171}{subsection.9.7.1}%
+\contentsline {subparagraph}{収益性 $\mu $}{171}{section*.116}%
+\contentsline {subparagraph}{外部ショック感応度 $\sigma $}{172}{section*.117}%
+\contentsline {subparagraph}{支援能力 $S$}{172}{section*.118}%
+\contentsline {subparagraph}{倒産閾値 $D$}{172}{section*.119}%
+\contentsline {chapter}{付録 A：Merton モデルにおける倒産距離の数学的導出}{197}{appendix*.154}%
+\contentsline {section}{A.1 Merton モデルの基本構造}{197}{section*.155}%
+\contentsline {section}{A.2 倒産閾値の標準正規分布への写像}{198}{section*.157}%
+\contentsline {chapter}{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}{202}{appendix*.165}%
+\contentsline {section}{B.1　Merton 型構造モデルと倒産距離 DD}{202}{section*.166}%
+\contentsline {section}{B.2　B\&S 推定式とロジットモデル}{203}{section*.167}%
+\contentsline {section}{B.3　本研究の潜在変数モデルとの接続}{204}{section*.168}%
+\contentsline {section}{B.4　数学的厳密性と本研究の位置づけ}{206}{section*.170}%
+\contentsline {chapter}{付録 C：倒産確率の等高線図および差分図}{207}{appendix*.171}%
+\contentsline {section}{C.1 ケース別等高線図（A〜F）}{207}{section*.172}%
+\contentsline {section}{C.2 差分図（B−C および F−E）}{213}{section*.179}%
+\contentsline {chapter}{付録 D：B\&S 推定式に基づく proxy 妥当性シミュレーション}{216}{appendix*.184}%
+\contentsline {section}{D.1　分析の目的と概要}{216}{section*.185}%
+\contentsline {section}{D.2　B\&S 推定式シミュレーション結果の可視化}{218}{section*.191}%
+\contentsline {chapter}{付録 E：倒産企業の貸借対照表（官報決算公告）}{223}{appendix*.200}%
+\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{223}{section*.201}%
+\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{224}{section*.203}%
+\contentsline {section}{E-3 （株）シナジアパワーの貸借対照表}{225}{section*.205}%
+\contentsline {section}{E-4 （株）エフエネの貸借対照表}{226}{section*.207}%
+\contentsline {section}{E-5 洸陽電機（現：シン・エナジー）貸借対照表}{227}{section*.209}%
+\contentsline {chapter}{付録 F：市場データおよび市場ショック指標（$\sigma $）の構築方法}{228}{appendix*.211}%
+\contentsline {section}{F.1 JEPX スポット価格データの取得方法}{228}{section*.212}%
+\contentsline {section}{F.2 日次標準偏差（$\sigma _{\mathrm {daily}}$）の算出方法}{229}{section*.213}%
+\contentsline {section}{F.3 月次市場ショック（$\sigma _{\mathrm {monthly}}$）の算出方法}{229}{section*.214}%
+\contentsline {section}{F.4 価格データの例示}{229}{section*.215}%
+\contentsline {section}{F.5 市場ショック指標（$\sigma $）の推移}{230}{section*.217}%
+\contentsline {section}{F.6 データ利用上の留意点}{230}{section*.219}%
+\contentsline {section}{F.7 記述統計の算出方法}{230}{section*.220}%
