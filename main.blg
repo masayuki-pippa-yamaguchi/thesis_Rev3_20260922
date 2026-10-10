@@ -1,20 +1,20 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[135] biber-MSWIN64:342> INFO - === 
-[201] Biber.pm:421> INFO - Reading 'main.bcf'
-[345] Biber.pm:1002> INFO - Found 33 citekeys in bib section 0
-[362] Biber.pm:4487> INFO - Processing section 0
-[374] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[456] bibtex.pm:1713> INFO - LaTeX decoding ...
-[511] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[664] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[664] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[664] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[664] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[696] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[710] bbl.pm:779> INFO - Output to main.bbl
-[720] Biber.pm:132> WARN - Duplicate entry key: 'Merton1974' in file 'references.bib', skipping ...
-[720] Biber.pm:132> WARN - I didn't find a database entry for 'METI2021AdjustmentFee' (section 0)
-[720] Biber.pm:132> WARN - I didn't find a database entry for 'OCCTO2021ImbalanceReform' (section 0)
-[720] Biber.pm:132> WARN - I didn't find a database entry for 'Ofgem2021PriceCapUpdate' (section 0)
-[720] Biber.pm:134> INFO - WARNINGS: 4
+[130] biber-MSWIN64:342> INFO - === 
+[186] Biber.pm:421> INFO - Reading 'main.bcf'
+[330] Biber.pm:1002> INFO - Found 33 citekeys in bib section 0
+[348] Biber.pm:4487> INFO - Processing section 0
+[360] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[430] bibtex.pm:1713> INFO - LaTeX decoding ...
+[486] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[641] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[641] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[641] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[641] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[673] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[687] bbl.pm:779> INFO - Output to main.bbl
+[691] Biber.pm:132> WARN - Duplicate entry key: 'Merton1974' in file 'references.bib', skipping ...
+[691] Biber.pm:132> WARN - I didn't find a database entry for 'METI2021AdjustmentFee' (section 0)
+[691] Biber.pm:132> WARN - I didn't find a database entry for 'OCCTO2021ImbalanceReform' (section 0)
+[691] Biber.pm:132> WARN - I didn't find a database entry for 'Ofgem2021PriceCapUpdate' (section 0)
+[691] Biber.pm:134> INFO - WARNINGS: 4

@@ -3,15 +3,12 @@
 \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{matplotlib.pyplot}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{plt}
 \PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{scipy.special}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{expit}  \PYG{c+c1}{\PYGZsh{} ロジットCDF}
 
-\PYG{c+c1}{\PYGZsh{} Ordered Logit の推定結果（あなたの結果を手入力）}
-\PYG{n}{beta\PYGZus{}mu} \PYG{o}{=} \PYG{l+m+mf}{9.822e\PYGZhy{}07}
-\PYG{n}{beta\PYGZus{}D}  \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.000769}
+\PYG{c+c1}{\PYGZsh{} Ordered Logit の推定結果（あなたの最新の結果）}
+\PYG{n}{tau\PYGZus{}01} \PYG{o}{=} \PYG{l+m+mf}{0.2289}
+\PYG{n}{tau\PYGZus{}12} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.9332}
+\PYG{n}{tau\PYGZus{}23} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.3374}
 
-\PYG{n}{tau\PYGZus{}01} \PYG{o}{=} \PYG{l+m+mf}{0.4464}
-\PYG{n}{tau\PYGZus{}12} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.9635}
-\PYG{n}{tau\PYGZus{}23} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.3568}
-
-\PYG{c+c1}{\PYGZsh{} 線形予測子 xβ の範囲（UK企業は係数が小さいため \PYGZhy{}1〜1 で十分）}
+\PYG{c+c1}{\PYGZsh{} xβ の範囲（UK企業は係数が小さいため \PYGZhy{}1〜1 で十分）}
 \PYG{n}{xb} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{300}\PYG{p}{)}
 
 \PYG{c+c1}{\PYGZsh{} ロジットCDF}

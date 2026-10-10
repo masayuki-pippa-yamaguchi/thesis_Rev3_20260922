@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{df\PYGZus{}sigma}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}year\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{to\PYGZus{}datetime}\PYG{p}{(}\PYG{n}{df\PYGZus{}sigma}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}date\PYGZdq{}}\PYG{p}{])}\PYG{o}{.}\PYG{n}{dt}\PYG{o}{.}\PYG{n}{year}
+\PYG{n}{df\PYGZus{}sigma\PYGZus{}yearly} \PYG{o}{=} \PYG{n}{df\PYGZus{}sigma}\PYG{o}{.}\PYG{n}{groupby}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}year\PYGZdq{}}\PYG{p}{,} \PYG{n}{as\PYGZus{}index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}\PYG{o}{.}\PYG{n}{agg}\PYG{p}{(\PYGZob{}}
+    \PYG{l+s+s2}{\PYGZdq{}pct\PYGZus{}change\PYGZdq{}}\PYG{p}{:} \PYG{l+s+s2}{\PYGZdq{}mean\PYGZdq{}}\PYG{p}{,}
+    \PYG{l+s+s2}{\PYGZdq{}abs\PYGZus{}change\PYGZdq{}}\PYG{p}{:} \PYG{l+s+s2}{\PYGZdq{}mean\PYGZdq{}}\PYG{p}{,}
+    \PYG{l+s+s2}{\PYGZdq{}roll\PYGZus{}std\PYGZus{}3m\PYGZdq{}}\PYG{p}{:} \PYG{l+s+s2}{\PYGZdq{}mean\PYGZdq{}}
+\PYG{p}{\PYGZcb{})}
+\end{MintedVerbatim}

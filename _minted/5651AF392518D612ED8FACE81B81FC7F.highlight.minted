@@ -1,0 +1,21 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} merge\PYGZus{}status\PYGZus{}and\PYGZus{}dates.py}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+
+\PYG{n}{status\PYGZus{}df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}status.csv\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{dates\PYGZus{}df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}dates.csv\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{merged\PYGZus{}df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{merge}\PYG{p}{(}
+    \PYG{n}{status\PYGZus{}df}\PYG{p}{,}
+    \PYG{n}{dates\PYGZus{}df}\PYG{p}{,}
+    \PYG{n}{on}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}id\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}name\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}number\PYGZdq{}}\PYG{p}{],}
+    \PYG{n}{how}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}left\PYGZdq{}}
+\PYG{p}{)}
+
+\PYG{n}{merged\PYGZus{}df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}start\PYGZus{}date\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{merged\PYGZus{}df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}start\PYGZus{}date\PYGZus{}y\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{fillna}\PYG{p}{(}
+    \PYG{n}{merged\PYGZus{}df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}administration\PYGZus{}start\PYGZus{}date\PYGZus{}x\PYGZdq{}}\PYG{p}{]}
+\PYG{p}{)}
+
+\PYG{n}{merged\PYGZus{}df}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}status\PYGZus{}merged.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{MintedVerbatim}

@@ -1,0 +1,16 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} build\PYGZus{}financial\PYGZus{}data\PYGZus{}uk.py}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{glob}
+
+\PYG{n}{files} \PYG{o}{=} \PYG{n}{glob}\PYG{o}{.}\PYG{n}{glob}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}data\PYGZus{}uk\PYGZus{}tidy/*.csv\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{df\PYGZus{}list} \PYG{o}{=} \PYG{p}{[]}
+\PYG{k}{for} \PYG{n}{f} \PYG{o+ow}{in} \PYG{n}{files}\PYG{p}{:}
+    \PYG{n}{tmp} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{n}{f}\PYG{p}{)}
+    \PYG{n}{df\PYGZus{}list}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{tmp}\PYG{p}{)}
+
+\PYG{n}{financial\PYGZus{}df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{concat}\PYG{p}{(}\PYG{n}{df\PYGZus{}list}\PYG{p}{,} \PYG{n}{ignore\PYGZus{}index}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+\PYG{n}{financial\PYGZus{}df}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}financial\PYGZus{}data\PYGZus{}uk.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{MintedVerbatim}

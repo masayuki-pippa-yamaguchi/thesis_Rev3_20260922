@@ -1,0 +1,15 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{statsmodels.miscmodels.ordinal\PYGZus{}model}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{OrderedModel}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+
+\PYG{n}{df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}panel\PYGZus{}failure\PYGZus{}sigma\PYGZus{}mu\PYGZus{}D.csv\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{model} \PYG{o}{=} \PYG{n}{OrderedModel}\PYG{p}{(}
+    \PYG{n}{df}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}failure\PYGZus{}stage\PYGZdq{}}\PYG{p}{],}
+    \PYG{n}{df}\PYG{p}{[[}\PYG{l+s+s2}{\PYGZdq{}mu\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}D\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}pct\PYGZus{}change\PYGZdq{}}\PYG{p}{]],}
+    \PYG{n}{distr}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}logit\PYGZdq{}}
+\PYG{p}{)}
+
+\PYG{n}{res} \PYG{o}{=} \PYG{n}{model}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{method}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}bfgs\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{res}\PYG{o}{.}\PYG{n}{summary}\PYG{p}{())}
+\end{MintedVerbatim}

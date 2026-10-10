@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  4 OCT 2026 23:10
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  10 OCT 2026 21:05
  restricted system commands enabled.
 **d:/texlive/2026/work/thesis_Rev3_20260922/main
 (d:/texlive/2026/work/thesis_Rev3_20260922/main.tex
@@ -1675,11 +1675,7 @@ Package: lltjp-array 2024-07-21 Patch to array for LuaTeX-ja
 )
 \@quotelevel=\count540
 \@quotereset=\count541
- (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux
-
-LaTeX Warning: Label `tab:ordered_logit_results' multiply defined.
-
-) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux))
+ (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux))
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -1921,13 +1917,11 @@ LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/b/n' will be
 (Font)              scaled to size 4.62357pt on input line 93.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/b/n' will be
 (Font)              scaled to size 4.62357pt on input line 93.
- [2] [3] [4])
+ [2] [3] [4] [5])
 \tf@toc=\write7
 
 \openout7 = main.toc
- [5] [6
-
-]
+ [6]
 \openout2 = chapters/chapter1.aux
  (./chapters/chapter1.tex
 第1章
@@ -1990,6 +1984,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
+
 ]
 LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 48.
@@ -2017,49 +2012,49 @@ LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/b/n' will be
 ] [12
 
 ] [13] [14] [15] [16]
-<../figure/jepx_volume_2020_2024.pdf, id=780, 617.97437pt x 401.16374pt>
+<../figure/jepx_volume_2020_2024.pdf, id=806, 617.97437pt x 401.16374pt>
 File: ../figure/jepx_volume_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_volume_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_volume_2020_2024.pdf  used on input line 755.
 (luatex.def)             Requested size: 398.33858pt x 258.58641pt.
  [17]
-<../figure/jepx_participants_2020_2024.pdf, id=790, 617.97437pt x 401.16374pt>
+<../figure/jepx_participants_2020_2024.pdf, id=816, 617.97437pt x 401.16374pt>
 File: ../figure/jepx_participants_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_participants_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_participants_2020_2024.pdf  used on input line 775.
 (luatex.def)             Requested size: 398.33858pt x 258.58641pt.
  [18<../figure/jepx_volume_2020_2024.pdf>]
-<../figure/exit_count_2020_2024.pdf, id=836, 722.7pt x 433.62pt>
+<../figure/exit_count_2020_2024.pdf, id=862, 722.7pt x 433.62pt>
 File: ../figure/exit_count_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/exit_count_2020_2024.pdf>
 Package luatex.def Info: ../figure/exit_count_2020_2024.pdf  used on input line 797.
 (luatex.def)             Requested size: 398.33858pt x 239.0012pt.
  [19<../figure/jepx_participants_2020_2024.pdf>]
-<../figure/jepx_spot_timeseries_2020_2024.pdf, id=880, 730.65158pt x 415.96176pt>
+<../figure/jepx_spot_timeseries_2020_2024.pdf, id=906, 730.65158pt x 415.96176pt>
 File: ../figure/jepx_spot_timeseries_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_spot_timeseries_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_spot_timeseries_2020_2024.pdf  used on input line 821.
 (luatex.def)             Requested size: 426.79134pt x 242.97804pt.
  [20<../figure/exit_count_2020_2024.pdf>]
-<../figure/jepx_spot_hist_2020_2024.pdf, id=925, 611.7323pt x 401.82245pt>
+<../figure/jepx_spot_hist_2020_2024.pdf, id=951, 611.7323pt x 401.82245pt>
 File: ../figure/jepx_spot_hist_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/jepx_spot_hist_2020_2024.pdf>
 Package luatex.def Info: ../figure/jepx_spot_hist_2020_2024.pdf  used on input line 839.
 (luatex.def)             Requested size: 398.33858pt x 261.6536pt.
  [21<../figure/jepx_spot_timeseries_2020_2024.pdf>]
-<../figure/imbalance_timeseries_2020_2024.pdf, id=976, 730.36928pt x 415.96176pt>
+<../figure/imbalance_timeseries_2020_2024.pdf, id=1002, 730.36928pt x 415.96176pt>
 File: ../figure/imbalance_timeseries_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/imbalance_timeseries_2020_2024.pdf>
 Package luatex.def Info: ../figure/imbalance_timeseries_2020_2024.pdf  used on input line 868.
 (luatex.def)             Requested size: 426.79134pt x 243.07324pt.
  [22<../figure/jepx_spot_hist_2020_2024.pdf>]
-<../figure/alert_count_2020_2024.pdf, id=1028, 605.49023pt x 401.16374pt>
+<../figure/alert_count_2020_2024.pdf, id=1055, 605.49023pt x 401.16374pt>
 File: ../figure/alert_count_2020_2024.pdf Graphic file (type pdf)
 <use ../figure/alert_count_2020_2024.pdf>
 Package luatex.def Info: ../figure/alert_count_2020_2024.pdf  used on input line 896.
 (luatex.def)             Requested size: 398.33858pt x 263.92415pt.
  [23<../figure/imbalance_timeseries_2020_2024.pdf>]
-<../figure/alert_vs_price_scatter.pdf, id=1082, 612.391pt x 401.16374pt>
+<../figure/alert_vs_price_scatter.pdf, id=1108, 612.391pt x 401.16374pt>
 File: ../figure/alert_vs_price_scatter.pdf Graphic file (type pdf)
 <use ../figure/alert_vs_price_scatter.pdf>
 Package luatex.def Info: ../figure/alert_vs_price_scatter.pdf  used on input line 916.
@@ -2164,23 +2159,23 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
 
 
 ] [64] [65]
-<Python/figures/multiplicative_structure.png, id=1546, 361.35pt x 216.81pt>
+<Python/figures/multiplicative_structure.png, id=1572, 361.35pt x 216.81pt>
 File: Python/figures/multiplicative_structure.png Graphic file (type png)
 <use Python/figures/multiplicative_structure.png>
 Package luatex.def Info: Python/figures/multiplicative_structure.png  used on input line 159.
 (luatex.def)             Requested size: 150.23138pt x 90.13988pt.
-<Python/figures/log_transform.png, id=1547, 361.35pt x 216.81pt>
+<Python/figures/log_transform.png, id=1573, 361.35pt x 216.81pt>
 File: Python/figures/log_transform.png Graphic file (type png)
 <use Python/figures/log_transform.png>
 Package luatex.def Info: Python/figures/log_transform.png  used on input line 165.
 (luatex.def)             Requested size: 150.23138pt x 90.13988pt.
-<Python/figures/linear_dd.png, id=1548, 361.35pt x 216.81pt>
+<Python/figures/linear_dd.png, id=1574, 361.35pt x 216.81pt>
 File: Python/figures/linear_dd.png Graphic file (type png)
 <use Python/figures/linear_dd.png>
 Package luatex.def Info: Python/figures/linear_dd.png  used on input line 171.
 (luatex.def)             Requested size: 150.23138pt x 90.13988pt.
  [66] [67<./Python/figures/multiplicative_structure.png><./Python/figures/log_transform.png><./Python/figures/linear_dd.png>]
-<figures/dd_normal.png, id=1574, 394.1124pt x 272.9397pt>
+<figures/dd_normal.png, id=1600, 394.1124pt x 272.9397pt>
 File: figures/dd_normal.png Graphic file (type png)
 <use figures/dd_normal.png>
 Package luatex.def Info: figures/dd_normal.png  used on input line 263.
@@ -2283,7 +2278,7 @@ Overfull \hbox (14.74709pt too wide) in paragraph at lines 219--236
  []
 
 [84] [85] [86] [87] [88]
-<Python/figures/fig_thresholds.png, id=1757, 1541.76pt x 1027.84pt>
+<Python/figures/fig_thresholds.png, id=1783, 1541.76pt x 1027.84pt>
 File: Python/figures/fig_thresholds.png Graphic file (type png)
 <use Python/figures/fig_thresholds.png>
 Package luatex.def Info: Python/figures/fig_thresholds.png  used on input line 513.
@@ -2328,7 +2323,7 @@ LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 1101.
  [98] [99] [100] [101] [102](load cache: extra_lmmono10-regular.luc) [103]
-<figures/ordered_logit_stages.png, id=1886, 578.16pt x 361.35pt>
+<figures/ordered_logit_stages.png, id=1912, 578.16pt x 361.35pt>
 File: figures/ordered_logit_stages.png Graphic file (type png)
 <use figures/ordered_logit_stages.png>
 Package luatex.def Info: figures/ordered_logit_stages.png  used on input line 1590.
@@ -2388,94 +2383,94 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ] [128] [129] [130] [131] [132] [133] [134]
-<figures/interaction_mu_sigma_surface.png, id=2080, 722.7pt x 505.89pt>
+<figures/interaction_mu_sigma_surface.png, id=2106, 722.7pt x 505.89pt>
 File: figures/interaction_mu_sigma_surface.png Graphic file (type png)
 <use figures/interaction_mu_sigma_surface.png>
 Package luatex.def Info: figures/interaction_mu_sigma_surface.png  used on input line 402.
 (luatex.def)             Requested size: 364.19667pt x 254.93593pt.
  [135<./figures/interaction_mu_sigma_surface.png>]
-<figures/interaction_S_D_surface.png, id=2091, 722.7pt x 505.89pt>
+<figures/interaction_S_D_surface.png, id=2117, 722.7pt x 505.89pt>
 File: figures/interaction_S_D_surface.png Graphic file (type png)
 <use figures/interaction_S_D_surface.png>
 Package luatex.def Info: figures/interaction_S_D_surface.png  used on input line 431.
 (luatex.def)             Requested size: 364.19667pt x 254.93593pt.
  [136<./figures/interaction_S_D_surface.png>] [137]
-<figures/surface_caseA_centered.png, id=2105, 578.16pt x 433.62pt>
+<figures/surface_caseA_centered.png, id=2131, 578.16pt x 433.62pt>
 File: figures/surface_caseA_centered.png Graphic file (type png)
 <use figures/surface_caseA_centered.png>
 Package luatex.def Info: figures/surface_caseA_centered.png  used on input line 549.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [138]
-<figures/surface_caseB_centered.png, id=2112, 578.16pt x 433.62pt>
+<figures/surface_caseB_centered.png, id=2138, 578.16pt x 433.62pt>
 File: figures/surface_caseB_centered.png Graphic file (type png)
 <use figures/surface_caseB_centered.png>
 Package luatex.def Info: figures/surface_caseB_centered.png  used on input line 566.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [139<./figures/surface_caseA_centered.png>]
-<figures/surface_caseC_centered.png, id=2120, 578.16pt x 433.62pt>
+<figures/surface_caseC_centered.png, id=2146, 578.16pt x 433.62pt>
 File: figures/surface_caseC_centered.png Graphic file (type png)
 <use figures/surface_caseC_centered.png>
 Package luatex.def Info: figures/surface_caseC_centered.png  used on input line 582.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [140<./figures/surface_caseB_centered.png>]
-<figures/surface_caseD_centered.png, id=2128, 578.16pt x 433.62pt>
+<figures/surface_caseD_centered.png, id=2154, 578.16pt x 433.62pt>
 File: figures/surface_caseD_centered.png Graphic file (type png)
 <use figures/surface_caseD_centered.png>
 Package luatex.def Info: figures/surface_caseD_centered.png  used on input line 599.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [141<./figures/surface_caseC_centered.png>]
-<figures/surface_caseE_centered.png, id=2136, 578.16pt x 433.62pt>
+<figures/surface_caseE_centered.png, id=2162, 578.16pt x 433.62pt>
 File: figures/surface_caseE_centered.png Graphic file (type png)
 <use figures/surface_caseE_centered.png>
 Package luatex.def Info: figures/surface_caseE_centered.png  used on input line 617.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [142<./figures/surface_caseD_centered.png>]
-<figures/surface_caseF_centered.png, id=2144, 578.16pt x 433.62pt>
+<figures/surface_caseF_centered.png, id=2170, 578.16pt x 433.62pt>
 File: figures/surface_caseF_centered.png Graphic file (type png)
 <use figures/surface_caseF_centered.png>
 Package luatex.def Info: figures/surface_caseF_centered.png  used on input line 633.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [143<./figures/surface_caseE_centered.png>]
-<figures/surface_diff_B_minus_C.png, id=2154, 578.16pt x 433.62pt>
+<figures/surface_diff_B_minus_C.png, id=2180, 578.16pt x 433.62pt>
 File: figures/surface_diff_B_minus_C.png Graphic file (type png)
 <use figures/surface_diff_B_minus_C.png>
 Package luatex.def Info: figures/surface_diff_B_minus_C.png  used on input line 664.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [144<./figures/surface_caseF_centered.png>] [145<./figures/surface_diff_B_minus_C.png>]
-<figures/surface_diff_F_minus_E.png, id=2175, 578.16pt x 433.62pt>
+<figures/surface_diff_F_minus_E.png, id=2201, 578.16pt x 433.62pt>
 File: figures/surface_diff_F_minus_E.png Graphic file (type png)
 <use figures/surface_diff_F_minus_E.png>
 Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 734.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [146] [147<./figures/surface_diff_F_minus_E.png>] [148] [149]
-<figures/bs_surface_caseA.png, id=2204, 578.16pt x 433.62pt>
+<figures/bs_surface_caseA.png, id=2230, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseA.png Graphic file (type png)
 <use figures/bs_surface_caseA.png>
 Package luatex.def Info: figures/bs_surface_caseA.png  used on input line 905.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseB.png, id=2205, 578.16pt x 433.62pt>
+<figures/bs_surface_caseB.png, id=2231, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseB.png Graphic file (type png)
 <use figures/bs_surface_caseB.png>
 Package luatex.def Info: figures/bs_surface_caseB.png  used on input line 915.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [150<./figures/bs_surface_caseA.png>]
-<figures/bs_surface_caseC.png, id=2214, 578.16pt x 433.62pt>
+<figures/bs_surface_caseC.png, id=2240, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseC.png Graphic file (type png)
 <use figures/bs_surface_caseC.png>
 Package luatex.def Info: figures/bs_surface_caseC.png  used on input line 925.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseD.png, id=2215, 578.16pt x 433.62pt>
+<figures/bs_surface_caseD.png, id=2241, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseD.png Graphic file (type png)
 <use figures/bs_surface_caseD.png>
 Package luatex.def Info: figures/bs_surface_caseD.png  used on input line 935.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
  [151<./figures/bs_surface_caseB.png><./figures/bs_surface_caseC.png>]
-<figures/bs_surface_caseE.png, id=2226, 578.16pt x 433.62pt>
+<figures/bs_surface_caseE.png, id=2252, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseE.png Graphic file (type png)
 <use figures/bs_surface_caseE.png>
 Package luatex.def Info: figures/bs_surface_caseE.png  used on input line 945.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
-<figures/bs_surface_caseF.png, id=2227, 578.16pt x 433.62pt>
+<figures/bs_surface_caseF.png, id=2253, 578.16pt x 433.62pt>
 File: figures/bs_surface_caseF.png Graphic file (type png)
 <use figures/bs_surface_caseF.png>
 Package luatex.def Info: figures/bs_surface_caseF.png  used on input line 955.
@@ -2520,7 +2515,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 150.
 
 [158] [159] [160]
-<Python/figures/sign_surface_p_combined.png, id=2282, 936.6192pt x 277.2759pt>
+<Python/figures/sign_surface_p_combined.png, id=2308, 936.6192pt x 277.2759pt>
 File: Python/figures/sign_surface_p_combined.png Graphic file (type png)
 <use Python/figures/sign_surface_p_combined.png>
 Package luatex.def Info: Python/figures/sign_surface_p_combined.png  used on input line 346.
@@ -2535,42 +2530,54 @@ Package luatex.def Info: Python/figures/sign_surface_p_combined.png  used on inp
 
 
 ] [165] [166] [167]
-<Python/figures/firm_probabilities_by_y_star.png, id=2328, 650.43pt x 361.35pt>
+<Python/figures/firm_probabilities_by_y_star.png, id=2354, 650.43pt x 361.35pt>
 File: Python/figures/firm_probabilities_by_y_star.png Graphic file (type png)
 <use Python/figures/firm_probabilities_by_y_star.png>
 Package luatex.def Info: Python/figures/firm_probabilities_by_y_star.png  used on input line 270.
 (luatex.def)             Requested size: 386.96027pt x 214.98111pt.
-<Python/figures/p2_trend.png, id=2330, 867.24pt x 433.62pt>
+<Python/figures/p2_trend.png, id=2356, 867.24pt x 433.62pt>
 File: Python/figures/p2_trend.png Graphic file (type png)
 <use Python/figures/p2_trend.png>
 Package luatex.def Info: Python/figures/p2_trend.png  used on input line 279.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
  [168<./Python/figures/firm_probabilities_by_y_star.png>]
-<Python/figures/p2_with_estimated_bankruptcies.png, id=2341, 867.24pt x 433.62pt>
+<Python/figures/p2_with_estimated_bankruptcies.png, id=2366, 867.24pt x 433.62pt>
 File: Python/figures/p2_with_estimated_bankruptcies.png Graphic file (type png)
 <use Python/figures/p2_with_estimated_bankruptcies.png>
 Package luatex.def Info: Python/figures/p2_with_estimated_bankruptcies.png  used on input line 299.
 (luatex.def)             Requested size: 398.33858pt x 199.16988pt.
- [169<./Python/figures/p2_trend.png><./Python/figures/p2_with_estimated_bankruptcies.png>] [170] [171] [172](load cache: extra_lmmono12-regular.luc)
-Overfull \hbox (28.21828pt too wide) in paragraph at lines 450--451
+ [169<./Python/figures/p2_trend.png><./Python/figures/p2_with_estimated_bankruptcies.png>] [170] [171] [172] [173]
+LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 511.
+LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 511.
+LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 511.
+LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 511.
+ [174]
+
+LaTeX Warning: Float too large for page by 40.91823pt on input line 701.
+
+[175](load cache: extra_lmmono12-regular.luc)
+Overfull \hbox (27.83432pt too wide) in paragraph at lines 733--737
 []|\JY3/IPAexMincho(0)/m/n/11.99997 こ |れ |ら |の |企 |業 |別 \TU/lmr/m/n/11.99997 tidy |\JY3/IPAexMincho(0)/m/n/11.99997 デ |ー |タ |は []  \TU/lmr/m/n/11.99997 Python |\JY3/IPAexMincho(0)/m/n/11.99997 を |用 |い |て \TU/lmr/m/n/11.99997 1 |\JY3/IPAexMincho(0)/m/n/11.99997 つ |の |統 |合 |フ |ァ |イ |ル \TU/lmtt/m/n/11.99997 financial_data_uk.csv
  []
 
 
-Overfull \hbox (8.05327pt too wide) in paragraph at lines 450--451
+Overfull \hbox (7.66931pt too wide) in paragraph at lines 733--737
 |\JY3/IPAexMincho(0)/m/n/11.99997 に |ま |と |め |た []  |こ |の |統 |合 |処 |理 |の |役 |割 |を |担 |う |ス |ク |リ |プ |ト |が []  |以 |下 |の \TU/lmtt/m/n/11.99997 build_financial_data_uk.py
  []
 
 \pydata@fh@0=\write8
 
 \openout8 = _FAD58DE7366495DB4650CFEFAC2FCD61.data.minted
-runsystem(latexminted config  --timestamp 20261004231006 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted config  --timestamp 20261010210504 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 (./_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20261004231006 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
- (./_minted/default.style.minted) (./_minted/7CF925D846712B80461D186BD2C385C6.highlight.minted(load cache: extra_lmmono10-italic.luc)
+runsystem(latexminted cleanconfig  --timestamp 20261010210504 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+ (./_minted/default.style.minted) (./_minted/8C290B7480A50B212CB76A37D257C2D7.highlight.minted(load cache: extra_lmmono10-italic.luc)
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 2.
- [173]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4.
 (load cache: extra_lmmonolt10-bold.luc)
@@ -2588,219 +2595,186 @@ LaTeX Font Info:    Font shape `JT3/IPAexGothic(0)/b/n' will be
 (Font)              scaled to size 9.24713pt on input line 4.
 LaTeX Font Info:    Font shape `JY3/IPAexGothic(0)/b/n' will be
 (Font)              scaled to size 9.24713pt on input line 4.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 11.
-) [174] (./_minted/0D51030ED4699E38D9471886B409942E.highlight.minted
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 2.
- [175]) (./_minted/41FCCFD713A36507EC2E462D5B2DBE50.highlight.minted
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 2.
- [176]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 33.
- [177]) [178] (./_minted/7FC0FBB08632EB96B2DC230D82F8F9A9.highlight.minted
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 2.
- [179]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 6.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 9.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 12.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 15.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 18.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 21.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 23.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 26.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 29.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 32.
- [180]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 35.
-) [181]
-Overfull \hbox (40.55482pt too wide) in paragraph at lines 786--788
-[]|\JY3/IPAexMincho(0)/m/n/11.99997 月 |次 |デ |ー |タ |は |そ |の |ま |ま |で |は |企 |業 |年 |次 |デ |ー |タ |と |多 |対 |多 |結 |合 |を |起 |こ |す |た |め []  \TU/lmtt/m/n/11.99997 merge_failure_sigma.py
- []
-
-[182]
-Overfull \hbox (48.75491pt too wide) in paragraph at lines 813--813
-[]\TU/lmtt/m/n/11.99997 df_panel = panel.merge(df_status[["company_id","failure_year","failure_stage"]],[] 
- []
-
-
-Overfull \hbox (11.10426pt too wide) in paragraph at lines 827--829
-[]|\JY3/IPAexMincho(0)/m/n/11.99997 最 |終 |的 |に []  |企 |業 \TU/lmr/m/n/11.99997 34 |\JY3/IPAexMincho(0)/m/n/11.99997 社 \TU/lmr/m/n/11.99997 × 11 |\JY3/IPAexMincho(0)/m/n/11.99997 年 \TU/lmr/m/n/11.99997 = 374 |\JY3/IPAexMincho(0)/m/n/11.99997 行 |の |完 |全 |な |企 |業 |年 |次 |パ |ネ |ル \TU/lmtt/m/n/11.99997 panel_failure_sigma.csv
- []
-
-[183] [184]
-Overfull \hbox (48.75491pt too wide) in paragraph at lines 906--906
-[]\TU/lmtt/m/n/11.99997 df_fin_wide["D"]  = df_fin_wide["TotalLiabilities"] / df_fin_wide["TotalAssets"][] 
- []
-
-
-Overfull \hbox (41.8268pt too wide) in paragraph at lines 910--914
-\TU/lmtt/m/n/11.99997 panel_failure_sigma.csv |\JY3/IPAexMincho(0)/m/n/11.99997 と |結 |合 |し []  |最 |終 |的 |な |企 |業 |年 |次 |パ |ネ |ル \TU/lmtt/m/n/11.99997 panel_failure_sigma_mu_D.csv
- []
-
-[185]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 947.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 957.
- [186]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/it' undefined
-(Font)              No change on input line 991.
- [187] [188]
-Overfull \hbox (10.95499pt too wide) in paragraph at lines 1061--1061
-[]        \TU/lmtt/m/n/11.99997 "fixedassets" in item_lower or "intangibleassets" in item_lower or[] 
- []
-
-[189]
-Overfull \hbox (36.15494pt too wide) in paragraph at lines 1101--1101
-[]\TU/lmtt/m/n/11.99997 df_final_clean.to_csv("panel_failure_sigma_mu_D_proxy_clean.csv", index=False)[] 
- []
-
-[190] [191] (./_minted/058493BF4CF4DF68A1FF879B958A9511.highlight.minted
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 4.
- [192]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 6.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 14.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 17.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 21.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 27.
- [193])
-<ordered_logit_probability_curves_uk.png, id=2499, 507.8172pt x 396.7623pt>
-File: ordered_logit_probability_curves_uk.png Graphic file (type png)
-<use ordered_logit_probability_curves_uk.png>
-Package luatex.def Info: ordered_logit_probability_curves_uk.png  used on input line 1260.
-(luatex.def)             Requested size: 386.96027pt x 302.33556pt.
- [194] [195<./ordered_logit_probability_curves_uk.png>]) [196]
-\openout2 = chapters/appendix_A.aux
- (./chapters/appendix_A.tex [197
+) [176
 
 
 
 
 ]
-<figures/Bankruptcy_probability_of_Merton_model_with_Z.png, id=2520, 1004.0712pt x 425.6703pt>
+Overfull \hbox (27.2394pt too wide) in paragraph at lines 762--762
+[][]\TU/lmss/m/n/14.39996 9.9.2 |\JY3/IPAexGothic(0)/m/n/14.39996 　 \TU/lmss/m/n/14.39996 Com-pa-nies House API |\JY3/IPAexGothic(0)/m/n/14.39996 に |よ |る |企 |業 |ス |テ |ー |タ |ス |取 |得  []\TU/lmtt/m/n/14.39996 company_status.csv\TU/lmss/m/n/14.39996 ) 
+ []
+
+(./_minted/7CF925D846712B80461D186BD2C385C6.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 2.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 11.
+ [177])
+Overfull \hbox (67.39035pt too wide) in paragraph at lines 811--811
+[][]\TU/lmss/m/n/14.39996 9.9.3 |\JY3/IPAexGothic(0)/m/n/14.39996 　 \TU/lmss/m/n/14.39996 fil-ing his-tory |\JY3/IPAexGothic(0)/m/n/14.39996 か |ら |の \TU/lmss/m/n/14.39996 Ad-min-is-tra-tion |\JY3/IPAexGothic(0)/m/n/14.39996 開 |始 |日 |の |抽 |出  []\TU/lmtt/m/n/14.39996 administration_dates.csv\TU/lmss/m/n/14.39996 ) 
+ []
+
+(./_minted/0D51030ED4699E38D9471886B409942E.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 2.
+ [178]) (./_minted/5651AF392518D612ED8FACE81B81FC7F.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 2.
+ [179]) (./_minted/7DDE83C2E5C1FA896EE95646591B679E.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 2.
+ [180]) [181] (./_minted/406F2D7DCBC0D078FB0679738BCDCAC7.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 2.
+ [182]) [183] (./_minted/4EA0B39284C91F02D381AA06278B7157.highlight.minted) [184]
+Overfull \hbox (40.55482pt too wide) in paragraph at lines 1093--1095
+[]|\JY3/IPAexMincho(0)/m/n/11.99997 月 |次 |デ |ー |タ |は |そ |の |ま |ま |で |は |企 |業 |年 |次 |デ |ー |タ |と |多 |対 |多 |結 |合 |を |起 |こ |す |た |め []  \TU/lmtt/m/n/11.99997 merge_failure_sigma.py
+ []
+
+(./_minted/A54F1C1010B51F2BC524B59E6F33CF46.highlight.minted) (./_minted/5B35A4C9C87F48C19EEE305AF443D3B5.highlight.minted [185]) (./_minted/49D92BDBD12F27F87741CC05830DAAC3.highlight.minted)
+Overfull \hbox (11.10426pt too wide) in paragraph at lines 1135--1137
+[]|\JY3/IPAexMincho(0)/m/n/11.99997 最 |終 |的 |に []  |企 |業 \TU/lmr/m/n/11.99997 34 |\JY3/IPAexMincho(0)/m/n/11.99997 社 \TU/lmr/m/n/11.99997 × 11 |\JY3/IPAexMincho(0)/m/n/11.99997 年 \TU/lmr/m/n/11.99997 = 374 |\JY3/IPAexMincho(0)/m/n/11.99997 行 |の |完 |全 |な |企 |業 |年 |次 |パ |ネ |ル \TU/lmtt/m/n/11.99997 panel_failure_sigma.csv
+ []
+
+[186] (./_minted/58356FE3B1F355A20CAE61D882475D3B.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 2.
+) (./_minted/390045B22795590B47EE5A55DE7EEBA6.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 2.
+ [187]) [188] [189] [190] (./_minted/6FA874B521ABE8FC2A854A940BFABC14.highlight.minted) [191] [192] [193] [194] (./_minted/174D5647C68347F44D58F5CE5C1A27CB.highlight.minted
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 4.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 6.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 11.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 14.
+ [195]
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 18.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 24.
+)
+<ordered_logit_probability_curves_uk.png, id=2537, 507.8172pt x 396.7623pt>
+File: ordered_logit_probability_curves_uk.png Graphic file (type png)
+<use ordered_logit_probability_curves_uk.png>
+Package luatex.def Info: ordered_logit_probability_curves_uk.png  used on input line 1643.
+(luatex.def)             Requested size: 386.96027pt x 302.33556pt.
+ [196] [197<./ordered_logit_probability_curves_uk.png>] [198] [199] [200] [201] [202]) [203]
+\openout2 = chapters/appendix_A.aux
+ (./chapters/appendix_A.tex [204
+
+
+
+
+]
+<figures/Bankruptcy_probability_of_Merton_model_with_Z.png, id=2587, 1004.0712pt x 425.6703pt>
 File: figures/Bankruptcy_probability_of_Merton_model_with_Z.png Graphic file (type png)
 <use figures/Bankruptcy_probability_of_Merton_model_with_Z.png>
 Package luatex.def Info: figures/Bankruptcy_probability_of_Merton_model_with_Z.png  used on input line 73.
 (luatex.def)             Requested size: 386.96027pt x 164.0492pt.
- [198<./figures/Bankruptcy_probability_of_Merton_model_with_Z.png>] [199] [200]
-<figures/Bankruptcy_probability_of_New_Power_sec1.png, id=2540, 939.51pt x 289.08pt>
+ [205<./figures/Bankruptcy_probability_of_Merton_model_with_Z.png>] [206] [207]
+<figures/Bankruptcy_probability_of_New_Power_sec1.png, id=2607, 939.51pt x 289.08pt>
 File: figures/Bankruptcy_probability_of_New_Power_sec1.png Graphic file (type png)
 <use figures/Bankruptcy_probability_of_New_Power_sec1.png>
 Package luatex.def Info: figures/Bankruptcy_probability_of_New_Power_sec1.png  used on input line 246.
 (luatex.def)             Requested size: 432.48051pt x 133.07103pt.
-) [201<./figures/Bankruptcy_probability_of_New_Power_sec1.png>]
+) [208<./figures/Bankruptcy_probability_of_New_Power_sec1.png>]
 \openout2 = chapters/appendix_B.aux
- (./chapters/appendix_B.tex [202
+ (./chapters/appendix_B.tex [209
 
 
 
 
-] [203] [204] [205]) [206]
+] [210] [211] [212]) [213]
 \openout2 = chapters/appendix_C.aux
  (./chapters/appendix_C.tex
-<figures/contour_caseA.png, id=2577, 505.89pt x 433.62pt>
+<figures/contour_caseA.png, id=2643, 505.89pt x 433.62pt>
 File: figures/contour_caseA.png Graphic file (type png)
 <use figures/contour_caseA.png>
 Package luatex.def Info: figures/contour_caseA.png  used on input line 30.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [207
+ [214
 
 
 
 
 ]
-<figures/contour_caseB.png, id=2582, 505.89pt x 433.62pt>
+<figures/contour_caseB.png, id=2648, 505.89pt x 433.62pt>
 File: figures/contour_caseB.png Graphic file (type png)
 <use figures/contour_caseB.png>
 Package luatex.def Info: figures/contour_caseB.png  used on input line 37.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [208<./figures/contour_caseA.png>]
-<figures/contour_caseC.png, id=2589, 505.89pt x 433.62pt>
+ [215<./figures/contour_caseA.png>]
+<figures/contour_caseC.png, id=2655, 505.89pt x 433.62pt>
 File: figures/contour_caseC.png Graphic file (type png)
 <use figures/contour_caseC.png>
 Package luatex.def Info: figures/contour_caseC.png  used on input line 45.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [209<./figures/contour_caseB.png>]
-<figures/contour_caseD.png, id=2596, 505.89pt x 433.62pt>
+ [216<./figures/contour_caseB.png>]
+<figures/contour_caseD.png, id=2662, 505.89pt x 433.62pt>
 File: figures/contour_caseD.png Graphic file (type png)
 <use figures/contour_caseD.png>
 Package luatex.def Info: figures/contour_caseD.png  used on input line 53.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [210<./figures/contour_caseC.png>]
-<figures/contour_caseE.png, id=2603, 505.89pt x 433.62pt>
+ [217<./figures/contour_caseC.png>]
+<figures/contour_caseE.png, id=2669, 505.89pt x 433.62pt>
 File: figures/contour_caseE.png Graphic file (type png)
 <use figures/contour_caseE.png>
 Package luatex.def Info: figures/contour_caseE.png  used on input line 61.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [211<./figures/contour_caseD.png>]
-<figures/contour_caseF.png, id=2610, 505.89pt x 433.62pt>
+ [218<./figures/contour_caseD.png>]
+<figures/contour_caseF.png, id=2676, 505.89pt x 433.62pt>
 File: figures/contour_caseF.png Graphic file (type png)
 <use figures/contour_caseF.png>
 Package luatex.def Info: figures/contour_caseF.png  used on input line 68.
 (luatex.def)             Requested size: 341.43307pt x 292.66103pt.
- [212<./figures/contour_caseE.png>]
+ [219<./figures/contour_caseE.png>]
 File: figures/surface_diff_B_minus_C.png Graphic file (type png)
 <use figures/surface_diff_B_minus_C.png>
 Package luatex.def Info: figures/surface_diff_B_minus_C.png  used on input line 94.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
- [213<./figures/contour_caseF.png>]
+ [220<./figures/contour_caseF.png>]
 File: figures/surface_diff_F_minus_E.png Graphic file (type png)
 <use figures/surface_diff_F_minus_E.png>
 Package luatex.def Info: figures/surface_diff_F_minus_E.png  used on input line 111.
 (luatex.def)             Requested size: 341.43307pt x 256.07178pt.
- [214]) [215]
+ [221]) [222]
 \openout2 = chapters/appendix_D.aux
- (./chapters/appendix_D.tex [216
+ (./chapters/appendix_D.tex [223
 
 
 
 
-] [217]
-<figures/coef_comparison.png, id=2651, 578.16pt x 361.35pt>
+] [224]
+<figures/coef_comparison.png, id=2718, 578.16pt x 361.35pt>
 File: figures/coef_comparison.png Graphic file (type png)
 <use figures/coef_comparison.png>
 Package luatex.def Info: figures/coef_comparison.png  used on input line 197.
 (luatex.def)             Requested size: 364.19667pt x 227.61862pt.
- [218]
-<figures/roc_comparison.png, id=2663, 505.89pt x 361.35pt>
+ [225]
+<figures/roc_comparison.png, id=2730, 505.89pt x 361.35pt>
 File: figures/roc_comparison.png Graphic file (type png)
 <use figures/roc_comparison.png>
 Package luatex.def Info: figures/roc_comparison.png  used on input line 220.
 (luatex.def)             Requested size: 364.19667pt x 260.14423pt.
- [219<./figures/coef_comparison.png>]
-<figures/scatter_true_vs_pred.png, id=2675, 505.89pt x 361.35pt>
+ [226<./figures/coef_comparison.png>]
+<figures/scatter_true_vs_pred.png, id=2742, 505.89pt x 361.35pt>
 File: figures/scatter_true_vs_pred.png Graphic file (type png)
 <use figures/scatter_true_vs_pred.png>
 Package luatex.def Info: figures/scatter_true_vs_pred.png  used on input line 241.
 (luatex.def)             Requested size: 364.19667pt x 260.14423pt.
- [220<./figures/roc_comparison.png>] [221<./figures/scatter_true_vs_pred.png>]) [222]
+ [227<./figures/roc_comparison.png>] [228<./figures/scatter_true_vs_pred.png>]) [229]
 \openout2 = chapters/appendix_E.aux
- (./chapters/appendix_E.tex [223
+ (./chapters/appendix_E.tex [230
 
 
 
 
-] [224] [225] [226]) [227]
+] [231] [232] [233]) [234]
 \openout2 = chapters/appendix_F.aux
  (./chapters/appendix_F.tex
 
@@ -2811,7 +2785,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
 
-[228
+[235
 
 
 
@@ -2849,12 +2823,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 102.
 
-<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2733, 867.24pt x 289.08pt>
+<D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf, id=2799, 867.24pt x 289.08pt>
 File: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf Graphic file (type pdf)
 <use D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>
 Package luatex.def Info: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf  used on input line 109.
 (luatex.def)             Requested size: 398.33858pt x 132.7799pt.
-[229] [230<d:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>]) [231]
+[236] [237<d:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>]) [238]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 140.
 (load cache: extra_lmromancaps10-regular.luc)
@@ -2894,7 +2868,7 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 140.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
 (Font)              No change on input line 140.
- [232
+ [239
 
 
 
@@ -2944,7 +2918,7 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
 (Font)              No change on input line 140.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 140.
- [233]
+ [240]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 140.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
@@ -2957,7 +2931,7 @@ LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 140.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 140.
- [234] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux))
+ [241] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -2970,30 +2944,27 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 19BFCA8CF0EB74DFC719361BCCB09F5F;20126.
+(rerunfilecheck)             Checksum: 73A1E0C6C2127E3F4056D33B8B98D937;21150.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 56392 strings out of 475900
+ 56648 strings out of 475900
  244624,2848258 words of node,token memory allocated
  8152 words of node memory still in use:
    10 hlist, 2 vlist, 5 rule, 85 glue, 4 kern, 1 glyph, 3041 attribute, 107 glue_spec, 288 attribute_list, 2 write, 13 user_defined, 10 pdf_action nodes
-   avail lists: 1:35,2:66011,3:2245,4:630,5:300,6:113,7:6480,8:86,9:2924,10:49,11:220
- 76406 multiletter control sequences out of 65536+600000
- 187 fonts using 108979255 bytes
+   avail lists: 1:37,2:66011,3:2245,4:630,5:308,6:113,7:6480,8:86,9:2924,10:49,11:234
+ 76583 multiletter control sequences out of 65536+600000
+ 189 fonts using 109243271 bytes
  119i,19n,115p,2066b,2380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (242 pages, 14998599 bytes).
+Output written on main.pdf (249 pages, 15017758 bytes).
 
-PDF statistics: 3070 PDF objects out of 3580 (max. 8388607)
- 2352 compressed objects within 24 object streams
- 809 named destinations out of 1000 (max. 1048576)
- 872 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 3138 PDF objects out of 3580 (max. 8388607)
+ 2412 compressed objects within 25 object streams
+ 834 named destinations out of 1000 (max. 1048576)
+ 912 words of extra memory for PDF output out of 10000 (max. 100000000)
 
