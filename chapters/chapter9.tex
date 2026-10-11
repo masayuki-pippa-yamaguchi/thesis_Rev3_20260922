@@ -573,28 +573,22 @@ APX（Amsterdam Power Exchange）は英国の卸電力スポット市場 UKPX �
 後に欧州電力取引所 EPEX Spot に統合された。
 現在の EPEX Spot UK は英国の Day-Ahead 卸電力スポット価格（UK Day-Ahead Wholesale Price）を提供する
 主要な市場運営者である。
-})の価格変動を外部ショックの主要因とみなし，
-市場価格の標準偏差を $\sigma$ の proxy とする。
-以下では，実際に取得した価格データを用いて構築した
-3 ヶ月ローリング標準偏差の推移を示す。
+})のスポット価格は，英国新電力企業が直面する外部ショックの主要因であり，
+本研究ではまず，取得した生データ（素のスポット価格）の推移を確認する。
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.90\linewidth]{figures/sigma_proxy_plot.png}
-  \caption{英国卸電力価格の 3 ヶ月ローリング標準偏差（市場ショック $\sigma$ の代理変数）}
-  \label{fig:sigma_proxy}
+  \includegraphics[width=0.90\linewidth]{figures/spot_price_plot.png}
+  \caption{英国卸電力スポット価格の推移（2013--2023 年）}
+  \label{fig:spot_price}
 \end{figure}
 
-図 \ref{fig:sigma_proxy} は，貼付の CSV データ（\texttt{electricity\_sigma\_proxy\_2013\_2023.csv}）から
-計算した 3 ヶ月ローリング標準偏差（\texttt{roll\_std\_3m}）を可視化したものであり，
-本研究で英国企業の市場ショック指標 $S$（$\sigma$）として用いる値である。
+図 \ref{fig:spot_price} は，貼付の CSV データ（\texttt{electricity\_sigma\_proxy\_2013\_2023.csv}）に含まれる
+スポット価格（\texttt{price} 列）をそのまま可視化したものである。
 英国卸電力価格は 2013 年から 2023 年にかけて大きな変動を示しており，
-特に 2021 年以降の価格高騰と急落が顕著である。
-
-この図から，英国市場では 2021 年後半から 2022 年にかけて
-標準偏差が急上昇しており，電力価格のボラティリティが極端に高まったことが分かる。
-これは，英国新電力企業の倒産ステージ推移に影響を与えた可能性が高く，
-Ordered Logit 推定における市場ショック変数の重要性を裏付けるものである。
+特に 2021 年以降の急騰と急落が顕著である。
+このような価格水準の急激な変化は，新電力企業の収益構造に直接的な影響を与え，
+外部ショックとして倒産ステージの推移に作用した可能性が高い。
 
 
   \item \textbf{支援能力 $S$}： 
@@ -952,7 +946,11 @@ df = pd.DataFrame(records, columns=[
 df.to_csv("company_status.csv", index=False)
 \end{minted}
 
-
+（取得した API キー）\footnote{
+API キーは筆者が Companies House の開発者向けページから
+個人の研究目的で取得したものであり，本研究における
+企業ステータス情報の自動取得にのみ使用している。
+}
 
 % ------------------------------------------------------------
 % 9.8.3 filing history からの Administration 開始日の抽出
@@ -979,7 +977,7 @@ filing history は，Companies House が管理する企業提出書類の時系�
 import requests
 import pandas as pd
 
-API_KEY = "（同上）"
+API_KEY = "（取得した API キー）"
 
 def get_administration_date(company_number):
     url = f"https://api.company-information.service.gov.uk/company/{company_number}/filing-history"
@@ -1127,6 +1125,24 @@ Day-Ahead Baseload の \textbf{月次平均値}が提供されている。
 このチャートでは，2010 年以降の月次スポット価格データを
 CSV 形式で取得することが可能である。
 本研究では，この CSV ファイル（electricity-prices-day-a.csv）を用いる。
+
+さらに，CSV に含まれる月次スポット価格はそのまま価格水準の把握に利用できるだけでなく，
+加工を施すことで価格変動の特徴をより精緻に捉えることができる。
+例えば，月次価格の三か月移動標準偏差を計算すると，
+スポット価格の変動性がどの期間で高まっているかを視覚的に確認できる。
+以下に，その加工例として三か月移動標準偏差の推移を示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.90\linewidth]{figures/sigma_proxy_plot.png}
+  \caption{月次スポット価格の三か月移動標準偏差（変動性の加工例）}
+  \label{fig:monthly_sigma_proxy}
+\end{figure}
+
+図 \ref{fig:monthly_sigma_proxy} より，英国市場では 2021～2022 年にかけて
+価格変動性が急激に高まっていることが分かる。
+このような加工例は，英国市場の外部ショックの性質を理解する上で有用であり，
+本研究で構築した日次ベースの $\sigma$ 指標の補助的な参考情報として位置づけられる。
 
 \subsubsection*{データ整形と標準化処理}
 
@@ -1331,17 +1347,93 @@ df_sigma_yearly = df_sigma.groupby("year", as_index=False).agg({
 })
 \end{minted}
 
+\subsubsection*{日本企業と英国企業における市場ショック指標（$\sigma$）の扱いの違い}
+
+本研究では，日本企業については市場ショック指標 $\sigma$ を
+日次スポット価格の標準偏差（std）のみで定義した一方，
+英国企業については 3 種類の代理変数（pct\_change, abs\_change, roll\_std\_3m）を構築した。
+この違いは，以下の理由によるものである。
+
+\begin{itemize}
+    \item \textbf{データ頻度の違い}  
+    日本企業では JEPX の高頻度データ（30分値）が取得可能であり，
+    日次標準偏差を算出した上で年次平均化することができる。
+    このため，市場ショックをボラティリティ（標準偏差）で定義することが最も自然であった。  
+    一方，英国企業では Ofgem/EPEX Spot の月次データが中心であり，
+    日次ベースの標準偏差を直接計算することができない。
+    月次データのみではショックの性質を十分に捉えられないため，
+    方向性・絶対的変動幅・継続的な不安定性という複数の側面を比較する必要があった。
+
+    \item \textbf{市場構造の違い}  
+    日本の新電力企業はスポット市場への依存度が高く，
+    日次価格の急騰・急落が経営に直接影響するため，
+    ボラティリティ指標（std）がショックの本質を捉えやすい。  
+    英国市場では，政策変更・燃料価格・需給逼迫など複数要因が月次ベースで作用するため，
+    単一の標準偏差だけではショックの方向性や絶対的変動幅を十分に把握できない。
+
+    \item \textbf{研究目的の違い（ロバスト性検証）}  
+    本研究の中心目的は，日本企業で構築した倒産リスクモデル（$\mu$, $D$, $\sigma$）が
+    英国企業でも成立するかを検証することである。
+    そのため，英国側では複数の市場ショック指標を比較し，
+    どの指標が日本企業モデルの構造と最も整合するかを検証する必要があった。
+    日本企業では高頻度データにより std が最適であったため，
+    英国側で複数の proxy を試すことがロバスト性検証の観点から必然となる。
+
+    \item \textbf{企業年次データとの整合性}  
+    日本企業では日次標準偏差を年次平均化することで企業年次データと自然に結合できた。  
+    英国企業では月次データを年次平均化する際，
+    pct\_change・abs\_change・roll\_std\_3m の 3 指標を同時に扱うことで，
+    年次ショックの多面的な特徴を保持することができる。
+\end{itemize}
+
+以上の理由により，日本企業では標準偏差（std）のみを採用し，
+英国企業では 3 種類の市場ショック指標を構築して比較するという研究設計を採用した。
+
 
 \subsubsection*{Step 3: 企業×年パネルデータの構築}
 
 企業数 34 社，期間 2013--2023 年の企業 $\times$ 年パネルを生成し，
 倒産年から $t-1, t-2, t-3$ を計算した。
+これは，倒産研究において「倒産直前の複数年にわたる企業状態」を観察することが
+不可欠であるためである。倒産は単年のショックではなく，複数年の蓄積過程で発生するため，
+倒産直前の財務指標や市場ショックの推移を捉える必要がある。
+
+具体的には，以下の理由に基づき，倒産年から遡って 1～3 年のデータを抽出した。
+
+\begin{itemize}
+    \item \textbf{倒産は複数年の悪化過程で発生するため}  
+    財務悪化・市場ショック・負債負担の増大は通常 1 年で突然発生するのではなく，
+    数年間にわたり徐々に進行する。倒産直前の 3 年間を観察することで，
+    「悪化の軌跡」を捉えることができる。
+
+    \item \textbf{既存の倒産モデルが「倒産直前数年」を分析対象としているため}  
+    Altman Z スコア，Bharath–Shumway，Campbell–Hilscher–Szilagyi など，
+    主要な倒産モデルは倒産の 1～3 年前の財務指標を用いて推定を行う。
+    本研究もこの国際的慣行に従い，倒産年から $t-1, t-2, t-3$ を採用した。
+
+    \item \textbf{Ordered Logit における倒産ステージ推移の説明力を高めるため}  
+    倒産ステージ（Active → Administration → Liquidation → Dissolved）は
+    企業状態が徐々に悪化する過程を表すため，
+    倒産直前の複数年を観察することでステージ推移の説明力が向上する。
+
+    \item \textbf{市場ショック（$\sigma$）・収益性（$\mu$）・負債負担（$D$）の影響が
+    倒産直前数年に最も強く現れるため}  
+    企業が倒産に至る直前の 3 年間は，市場ショックや財務悪化の影響が
+    最も顕著に表れる期間であり，倒産モデルの推定において重要な情報を含む。
+
+    \item \textbf{企業年次データとの整合性}  
+    年次財務データは 1 年単位でしか取得できないため，
+    倒産年から遡って 1～3 年のデータを用いることが最も自然であり，
+    データ欠損も最小化できる。
+\end{itemize}
+
+以上の理由から，本研究では倒産年から $t-1, t-2, t-3$ の企業状態を抽出し，
+倒産直前の動態を捉える企業×年パネルを構築した。
 
 \begin{minted}[breaklines=true]{python}
 years = list(range(2013, 2023 + 1))
 panel = pd.DataFrame([(cid, y) for cid in companies for y in years],
                      columns=["company_id", "year"])
-
 df_panel = panel.merge(df_status[["company_id","failure_year","failure_stage"]],
                        on="company_id", how="left")
 \end{minted}
@@ -1350,7 +1442,6 @@ df_panel = panel.merge(df_status[["company_id","failure_year","failure_stage"]],
 
 \begin{minted}[breaklines=true]{python}
 df_panel = df_panel.merge(df_sigma_yearly, on="year", how="left")
-
 df_panel = df_panel.merge(
     df_sigma_yearly.rename({...}),
     on="t_minus_1", how="left"
@@ -1359,6 +1450,7 @@ df_panel = df_panel.merge(
 
 最終的に，企業 34 社 × 11 年 = 374 行の
 完全な企業年次パネル \texttt{panel\_failure\_sigma.csv} が得られた。
+
 
 \subsubsection*{Step 4: 収益性 μ と負債負担 D の算出}
 
@@ -1593,7 +1685,11 @@ Z_{\text{lin},i,t}
 目的変数として倒産ステージ（0--3）を用いて，
 Ordered Logit モデルによる推定を行う。
 
-推定には Python の \texttt{statsmodels.miscmodels.ordinal\_model.OrderedModel} を用いた。
+推定には Python の \texttt{statsmodels.miscmodels.ordinal\_model.OrderedModel} を用い，
+最適化アルゴリズムとして BFGS 法を採用した。
+BFGS 法の選択理由および数値最適化の詳細については，
+第5章（\ref{sec:bfgs_detail}節）で既に説明しているため，
+ここでは繰り返しを避け，実装上の設定のみを示す。
 
 \begin{minted}[breaklines=true]{python}
 from statsmodels.miscmodels.ordinal_model import OrderedModel
@@ -1610,6 +1706,7 @@ model = OrderedModel(
 res = model.fit(method="bfgs")
 print(res.summary())
 \end{minted}
+
 
 推定結果として，
 

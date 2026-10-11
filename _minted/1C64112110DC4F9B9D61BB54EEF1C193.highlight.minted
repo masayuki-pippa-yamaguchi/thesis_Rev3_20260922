@@ -4,7 +4,7 @@
 \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{requests}
 \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
 
-\PYG{n}{API\PYGZus{}KEY} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}（同上）\PYGZdq{}}
+\PYG{n}{API\PYGZus{}KEY} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}（取得した API キー）\PYGZdq{}}
 
 \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{get\PYGZus{}administration\PYGZus{}date}\PYG{p}{(}\PYG{n}{company\PYGZus{}number}\PYG{p}{):}
     \PYG{n}{url} \PYG{o}{=} \PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}https://api.company\PYGZhy{}information.service.gov.uk/company/}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{company\PYGZus{}number}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{/filing\PYGZhy{}history\PYGZdq{}}
