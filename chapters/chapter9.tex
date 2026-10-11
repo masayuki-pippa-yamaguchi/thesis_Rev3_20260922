@@ -575,6 +575,26 @@ APX（Amsterdam Power Exchange）は英国の卸電力スポット市場 UKPX �
 主要な市場運営者である。
 })の価格変動を外部ショックの主要因とみなし，
 市場価格の標準偏差を $\sigma$ の proxy とする。
+以下では，実際に取得した価格データを用いて構築した
+3 ヶ月ローリング標準偏差の推移を示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.90\linewidth]{figures/sigma_proxy_plot.png}
+  \caption{英国卸電力価格の 3 ヶ月ローリング標準偏差（市場ショック $\sigma$ の代理変数）}
+  \label{fig:sigma_proxy}
+\end{figure}
+
+図 \ref{fig:sigma_proxy} は，貼付の CSV データ（\texttt{electricity\_sigma\_proxy\_2013\_2023.csv}）から
+計算した 3 ヶ月ローリング標準偏差（\texttt{roll\_std\_3m}）を可視化したものであり，
+本研究で英国企業の市場ショック指標 $S$（$\sigma$）として用いる値である。
+英国卸電力価格は 2013 年から 2023 年にかけて大きな変動を示しており，
+特に 2021 年以降の価格高騰と急落が顕著である。
+
+この図から，英国市場では 2021 年後半から 2022 年にかけて
+標準偏差が急上昇しており，電力価格のボラティリティが極端に高まったことが分かる。
+これは，英国新電力企業の倒産ステージ推移に影響を与えた可能性が高く，
+Ordered Logit 推定における市場ショック変数の重要性を裏付けるものである。
 
 
   \item \textbf{支援能力 $S$}： 
@@ -901,7 +921,7 @@ API から得られたステータス情報と必要な日付情報を整理し�
 最終的に CSV 形式の出力ファイルとして保存する。
 
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 # get_company_status_api.py
 
 import requests
@@ -953,7 +973,7 @@ filing history は，Companies House が管理する企業提出書類の時系�
 } を用いて Administration 開始日を抽出した。
 この処理は、Python スクリプト \texttt{get\_administration\_date.py} によって実装されている。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 # get_administration_date.py
 
 import requests
@@ -993,7 +1013,7 @@ def get_administration_date(company_number):
 統合処理は \texttt{merge\_status\_and\_dates.py} によって行われ、
 倒産ステージ付与は \texttt{add\_failure\_stage.py} によって行われる。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 # merge_status_and_dates.py
 
 import pandas as pd
@@ -1166,7 +1186,7 @@ CSV 形式で取得することが可能である。
 
 上記の処理は、以下の Python スクリプトを用いて実行した。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 # electricity_sigma_proxy.py
 
 import pandas as pd
@@ -1228,7 +1248,7 @@ df_period.to_csv("electricity_sigma_proxy_2013_2023.csv", index=False)
 \textbf{Python file:} \texttt{company\_status\_clean\_final.py}
 \end{quote}
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 df = pd.read_csv("company_status_with_stage.csv")
 df["company_id"] = df["company_id"].astype(str).str.strip()
 df["company_number"] = df["company_number"].astype(str).str.strip()
@@ -1302,7 +1322,7 @@ roll\_std\_3m は 3 ヶ月間の価格変動のボラティリティを捉え、
 \textbf{Python file:} \texttt{merge\_failure\_sigma.py}
 \end{quote}
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 df_sigma["year"] = pd.to_datetime(df_sigma["date"]).dt.year
 df_sigma_yearly = df_sigma.groupby("year", as_index=False).agg({
     "pct_change": "mean",
@@ -1317,7 +1337,7 @@ df_sigma_yearly = df_sigma.groupby("year", as_index=False).agg({
 企業数 34 社，期間 2013--2023 年の企業 $\times$ 年パネルを生成し，
 倒産年から $t-1, t-2, t-3$ を計算した。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 years = list(range(2013, 2023 + 1))
 panel = pd.DataFrame([(cid, y) for cid in companies for y in years],
                      columns=["company_id", "year"])
@@ -1328,7 +1348,7 @@ df_panel = panel.merge(df_status[["company_id","failure_year","failure_stage"]],
 
 次に，年次化した σ 指標を結合した。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 df_panel = df_panel.merge(df_sigma_yearly, on="year", how="left")
 
 df_panel = df_panel.merge(
@@ -1374,7 +1394,7 @@ D_{i,t}
 
 これらの計算は \texttt{compute\_mu\_D.py} により実装した。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 # compute_mu_D.py
 
 import pandas as pd
@@ -1394,7 +1414,7 @@ df_fin.to_csv("financial_mu_D.csv", index=False)
 Step 4 で計算した \texttt{financial\_mu\_D.csv} を結合し，
 最終的な分析用データセット \texttt{panel\_failure\_sigma\_mu\_D.csv} を生成した。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 # merge_mu_D_panel.py
 
 import pandas as pd
@@ -1575,7 +1595,7 @@ Ordered Logit モデルによる推定を行う。
 
 推定には Python の \texttt{statsmodels.miscmodels.ordinal\_model.OrderedModel} を用いた。
 
-\begin{minted}{python}
+\begin{minted}[breaklines=true]{python}
 from statsmodels.miscmodels.ordinal_model import OrderedModel
 import pandas as pd
 
