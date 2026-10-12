@@ -194,58 +194,59 @@
 \contentsline {subsubsection}{(3) 従属変数の整備}{169}{section*.114}%
 \contentsline {subsubsection}{(4) 推定式の構築}{169}{section*.115}%
 \contentsline {subsubsection}{(5) 推定の実行}{170}{section*.116}%
-\contentsline {section}{\numberline {9.4}推定結果（日本企業）}{170}{section.9.4}%
-\contentsline {subsubsection}{(1) 推定結果の概要}{170}{section*.117}%
-\contentsline {subsubsection}{(2) 推定結果}{171}{section*.118}%
-\contentsline {subsubsection}{(3) 推定結果の事実整理}{171}{section*.120}%
-\contentsline {section}{\numberline {9.5}倒産ステージ確率の動学・確率曲線・年次比較（日本企業）}{172}{section.9.5}%
-\contentsline {subsubsection}{9.5.1 倒産ステージ確率の動学的推移}{172}{section*.121}%
-\contentsline {subsubsection}{9.5.2 Ordered Logit に基づく倒産ステージ確率曲線}{173}{section*.124}%
-\contentsline {subsubsection}{9.5.3 倒産確率の年次平均と倒産件数の比較}{174}{section*.126}%
-\contentsline {section}{\numberline {9.6}総合評価（日本企業）}{175}{section.9.6}%
-\contentsline {section}{\numberline {9.7}英国市場への拡張（英国企業）}{176}{section.9.7}%
-\contentsline {subsubsection}{(1) 自由化の歴史が長く、日本より 20 年以上先行している}{176}{section*.128}%
-\contentsline {subsubsection}{(2) 制度設計が日本と類似しており、日本は英国制度を参照して改革を進めた}{176}{section*.129}%
-\contentsline {subsubsection}{(3) 倒産ステータスが明確で、Ordered Logit に適している}{177}{section*.130}%
-\contentsline {subsubsection}{総合的意義}{177}{section*.131}%
-\contentsline {section}{\numberline {9.8}英国企業分析プロセスの全体構成（英国企業）}{177}{section.9.8}%
-\contentsline {subsubsection}{(1) 分析対象企業の選定}{178}{section*.132}%
-\contentsline {subsubsection}{(2) 財務データの収集と tidy 化}{179}{section*.133}%
-\contentsline {subsubsection}{(3) 倒産ステータスの取得と倒産日の特定}{179}{section*.134}%
-\contentsline {subsubsection}{(4) 四要素の定義：英国企業への写像}{179}{section*.135}%
-\contentsline {subsubsection}{(5) 英国版倒産距離 $Z_{\text {lin}}$ の構築}{183}{section*.137}%
-\contentsline {subsubsection}{(6) データ統合と解析用パネルの完成}{183}{section*.138}%
-\contentsline {subsubsection}{(7) Ordered Logit による倒産段階の推定}{184}{section*.139}%
-\contentsline {section}{\numberline {9.9}英国新電力企業データ構築プロセスの概要（英国企業）}{186}{section.9.9}%
-\contentsline {section}{\numberline {9.10}四要素モデルの英国企業への写像と Ordered Logit への接続（英国企業）}{203}{section.9.10}%
-\contentsline {section}{\numberline {9.11}英国企業 Ordered Logit 推定結果（英国企業）}{206}{section.9.11}%
-\contentsline {section}{\numberline {9.12}日本企業との比較（英国企業）}{213}{section.9.12}%
-\contentsline {section}{\numberline {9.13}第9章の総括（日本企業＋英国企業）}{216}{section.9.13}%
-\contentsline {chapter}{付録 A：Merton モデルにおける倒産距離の数学的導出}{220}{appendix*.179}%
-\contentsline {section}{A.1 Merton モデルの基本構造}{220}{section*.180}%
-\contentsline {section}{A.2 倒産閾値の標準正規分布への写像}{221}{section*.182}%
-\contentsline {chapter}{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}{225}{appendix*.190}%
-\contentsline {section}{B.1　Merton 型構造モデルと倒産距離 DD}{225}{section*.191}%
-\contentsline {section}{B.2　B\&S 推定式とロジットモデル}{226}{section*.192}%
-\contentsline {section}{B.3　本研究の潜在変数モデルとの接続}{227}{section*.193}%
-\contentsline {section}{B.4　数学的厳密性と本研究の位置づけ}{229}{section*.195}%
-\contentsline {chapter}{付録 C：倒産確率の等高線図および差分図}{230}{appendix*.196}%
-\contentsline {section}{C.1 ケース別等高線図（A〜F）}{230}{section*.197}%
-\contentsline {section}{C.2 差分図（B−C および F−E）}{236}{section*.204}%
-\contentsline {chapter}{付録 D：B\&S 推定式に基づく proxy 妥当性シミュレーション}{239}{appendix*.209}%
-\contentsline {section}{D.1　分析の目的と概要}{239}{section*.210}%
-\contentsline {section}{D.2　B\&S 推定式シミュレーション結果の可視化}{241}{section*.216}%
-\contentsline {chapter}{付録 E：倒産企業の貸借対照表（官報決算公告）}{246}{appendix*.225}%
-\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{246}{section*.226}%
-\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{247}{section*.228}%
-\contentsline {section}{E-3 （株）シナジアパワーの貸借対照表}{248}{section*.230}%
-\contentsline {section}{E-4 （株）エフエネの貸借対照表}{249}{section*.232}%
-\contentsline {section}{E-5 洸陽電機（現：シン・エナジー）貸借対照表}{250}{section*.234}%
-\contentsline {chapter}{付録 F：市場データおよび市場ショック指標（$\sigma $）の構築方法}{251}{appendix*.236}%
-\contentsline {section}{F.1 JEPX スポット価格データの取得方法}{251}{section*.237}%
-\contentsline {section}{F.2 日次標準偏差（$\sigma _{\mathrm {daily}}$）の算出方法}{252}{section*.238}%
-\contentsline {section}{F.3 月次市場ショック（$\sigma _{\mathrm {monthly}}$）の算出方法}{252}{section*.239}%
-\contentsline {section}{F.4 価格データの例示}{252}{section*.240}%
-\contentsline {section}{F.5 市場ショック指標（$\sigma $）の推移}{253}{section*.242}%
-\contentsline {section}{F.6 データ利用上の留意点}{253}{section*.244}%
-\contentsline {section}{F.7 記述統計の算出方法}{253}{section*.245}%
+\contentsline {section}{\numberline {9.4}推定結果（日本企業）}{172}{section.9.4}%
+\contentsline {subsubsection}{(1) 推定結果の概要}{172}{section*.117}%
+\contentsline {subsubsection}{(2) 推定結果}{172}{section*.118}%
+\contentsline {subsubsection}{(3) 推定結果の事実整理}{173}{section*.120}%
+\contentsline {section}{\numberline {9.5}倒産ステージ確率の動学・確率曲線・年次比較（日本企業）}{173}{section.9.5}%
+\contentsline {subsubsection}{9.5.1 倒産ステージ確率の動学的推移}{174}{section*.121}%
+\contentsline {subsubsection}{9.5.2 Ordered Logit に基づく倒産ステージ確率曲線}{176}{section*.124}%
+\contentsline {subsubsection}{9.5.3 倒産確率の年次平均と倒産件数の比較}{176}{section*.126}%
+\contentsline {section}{\numberline {9.6}総合評価（日本企業）}{178}{section.9.6}%
+\contentsline {section}{\numberline {9.7}英国市場への拡張（英国企業）}{179}{section.9.7}%
+\contentsline {subsubsection}{(1) 自由化の歴史が長く，日本より 20 年以上先行している}{179}{section*.128}%
+\contentsline {subsubsection}{(2) 制度設計が日本と類似しており，日本は英国制度を参照して改革を進めた}{180}{section*.129}%
+\contentsline {subsubsection}{(3) 倒産ステータスが明確で，Ordered Logit に適している}{180}{section*.130}%
+\contentsline {subsubsection}{(4) 財務諸表の公開制度が充実しており，研究サンプル数を確保できる}{181}{section*.131}%
+\contentsline {subsubsection}{総合的意義}{181}{section*.132}%
+\contentsline {section}{\numberline {9.8}英国企業分析プロセスの全体構成（英国企業）}{182}{section.9.8}%
+\contentsline {subsubsection}{(1) 分析対象企業の選定}{182}{section*.133}%
+\contentsline {subsubsection}{(2) 財務データの収集と tidy 化}{183}{section*.134}%
+\contentsline {subsubsection}{(3) 倒産ステータスの取得と倒産日の特定}{183}{section*.135}%
+\contentsline {subsubsection}{(4) 四要素の定義：英国企業への写像}{184}{section*.136}%
+\contentsline {subsubsection}{(5) 英国版倒産距離 $Z_{\text {lin}}$ の構築}{188}{section*.138}%
+\contentsline {subsubsection}{(6) データ統合と解析用パネルの完成}{188}{section*.139}%
+\contentsline {subsubsection}{(7) Ordered Logit による倒産段階の推定}{188}{section*.140}%
+\contentsline {section}{\numberline {9.9}英国新電力企業データ構築プロセスの概要（英国企業）}{190}{section.9.9}%
+\contentsline {section}{\numberline {9.10}四要素モデルの英国企業への写像と Ordered Logit への接続（英国企業）}{210}{section.9.10}%
+\contentsline {section}{\numberline {9.11}英国企業 Ordered Logit 推定結果（英国企業）}{214}{section.9.11}%
+\contentsline {section}{\numberline {9.12}日本企業との比較（英国企業）}{220}{section.9.12}%
+\contentsline {section}{\numberline {9.13}第9章の総括（日本企業＋英国企業）}{223}{section.9.13}%
+\contentsline {chapter}{付録 A：Merton モデルにおける倒産距離の数学的導出}{227}{appendix*.180}%
+\contentsline {section}{A.1 Merton モデルの基本構造}{227}{section*.181}%
+\contentsline {section}{A.2 倒産閾値の標準正規分布への写像}{228}{section*.183}%
+\contentsline {chapter}{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}{232}{appendix*.191}%
+\contentsline {section}{B.1　Merton 型構造モデルと倒産距離 DD}{232}{section*.192}%
+\contentsline {section}{B.2　B\&S 推定式とロジットモデル}{233}{section*.193}%
+\contentsline {section}{B.3　本研究の潜在変数モデルとの接続}{234}{section*.194}%
+\contentsline {section}{B.4　数学的厳密性と本研究の位置づけ}{236}{section*.196}%
+\contentsline {chapter}{付録 C：倒産確率の等高線図および差分図}{237}{appendix*.197}%
+\contentsline {section}{C.1 ケース別等高線図（A〜F）}{237}{section*.198}%
+\contentsline {section}{C.2 差分図（B−C および F−E）}{243}{section*.205}%
+\contentsline {chapter}{付録 D：B\&S 推定式に基づく proxy 妥当性シミュレーション}{246}{appendix*.210}%
+\contentsline {section}{D.1　分析の目的と概要}{246}{section*.211}%
+\contentsline {section}{D.2　B\&S 推定式シミュレーション結果の可視化}{248}{section*.217}%
+\contentsline {chapter}{付録 E：倒産企業の貸借対照表（官報決算公告）}{253}{appendix*.226}%
+\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{253}{section*.227}%
+\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{254}{section*.229}%
+\contentsline {section}{E-3 （株）シナジアパワーの貸借対照表}{255}{section*.231}%
+\contentsline {section}{E-4 （株）エフエネの貸借対照表}{256}{section*.233}%
+\contentsline {section}{E-5 洸陽電機（現：シン・エナジー）貸借対照表}{257}{section*.235}%
+\contentsline {chapter}{付録 F：市場データおよび市場ショック指標（$\sigma $）の構築方法}{258}{appendix*.237}%
+\contentsline {section}{F.1 JEPX スポット価格データの取得方法}{258}{section*.238}%
+\contentsline {section}{F.2 日次標準偏差（$\sigma _{\mathrm {daily}}$）の算出方法}{259}{section*.239}%
+\contentsline {section}{F.3 月次市場ショック（$\sigma _{\mathrm {monthly}}$）の算出方法}{259}{section*.240}%
+\contentsline {section}{F.4 価格データの例示}{259}{section*.241}%
+\contentsline {section}{F.5 市場ショック指標（$\sigma $）の推移}{260}{section*.243}%
+\contentsline {section}{F.6 データ利用上の留意点}{260}{section*.245}%
+\contentsline {section}{F.7 記述統計の算出方法}{260}{section*.246}%

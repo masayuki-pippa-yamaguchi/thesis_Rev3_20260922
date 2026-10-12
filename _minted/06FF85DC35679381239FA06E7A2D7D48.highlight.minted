@@ -1,0 +1,42 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} ordered\PYGZus{}logit\PYGZus{}jp.py}
+
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{os}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{statsmodels.api}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{sm}
+\PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{statsmodels.miscmodels.ordinal\PYGZus{}model}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{OrderedModel}
+
+\PYG{c+c1}{\PYGZsh{} 作業ディレクトリ}
+\PYG{n}{os}\PYG{o}{.}\PYG{n}{chdir}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}D:\PYGZbs{}texlive\PYGZbs{}2026\PYGZbs{}work\PYGZbs{}mid\PYGZus{}report\PYGZus{}20260620\PYGZbs{}Python\PYGZdq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} データ読み込み}
+\PYG{n}{df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}monthly\PYGZus{}panel\PYGZus{}with\PYGZus{}stage.csv\PYGZdq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} 説明変数（debt\PYGZus{}ratio, asset\PYGZus{}growth, sigma）}
+\PYG{n}{explanatory\PYGZus{}vars} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}debt\PYGZus{}ratio\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}asset\PYGZus{}growth\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}sigma\PYGZdq{}}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{} 欠損値を除去した推定用データ}
+\PYG{n}{df\PYGZus{}model} \PYG{o}{=} \PYG{n}{df}\PYG{p}{[[}\PYG{l+s+s2}{\PYGZdq{}month\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}default\PYGZus{}stage\PYGZdq{}}\PYG{p}{]} \PYG{o}{+} \PYG{n}{explanatory\PYGZus{}vars}\PYG{p}{]}\PYG{o}{.}\PYG{n}{dropna}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{} 従属変数（倒産ステージ 0/1/2）}
+\PYG{n}{y} \PYG{o}{=} \PYG{n}{df\PYGZus{}model}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}default\PYGZus{}stage\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{astype}\PYG{p}{(}\PYG{n+nb}{int}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} 説明変数}
+\PYG{n}{X} \PYG{o}{=} \PYG{n}{df\PYGZus{}model}\PYG{p}{[}\PYG{n}{explanatory\PYGZus{}vars}\PYG{p}{]}
+
+\PYG{c+c1}{\PYGZsh{} Ordered Logit モデルの推定}
+\PYG{n}{model} \PYG{o}{=} \PYG{n}{OrderedModel}\PYG{p}{(}\PYG{n}{endog}\PYG{o}{=}\PYG{n}{y}\PYG{p}{,} \PYG{n}{exog}\PYG{o}{=}\PYG{n}{X}\PYG{p}{,} \PYG{n}{distr}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}logit\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{result} \PYG{o}{=} \PYG{n}{model}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{method}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}bfgs\PYGZdq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} 推定結果の表示}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{result}\PYG{o}{.}\PYG{n}{summary}\PYG{p}{())}
+
+\PYG{c+c1}{\PYGZsh{} 予測確率（P0, P1, P2）}
+\PYG{n}{pred\PYGZus{}prob} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{result}\PYG{o}{.}\PYG{n}{predict}\PYG{p}{(),} \PYG{n}{columns}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}P0\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}P1\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}P2\PYGZdq{}}\PYG{p}{])}
+
+\PYG{c+c1}{\PYGZsh{} 結合して保存}
+\PYG{n}{df\PYGZus{}out} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{concat}\PYG{p}{([}\PYG{n}{df\PYGZus{}model}\PYG{o}{.}\PYG{n}{reset\PYGZus{}index}\PYG{p}{(}\PYG{n}{drop}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{),} \PYG{n}{pred\PYGZus{}prob}\PYG{p}{],} \PYG{n}{axis}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{n}{df\PYGZus{}out}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}monthly\PYGZus{}panel\PYGZus{}ordered\PYGZus{}logit\PYGZus{}result.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}CSV saved: monthly\PYGZus{}panel\PYGZus{}ordered\PYGZus{}logit\PYGZus{}result.csv\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}
