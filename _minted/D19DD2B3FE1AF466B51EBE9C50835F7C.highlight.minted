@@ -1,4 +1,6 @@
 \begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} panel\PYGZus{}failure\PYGZus{}sigma.py}
+
 \PYG{n}{years} \PYG{o}{=} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2013}\PYG{p}{,} \PYG{l+m+mi}{2023} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{))}
 \PYG{n}{panel} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{([(}\PYG{n}{cid}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)} \PYG{k}{for} \PYG{n}{cid} \PYG{o+ow}{in} \PYG{n}{companies} \PYG{k}{for} \PYG{n}{y} \PYG{o+ow}{in} \PYG{n}{years}\PYG{p}{],}
                      \PYG{n}{columns}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}company\PYGZus{}id\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}year\PYGZdq{}}\PYG{p}{])}

@@ -1,4 +1,6 @@
 \begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} ordered\PYGZus{}logit\PYGZus{}uk.py}
+
 \PYG{k+kn}{from}\PYG{+w}{ }\PYG{n+nn}{statsmodels.miscmodels.ordinal\PYGZus{}model}\PYG{+w}{ }\PYG{k+kn}{import} \PYG{n}{OrderedModel}
 \PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{pandas}\PYG{+w}{ }\PYG{k}{as}\PYG{+w}{ }\PYG{n+nn}{pd}
 

@@ -16,5 +16,973 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{IEA2022GasMarket}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gas Market Report 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2023Renewables}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Renewables 2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2024Electricity}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electricity Market Report 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2025AISurge}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AI-driven Electricity Demand Surge: Global Outlook 2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{IEA2025EnergySupplyAI}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=465b82815b27cd8a52e2be2cc108c330}{%
+           family={Agency},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelima Energy},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{fullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{bibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorbibnamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authornamehash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhash}{465b82815b27cd8a52e2be2cc108c330}
+      \strng{authorfullhashraw}{465b82815b27cd8a52e2be2cc108c330}
+      \field{extraname}{5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy Supply Challenges in the Age of AI}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.iea.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/
+      \endverb
+    \endentry
+    \entry{Amemiya1981}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=51e1a3ce6d15ec2678642fc6ded682da}{%
+           family={Amemiya},
+           familyi={A\bibinitperiod},
+           given={Takeshi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{fullhash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{fullhashraw}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{bibnamehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authorbibnamehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authornamehash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authorfullhash}{51e1a3ce6d15ec2678642fc6ded682da}
+      \strng{authorfullhashraw}{51e1a3ce6d15ec2678642fc6ded682da}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{number}{4}
+      \field{title}{Qualitative Response Models: A Survey}
+      \field{volume}{19}
+      \field{year}{1981}
+      \field{pages}{1483\bibrangedash 1536}
+      \range{pages}{54}
+    \endentry
+    \entry{BharathShumway2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9cfd727d48e0b7b57a0f9c2c7db60027}{%
+           family={Bharath},
+           familyi={B\bibinitperiod},
+           given={Sreedhar\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=424a8e036f8a13ca7c9fd0ae41fddaed}{%
+           family={Shumway},
+           familyi={S\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{fullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{fullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{bibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorbibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authornamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorfullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorfullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{Forecasting Default with the Merton Distance to Default Model}
+      \field{volume}{21}
+      \field{year}{2008}
+      \field{pages}{1339\bibrangedash 1369}
+      \range{pages}{31}
+    \endentry
+    \entry{Bharath2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9cfd727d48e0b7b57a0f9c2c7db60027}{%
+           family={Bharath},
+           familyi={B\bibinitperiod},
+           given={Sreedhar\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=424a8e036f8a13ca7c9fd0ae41fddaed}{%
+           family={Shumway},
+           familyi={S\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{fullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{fullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{bibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorbibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authornamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorfullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \strng{authorfullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{Forecasting Default with the Merton Distance to Default Model}
+      \field{volume}{21}
+      \field{year}{2008}
+      \field{pages}{1339\bibrangedash 1369}
+      \range{pages}{31}
+    \endentry
+    \entry{CampbellHilscherSzilagyi2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b7ec0e33525f8b94af88e38cc709b02d}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima Y.},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=59f287dde7c3a399b971ae20b2a4de14}{%
+           family={Hilscher},
+           familyi={H\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3122946440da8d0a3d20845b79fb6d30}{%
+           family={Szilagyi},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{fullhash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{fullhashraw}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{bibnamehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authorbibnamehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authornamehash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authorfullhash}{059ebbc6d5129111fc50b0974650f37e}
+      \strng{authorfullhashraw}{059ebbc6d5129111fc50b0974650f37e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Finance}
+      \field{number}{6}
+      \field{title}{In Search of Distress Risk}
+      \field{volume}{63}
+      \field{year}{2008}
+      \field{pages}{2899\bibrangedash 2939}
+      \range{pages}{41}
+    \endentry
+    \entry{CharalambakisGarrett2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=00492fbad05b798630960cbc86f75520}{%
+           family={Charalambakis},
+           familyi={C\bibinitperiod},
+           given={Evangelos},
+           giveni={E\bibinitperiod}}}%
+        {{hash=29109d998814e23d29b37099008406ff}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fee208c8eca5ead9a65e3e77a48271a}
+      \strng{fullhash}{1fee208c8eca5ead9a65e3e77a48271a}
+      \strng{fullhashraw}{1fee208c8eca5ead9a65e3e77a48271a}
+      \strng{bibnamehash}{1fee208c8eca5ead9a65e3e77a48271a}
+      \strng{authorbibnamehash}{1fee208c8eca5ead9a65e3e77a48271a}
+      \strng{authornamehash}{1fee208c8eca5ead9a65e3e77a48271a}
+      \strng{authorfullhash}{1fee208c8eca5ead9a65e3e77a48271a}
+      \strng{authorfullhashraw}{1fee208c8eca5ead9a65e3e77a48271a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Corporate Finance}
+      \field{title}{Industry Effects in the Merton Distance to Default Model}
+      \field{volume}{59}
+      \field{year}{2019}
+      \field{pages}{101\bibrangedash 120}
+      \range{pages}{20}
+    \endentry
+    \entry{BEIS2021PriceCapReview}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=d01228d578620470bf28ab2da1113120}{%
+           family={Department\bibnamedelimb for\bibnamedelima Business},
+           familyi={D\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Energy\bibnamedelimb \& Industrial\bibnamedelima Strategy},
+           giveni={E\bibinitperiod\bibinitdelim \\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UK Government}%
+      }
+      \strng{namehash}{d01228d578620470bf28ab2da1113120}
+      \strng{fullhash}{d01228d578620470bf28ab2da1113120}
+      \strng{fullhashraw}{d01228d578620470bf28ab2da1113120}
+      \strng{bibnamehash}{d01228d578620470bf28ab2da1113120}
+      \strng{authorbibnamehash}{d01228d578620470bf28ab2da1113120}
+      \strng{authornamehash}{d01228d578620470bf28ab2da1113120}
+      \strng{authorfullhash}{d01228d578620470bf28ab2da1113120}
+      \strng{authorfullhashraw}{d01228d578620470bf28ab2da1113120}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy Price Cap Review}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/energy-price-cap-review
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/energy-price-cap-review
+      \endverb
+    \endentry
+    \entry{BEIS2022RetailStrategy}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=d01228d578620470bf28ab2da1113120}{%
+           family={Department\bibnamedelimb for\bibnamedelima Business},
+           familyi={D\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Energy\bibnamedelimb \& Industrial\bibnamedelima Strategy},
+           giveni={E\bibinitperiod\bibinitdelim \\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UK Government}%
+      }
+      \strng{namehash}{d01228d578620470bf28ab2da1113120}
+      \strng{fullhash}{d01228d578620470bf28ab2da1113120}
+      \strng{fullhashraw}{d01228d578620470bf28ab2da1113120}
+      \strng{bibnamehash}{d01228d578620470bf28ab2da1113120}
+      \strng{authorbibnamehash}{d01228d578620470bf28ab2da1113120}
+      \strng{authornamehash}{d01228d578620470bf28ab2da1113120}
+      \strng{authorfullhash}{d01228d578620470bf28ab2da1113120}
+      \strng{authorfullhashraw}{d01228d578620470bf28ab2da1113120}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy Retail Market Strategy}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/energy-retail-market-strategy
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/energy-retail-market-strategy
+      \endverb
+    \endentry
+    \entry{UKGov2021BulbSupport}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e2e9e0cbd8b125a9eb847dd8f42f068e}{%
+           family={Government},
+           familyi={G\bibinitperiod},
+           given={UK},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{fullhash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{fullhashraw}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{bibnamehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authorbibnamehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authornamehash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authorfullhash}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \strng{authorfullhashraw}{e2e9e0cbd8b125a9eb847dd8f42f068e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bulb Energyに対する特別支援措置}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.gov.uk/
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/
+      \endverb
+    \endentry
+    \entry{HallRoelich2022EnergyPolicy}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=28e5797103b1df999ed20059bef72ef3}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a4e095c28e425c09f09fba2522c684e5}{%
+           family={Roelich},
+           familyi={R\bibinitperiod},
+           given={Katy},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{de3904487fafc52e0566a4f2ce22496b}
+      \strng{fullhash}{de3904487fafc52e0566a4f2ce22496b}
+      \strng{fullhashraw}{de3904487fafc52e0566a4f2ce22496b}
+      \strng{bibnamehash}{de3904487fafc52e0566a4f2ce22496b}
+      \strng{authorbibnamehash}{de3904487fafc52e0566a4f2ce22496b}
+      \strng{authornamehash}{de3904487fafc52e0566a4f2ce22496b}
+      \strng{authorfullhash}{de3904487fafc52e0566a4f2ce22496b}
+      \strng{authorfullhashraw}{de3904487fafc52e0566a4f2ce22496b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Policy}
+      \field{title}{Energy Retail Market Failures in the UK}
+      \field{volume}{165}
+      \field{year}{2022}
+      \field{pages}{113307}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.enpol.2022.113307
+      \endverb
+    \endentry
+    \entry{IEAElectricity2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=b33b47b3008c8c47f90a77e0c2dd3060}{%
+           family={{International Energy Agency}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IEA}%
+      }
+      \strng{namehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{bibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorbibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authornamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electricity Market Report 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.iea.org/reports/electricity-market-report-2024
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/reports/electricity-market-report-2024
+      \endverb
+    \endentry
+    \entry{McFadden1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1327829299e572b76be93fafcdca8d7b}{%
+           family={McFadden},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{fullhash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{fullhashraw}{1327829299e572b76be93fafcdca8d7b}
+      \strng{bibnamehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authorbibnamehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authornamehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authorfullhash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{authorfullhashraw}{1327829299e572b76be93fafcdca8d7b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{number}{4}
+      \field{title}{The Measurement of Urban Travel Demand}
+      \field{volume}{3}
+      \field{year}{1974}
+      \field{pages}{303\bibrangedash 328}
+      \range{pages}{26}
+    \endentry
+    \entry{McKelveyZavoina1975}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0e9527c01edc1545dbf5751af3036020}{%
+           family={McKelvey},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=dec2f932c04747f6a5384eeabb29ed8b}{%
+           family={Zavoina},
+           familyi={Z\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{fullhash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{fullhashraw}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{bibnamehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authorbibnamehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authornamehash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authorfullhash}{c34a83aa7c84839b502f76cc404dfd28}
+      \strng{authorfullhashraw}{c34a83aa7c84839b502f76cc404dfd28}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Mathematical Sociology}
+      \field{number}{1}
+      \field{title}{A Statistical Model for the Analysis of Ordinal Level Dependent Variables}
+      \field{volume}{4}
+      \field{year}{1975}
+      \field{pages}{103\bibrangedash 120}
+      \range{pages}{18}
+    \endentry
+    \entry{Merton1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1e2894bce14479f5a711418ce8f8ffa}{%
+           family={Merton},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{fullhash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{fullhashraw}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{bibnamehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authorbibnamehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authornamehash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authorfullhash}{b1e2894bce14479f5a711418ce8f8ffa}
+      \strng{authorfullhashraw}{b1e2894bce14479f5a711418ce8f8ffa}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{2}
+      \field{title}{On the Pricing of Corporate Debt: The Risk Structure of Interest Rates}
+      \field{volume}{29}
+      \field{year}{1974}
+      \field{pages}{449\bibrangedash 470}
+      \range{pages}{22}
+    \endentry
+    \entry{OECD2022Security}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhashraw}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy Security 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.oecd.org/
+      \endverb
+      \verb{url}
+      \verb https://www.oecd.org/
+      \endverb
+    \endentry
+    \entry{NAO2022SupplierFailures}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=3c270573b6d3ecc5d9753c1daa79dcb0}{%
+           family={Office},
+           familyi={O\bibinitperiod},
+           given={National\bibnamedelima Audit},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Audit Office}%
+      }
+      \strng{namehash}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \strng{fullhash}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \strng{fullhashraw}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \strng{bibnamehash}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \strng{authorbibnamehash}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \strng{authornamehash}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \strng{authorfullhash}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \strng{authorfullhashraw}{3c270573b6d3ecc5d9753c1daa79dcb0}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Energy Supplier Failures 2021--22}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.nao.org.uk/reports/the-energy-supplier-failures-2021-22/
+      \endverb
+      \verb{url}
+      \verb https://www.nao.org.uk/reports/the-energy-supplier-failures-2021-22/
+      \endverb
+    \endentry
+    \entry{Ofgem2021OctopusTakeover}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4023cf44a7eed26d3c981e66d4f3484d}{%
+           family={Ofgem},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{bibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorbibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authornamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Octopus EnergyによるBulb顧客引き継ぎに関する公表資料}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+      \verb{url}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+    \endentry
+    \entry{Ofgem2021BulbSLR}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4023cf44a7eed26d3c981e66d4f3484d}{%
+           family={Ofgem},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{bibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorbibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authornamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Supplier of Last Resort: Bulb Energy}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+      \verb{url}
+      \verb https://www.ofgem.gov.uk/
+      \endverb
+    \endentry
+    \entry{Ofgem2022SupplierFailures}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=4023cf44a7eed26d3c981e66d4f3484d}{%
+           family={Ofgem},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Office of Gas}%
+        {Electricity Markets}%
+      }
+      \strng{namehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{fullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{bibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorbibnamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authornamehash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhash}{4023cf44a7eed26d3c981e66d4f3484d}
+      \strng{authorfullhashraw}{4023cf44a7eed26d3c981e66d4f3484d}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Retail Energy Market: 2021--2022 Supplier Failures}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.ofgem.gov.uk/publications/retail-energy-market-2021-2022-supplier-failures
+      \endverb
+      \verb{url}
+      \verb https://www.ofgem.gov.uk/publications/retail-energy-market-2021-2022-supplier-failures
+      \endverb
+    \endentry
+    \entry{PozzoliPaolone2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=8d8e1b7e0c3a65728945b2224e4144dd}{%
+           family={Pozzoli},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98fb6da712cf18e67004bce4b4d05369}{%
+           family={Paolone},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \strng{fullhash}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \strng{fullhashraw}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \strng{bibnamehash}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \strng{authorbibnamehash}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \strng{authornamehash}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \strng{authorfullhash}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \strng{authorfullhashraw}{15260fc2ebaef11bd5126abbf5f1e2ea}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{SpringerBriefs in Finance}
+      \field{title}{Corporate Financial Distress}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/978-3-319-67355-4_3
+      \endverb
+    \endentry
+    \entry{TinocoWilson2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bcc37cf4936d2eeb48dae1fcaa7398c0}{%
+           family={Tinoco},
+           familyi={T\bibinitperiod},
+           given={Mario\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1bd19c90d4e2060319ebfe6e7ca6e199}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{fullhash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{fullhashraw}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{bibnamehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authorbibnamehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authornamehash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authorfullhash}{4080bdd169e9a0f64c97001be49236f7}
+      \strng{authorfullhashraw}{4080bdd169e9a0f64c97001be49236f7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Review of Financial Analysis}
+      \field{title}{Financial Distress and Default Prediction: An Empirical Analysis}
+      \field{volume}{30}
+      \field{year}{2013}
+      \field{pages}{394\bibrangedash 419}
+      \range{pages}{26}
+    \endentry
+    \entry{TDB2021PowerCrisis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2b4f5708b297479f145cedd4957b2524}{%
+           family={帝国データバンク},
+           familyi={帝\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{fullhash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{fullhashraw}{2b4f5708b297479f145cedd4957b2524}
+      \strng{bibnamehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authorbibnamehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authornamehash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authorfullhash}{2b4f5708b297479f145cedd4957b2524}
+      \strng{authorfullhashraw}{2b4f5708b297479f145cedd4957b2524}
+      \field{sortinit}{帝}
+      \field{sortinithash}{f6d90faec6229b7c935832d4f8093139}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{帝国データバンク倒産速報}
+      \field{title}{新電力倒産に関する帝国データバンク報告}
+      \field{year}{2021}
+    \endentry
+    \entry{TSR2021PowerCrisis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=47b87234edecbb94fe8578c5bd10cd73}{%
+           family={東京商工リサーチ},
+           familyi={東\bibinitperiod}}}%
+      }
+      \strng{namehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{fullhash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{fullhashraw}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{bibnamehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authorbibnamehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authornamehash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authorfullhash}{47b87234edecbb94fe8578c5bd10cd73}
+      \strng{authorfullhashraw}{47b87234edecbb94fe8578c5bd10cd73}
+      \field{sortinit}{東}
+      \field{sortinithash}{40869f05027ede3b9021f05bd312d5f3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{TSR企業倒産情報}
+      \field{title}{新電力倒産に関する東京商工リサーチ報告}
+      \field{year}{2021}
+    \endentry
+    \entry{METI2020RetailData}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=229c68b02d8a4d9ce0f23dad2dd1bc8a}{%
+           family={経済産業省},
+           familyi={経\bibinitperiod}}}%
+      }
+      \strng{namehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{fullhash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{fullhashraw}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{bibnamehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authorbibnamehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authornamehash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authorfullhash}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \strng{authorfullhashraw}{229c68b02d8a4d9ce0f23dad2dd1bc8a}
+      \field{sortinit}{経}
+      \field{sortinithash}{79578c932d64cbb6ea8b71f15fdacafa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{電力小売事業者データ集}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.meti.go.jp/
+      \endverb
+      \verb{url}
+      \verb https://www.meti.go.jp/
+      \endverb
+    \endentry
+    \entry{CityCouncil2021Support}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=88109aa23d40bd5c2f383e024847a041}{%
+           family={自治体議会},
+           familyi={自\bibinitperiod}}}%
+      }
+      \strng{namehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{fullhash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{fullhashraw}{88109aa23d40bd5c2f383e024847a041}
+      \strng{bibnamehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authorbibnamehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authornamehash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authorfullhash}{88109aa23d40bd5c2f383e024847a041}
+      \strng{authorfullhashraw}{88109aa23d40bd5c2f383e024847a041}
+      \field{sortinit}{自}
+      \field{sortinithash}{58c5f60d781c9ce2af9ee7cbcb9b9fdc}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{自治体議会資料}
+      \field{title}{新電力との包括契約に関する議事録}
+      \field{year}{2021}
+    \endentry
+    \entry{DenkiShimbun2021Crisis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e52b7a0be8d7f725f5dda73fa457cde4}{%
+           family={電気新聞},
+           familyi={電\bibinitperiod}}}%
+      }
+      \strng{namehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{fullhash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{fullhashraw}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{bibnamehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authorbibnamehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authornamehash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authorfullhash}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \strng{authorfullhashraw}{e52b7a0be8d7f725f5dda73fa457cde4}
+      \field{sortinit}{電}
+      \field{sortinithash}{bd632233c22d5aaff0ee9d274053beb5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{電気新聞}
+      \field{title}{新電力の経営危機に関する報道}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+  \missing{METI2021AdjustmentFee}
+  \missing{OCCTO2021ImbalanceReform}
+  \missing{Ofgem2021PriceCapUpdate}
+\endrefsection
 \endinput
 
