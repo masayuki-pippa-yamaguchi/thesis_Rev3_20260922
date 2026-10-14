@@ -210,6 +210,12 @@
       \field{year}{1981}
       \field{pages}{1483\bibrangedash 1536}
       \range{pages}{54}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2724565
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2724565
+      \endverb
     \endentry
     \entry{BharathShumway2008}{article}{}{}
       \name{author}{2}{}{%
@@ -232,10 +238,8 @@
       \strng{authornamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
       \strng{authorfullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
       \strng{authorfullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -247,43 +251,15 @@
       \field{year}{2008}
       \field{pages}{1339\bibrangedash 1369}
       \range{pages}{31}
-    \endentry
-    \entry{Bharath2008}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=9cfd727d48e0b7b57a0f9c2c7db60027}{%
-           family={Bharath},
-           familyi={B\bibinitperiod},
-           given={Sreedhar\bibnamedelima T.},
-           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=424a8e036f8a13ca7c9fd0ae41fddaed}{%
-           family={Shumway},
-           familyi={S\bibinitperiod},
-           given={Tyler},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \strng{fullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \strng{fullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \strng{bibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \strng{authorbibnamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \strng{authornamehash}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \strng{authorfullhash}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \strng{authorfullhashraw}{fb5fac39eda13fc2bd8fed31d44c467e}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Financial Studies}
-      \field{number}{3}
-      \field{title}{Forecasting Default with the Merton Distance to Default Model}
-      \field{volume}{21}
-      \field{year}{2008}
-      \field{pages}{1339\bibrangedash 1369}
-      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1093/rfs/hhn044
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/rfs/article-abstract/21/3/1339/1566804
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/rfs/article-abstract/21/3/1339/1566804
+      \endverb
     \endentry
     \entry{CampbellHilscherSzilagyi2008}{article}{}{}
       \name{author}{3}{}{%
@@ -317,47 +293,22 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Finance}
+      \field{journaltitle}{The Journal of Finance}
       \field{number}{6}
       \field{title}{In Search of Distress Risk}
       \field{volume}{63}
       \field{year}{2008}
       \field{pages}{2899\bibrangedash 2939}
       \range{pages}{41}
-    \endentry
-    \entry{CharalambakisGarrett2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=00492fbad05b798630960cbc86f75520}{%
-           family={Charalambakis},
-           familyi={C\bibinitperiod},
-           given={Evangelos},
-           giveni={E\bibinitperiod}}}%
-        {{hash=29109d998814e23d29b37099008406ff}{%
-           family={Garrett},
-           familyi={G\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{1fee208c8eca5ead9a65e3e77a48271a}
-      \strng{fullhash}{1fee208c8eca5ead9a65e3e77a48271a}
-      \strng{fullhashraw}{1fee208c8eca5ead9a65e3e77a48271a}
-      \strng{bibnamehash}{1fee208c8eca5ead9a65e3e77a48271a}
-      \strng{authorbibnamehash}{1fee208c8eca5ead9a65e3e77a48271a}
-      \strng{authornamehash}{1fee208c8eca5ead9a65e3e77a48271a}
-      \strng{authorfullhash}{1fee208c8eca5ead9a65e3e77a48271a}
-      \strng{authorfullhashraw}{1fee208c8eca5ead9a65e3e77a48271a}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Corporate Finance}
-      \field{title}{Industry Effects in the Merton Distance to Default Model}
-      \field{volume}{59}
-      \field{year}{2019}
-      \field{pages}{101\bibrangedash 120}
-      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.2008.01416.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.2008.01416.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.2008.01416.x
+      \endverb
     \endentry
     \entry{BEIS2021PriceCapReview}{report}{}{}
       \name{author}{1}{}{%
@@ -558,6 +509,9 @@
       \field{year}{1974}
       \field{pages}{303\bibrangedash 328}
       \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/0047-2727(74)90003-6
+      \endverb
     \endentry
     \entry{McKelveyZavoina1975}{article}{}{}
       \name{author}{2}{}{%
@@ -593,6 +547,9 @@
       \field{year}{1975}
       \field{pages}{103\bibrangedash 120}
       \range{pages}{18}
+      \verb{doi}
+      \verb 10.1080/0022250X.1975.9989847
+      \endverb
     \endentry
     \entry{Merton1974}{article}{}{}
       \name{author}{1}{}{%
@@ -623,6 +580,15 @@
       \field{year}{1974}
       \field{pages}{449\bibrangedash 470}
       \range{pages}{22}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.1974.tb03058.x
+      \endverb
+      \verb{urlraw}
+      \verb https://wiley.com
+      \endverb
+      \verb{url}
+      \verb https://wiley.com
+      \endverb
     \endentry
     \entry{OECD2022Security}{misc}{}{}
       \name{author}{1}{}{%
@@ -817,7 +783,7 @@
       \field{title}{Corporate Financial Distress}
       \field{year}{2017}
       \verb{doi}
-      \verb 10.1007/978-3-319-67355-4_3
+      \verb 10.1007/978-3-319-67355-4
       \endverb
     \endentry
     \entry{TinocoWilson2013}{article}{}{}
@@ -848,17 +814,29 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Review of Financial Analysis}
-      \field{title}{Financial Distress and Default Prediction: An Empirical Analysis}
+      \field{title}{Financial distress and bankruptcy prediction among listed companies using accounting, market and macroeconomic variables}
       \field{volume}{30}
       \field{year}{2013}
       \field{pages}{394\bibrangedash 419}
       \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/j.irfa.2013.02.013
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S1057521913000227
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S1057521913000227
+      \endverb
     \endentry
     \entry{TDB2021PowerCrisis}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=2b4f5708b297479f145cedd4957b2524}{%
            family={帝国データバンク},
            familyi={帝\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {株式会社帝国データバンク}%
       }
       \strng{namehash}{2b4f5708b297479f145cedd4957b2524}
       \strng{fullhash}{2b4f5708b297479f145cedd4957b2524}
@@ -874,15 +852,25 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{帝国データバンク倒産速報}
-      \field{title}{新電力倒産に関する帝国データバンク報告}
-      \field{year}{2021}
+      \field{month}{3}
+      \field{note}{2021年度の倒産が過去最多の14件に達したことを公表した公式特別企画レポート}
+      \field{title}{「新電力会社」倒産動向調査（2021年度）}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.tdb.co.jp/report/industry/c_b2yqn-fx8/
+      \endverb
+      \verb{url}
+      \verb https://www.tdb.co.jp/report/industry/c_b2yqn-fx8/
+      \endverb
     \endentry
     \entry{TSR2021PowerCrisis}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=47b87234edecbb94fe8578c5bd10cd73}{%
            family={東京商工リサーチ},
            familyi={東\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {株式会社東京商工リサーチ}%
       }
       \strng{namehash}{47b87234edecbb94fe8578c5bd10cd73}
       \strng{fullhash}{47b87234edecbb94fe8578c5bd10cd73}
@@ -898,9 +886,16 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{TSR企業倒産情報}
-      \field{title}{新電力倒産に関する東京商工リサーチ報告}
-      \field{year}{2021}
+      \field{month}{4}
+      \field{note}{JEPX高騰による逆ザヤやF-Power破綻、赤字率急増を分析したTSRデータインサイト}
+      \field{title}{赤字率6割に迫る 2021年「新電力専業企業212社 業績動向」調査}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.tsr-net.co.jp/data/detail/1191272_1527.html
+      \endverb
+      \verb{url}
+      \verb https://www.tsr-net.co.jp/data/detail/1191272_1527.html
+      \endverb
     \endentry
     \entry{METI2020RetailData}{misc}{}{}
       \name{author}{1}{}{%
@@ -951,8 +946,8 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{自治体議会資料}
-      \field{title}{新電力との包括契約に関する議事録}
+      \field{note}{特定の自治体を指定しない場合、一般的な地方自治体議会における新電力撤退対策の会議録を示すプレースホルダー記述}
+      \field{title}{新電力との包括契約・供給停止に伴う最終保障供給への移行に関する各種議事録資料}
       \field{year}{2021}
     \endentry
     \entry{DenkiShimbun2021Crisis}{misc}{}{}
@@ -975,11 +970,19 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{電気新聞}
-      \field{title}{新電力の経営危機に関する報道}
+      \field{note}{2021年1月のJEPX価格高騰および新電力のインバランス負担・経営危機に関する一連の報道}
+      \field{title}{電気新聞（一般社団法人 日本電気協会新聞部）公式ウェブサイト}
       \field{year}{2021}
+      \verb{urlraw}
+      \verb https://denkishimbun.com
+      \endverb
+      \verb{url}
+      \verb https://denkishimbun.com
+      \endverb
     \endentry
   \enddatalist
+  \missing{Bharath2008}
+  \missing{CharalambakisGarrett2019}
   \missing{METI2021AdjustmentFee}
   \missing{OCCTO2021ImbalanceReform}
   \missing{Ofgem2021PriceCapUpdate}
