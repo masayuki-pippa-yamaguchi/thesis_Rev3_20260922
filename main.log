@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  14 OCT 2026 11:52
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.29)  15 OCT 2026 21:18
  restricted system commands enabled.
 **d:/texlive/2026/work/thesis_Rev3_20260922/main
 (d:/texlive/2026/work/thesis_Rev3_20260922/main.tex
@@ -1876,13 +1876,13 @@ Package hyperref Info: Link coloring ON on input line 100.
 \openout6 = main.out
  (./chapters/titlepage.tex(load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 4.
+(Font)              scaled to size 13.31586pt on input line 6.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 4.
+(Font)              scaled to size 13.31586pt on input line 6.
 LaTeX Font Info:    Font shape `JT3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 5.
+(Font)              scaled to size 11.09656pt on input line 7.
 LaTeX Font Info:    Font shape `JY3/IPAexMincho(0)/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 5.
+(Font)              scaled to size 11.09656pt on input line 7.
  [1
 
 
@@ -2562,9 +2562,9 @@ Overfull \hbox (19.89667pt too wide) in paragraph at lines 233--237
 \pydata@fh@0=\write8
 
 \openout8 = _FAD58DE7366495DB4650CFEFAC2FCD61.data.minted
-runsystem(latexminted config  --timestamp 20261014115242 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted config  --timestamp 20261015211847 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
  (./_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20261014115242 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20261015211847 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
  (./_minted/default.style.minted) (./_minted/06FF85DC35679381239FA06E7A2D7D48.highlight.minted(load cache: extra_lmmono10-italic.luc)
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
 (Font)              No change on input line 2.
@@ -3145,13 +3145,6 @@ Package luatex.def Info: D:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma
 [300] [301<d:/texlive/2026/work/thesis_Rev1_20260516/figures/sigma_trend.pdf>]) [302]
 \openout2 = chapters/appendix_G.aux
  (./chapters/appendix_G.tex
-Overfull \hbox (3.53973pt too wide) in paragraph at lines 22--71
- [][][][] 
- []
-
-
-LaTeX Warning: Float too large for page by 46.14835pt on input line 71.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -3160,134 +3153,135 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] [304]
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-(load cache: extra_lmromancaps10-regular.luc)
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
- [305
-
+] [304] [305
 
 
 
 ]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
+(load cache: extra_lmromancaps10-regular.luc)
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
+ [306
+
+]
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
- [306]
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
-LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 145.
 LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
-(Font)              No change on input line 143.
- [307] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/chapter10.aux) (./chapters/chapter11.aux) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux) (./chapters/appendix_G.aux))
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+ [307]
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexGothic(0)/m/it' undefined
+(Font)              No change on input line 145.
+LaTeX Font Info:    Kanji font shape `JY3/IPAexMincho(0)/m/sc' undefined
+(Font)              No change on input line 145.
+ [308] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/chapter10.aux) (./chapters/chapter11.aux) (./chapters/appendix_A.aux) (./chapters/appendix_B.aux) (./chapters/appendix_C.aux) (./chapters/appendix_D.aux) (./chapters/appendix_E.aux) (./chapters/appendix_F.aux) (./chapters/appendix_G.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -3308,19 +3302,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 57286 strings out of 475900
+ 57288 strings out of 475900
  244624,2848258 words of node,token memory allocated
  10290 words of node memory still in use:
    10 hlist, 2 vlist, 5 rule, 123 glue, 4 kern, 1 glyph, 3877 attribute, 107 glue_spec, 364 attribute_list, 2 write, 13 user_defined, 18 pdf_action nodes
-   avail lists: 1:35,2:65107,3:2245,4:671,5:340,6:101,7:6438,8:86,9:2924,10:49,11:206
+   avail lists: 1:33,2:65107,3:2245,4:671,5:340,6:101,7:6438,8:86,9:2924,10:49,11:223
  76900 multiletter control sequences out of 65536+600000
  203 fonts using 116284727 bytes
  119i,19n,115p,2066b,2380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman8-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-bold.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf><d:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><d:/texlive/2026/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (315 pages, 16160080 bytes).
+Output written on main.pdf (316 pages, 16161591 bytes).
 
-PDF statistics: 3812 PDF objects out of 4296 (max. 8388607)
- 2999 compressed objects within 30 object streams
- 1074 named destinations out of 1200 (max. 1048576)
+PDF statistics: 3818 PDF objects out of 4296 (max. 8388607)
+ 3003 compressed objects within 31 object streams
+ 1076 named destinations out of 1200 (max. 1048576)
  1064 words of extra memory for PDF output out of 10000 (max. 100000000)
 
