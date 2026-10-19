@@ -104,167 +104,167 @@
 \contentsline {subsection}{\numberline {5.5.2}閾値構造による確率区間の分割}{94}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}ロジスティック曲線の差分が複数の曲線を生み出す数学的必然性}{95}{subsection.5.5.3}%
 \contentsline {subsection}{\numberline {5.5.4}複数のロジスティック曲線と閾値の関係}{96}{subsection.5.5.4}%
-\contentsline {subsection}{\numberline {5.5.5}Ordered Logit の確率構造の要点}{96}{subsection.5.5.5}%
-\contentsline {section}{\numberline {5.6}線形倒産距離 $Z_{\text {lin}}$ と潜在変数 $y^*$ の構造的対応}{97}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}記号と経済的意味の整理}{97}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}$Z_{\text {lin}}$ と $y^*$ の構造的対応}{98}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}理論モデルから確率モデルへの橋渡し}{99}{subsection.5.6.3}%
-\contentsline {section}{\numberline {5.7}Ordered Logit の確率式と MLE による推定}{100}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Ordered Logit の確率式}{101}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}閾値（cutpoints）の推定}{102}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}尤度関数と MLE}{103}{subsection.5.7.3}%
-\contentsline {subsection}{\numberline {5.7.4}潜在変数の値と倒産ステージ確率の関係}{104}{subsection.5.7.4}%
-\contentsline {section}{\numberline {5.8}記号整理}{105}{section.5.8}%
-\contentsline {section}{\numberline {5.9}本章のまとめ}{106}{section.5.9}%
-\contentsline {chapter}{\numberline {第6章}四要素モデルの理論的写像と日本企業データ構築}{108}{chapter.6}%
-\contentsline {section}{\numberline {6.1}四要素モデルの理論的写像：変数定義と採用根拠}{108}{section.6.1}%
-\contentsline {section}{\numberline {6.2}本章の目的と基本方針}{109}{section.6.2}%
-\contentsline {section}{\numberline {6.3}収益性 $\mu $ の定義と採用根拠}{110}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}理論的対応：企業価値の期待成長率としての $\mu $}{110}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}総資産の対数差分（log-diff）による実証的定義}{110}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}企業金融論の視点：総資産成長率が倒産距離を延伸する理由}{111}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}新電力企業の産業特性：総資産が企業価値の主要構成要素となる理由}{111}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}外部ショック感応度 $\sigma $ の定義と採用根拠}{112}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}理論的対応：Merton モデルにおける不確実性の役割}{112}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}新電力企業の倒産構造：ショック依存型ボラティリティ}{112}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}実証上の定義：価格変化率の標準偏差}{113}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}企業金融論の視点：ボラティリティが倒産リスクを規定する理由}{113}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}英国企業におけるショック感応度の補助指標}{114}{subsection.6.4.5}%
-\contentsline {subsection}{\numberline {6.4.6}採用根拠：理論・制度・データの三側面からの整合性}{114}{subsection.6.4.6}%
-\contentsline {section}{\numberline {6.5}支援能力 $S$ の定義と採用根拠}{114}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}理論的対応：資本構成と倒産距離の関係}{115}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}日本企業における観測制約}{115}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}英国企業における支援能力の観測可能性：資本構成情報の豊富さ}{116}{subsection.6.5.3}%
-\contentsline {subsection}{\numberline {6.5.4}実証上の定義：資本構成の潜在因子としての $S$}{117}{subsection.6.5.4}%
-\contentsline {subsection}{\numberline {6.5.5}採用根拠：企業金融論との整合性}{117}{subsection.6.5.5}%
-\contentsline {section}{\numberline {6.6}倒産閾値 $D$ の定義と採用根拠}{118}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}理論的対応：Merton モデルにおける負債額 $F$ の役割}{118}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}新電力企業の倒産構造：負債の「性質」の違い}{118}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}実証上の定義：負債比率による倒産閾値の proxy}{119}{subsection.6.6.3}%
-\contentsline {subsection}{\numberline {6.6.4}企業金融論の視点：負債比率が倒産閾値を規定する理由}{119}{subsection.6.6.4}%
-\contentsline {subsection}{\numberline {6.6.5}英国企業における倒産閾値の観測可能性}{119}{subsection.6.6.5}%
-\contentsline {subsection}{\numberline {6.6.6}採用根拠：理論・制度・データの三側面からの整合性}{120}{subsection.6.6.6}%
-\contentsline {section}{\numberline {6.7}日本企業データ構築と変数定義：四要素モデルの実証的写像}{120}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}本章の目的と基本方針}{121}{subsection.6.7.1}%
-\contentsline {section}{\numberline {6.8}データ収集の全体像}{121}{section.6.8}%
-\contentsline {section}{\numberline {6.9}財務データの処理}{122}{section.6.9}%
-\contentsline {subsection}{\numberline {6.9.1}抽出項目}{122}{subsection.6.9.1}%
-\contentsline {subsection}{\numberline {6.9.2}年次データの月次化}{122}{subsection.6.9.2}%
-\contentsline {section}{\numberline {6.10}市場データ：スポット価格の推移}{123}{section.6.10}%
-\contentsline {section}{\numberline {6.11}四要素モデルの実証的写像（日本企業版）}{123}{section.6.11}%
-\contentsline {subsection}{\numberline {6.11.1}収益性 $\mu $ の定義}{123}{subsection.6.11.1}%
-\contentsline {subsection}{\numberline {6.11.2}外部ショック感応度 $\sigma $ の定義}{123}{subsection.6.11.2}%
-\contentsline {subsection}{\numberline {6.11.3}支援能力 $S$ の定義}{124}{subsection.6.11.3}%
-\contentsline {subsection}{\numberline {6.11.4}倒産閾値 $D$ の定義}{124}{subsection.6.11.4}%
-\contentsline {section}{\numberline {6.12}倒産距離 DD の月次計算}{124}{section.6.12}%
-\contentsline {section}{\numberline {6.13}記述統計（7社版）}{125}{section.6.13}%
-\contentsline {section}{\numberline {6.14}第6章のまとめ}{125}{section.6.14}%
-\contentsline {chapter}{\numberline {第7章}理論モデルに基づくシミュレーション分析}{127}{chapter.7}%
-\contentsline {section}{\numberline {7.1}本章の目的と位置づけ}{127}{section.7.1}%
-\contentsline {section}{\numberline {7.2}線形倒産距離をシミュレーション分析用いる正当性}{128}{section.7.2}%
-\contentsline {section}{\numberline {7.3}限界と注意点}{131}{section.7.3}%
-\contentsline {section}{\numberline {7.4}4変数の独立性に関する前提とその正当化}{132}{section.7.4}%
-\contentsline {section}{\numberline {7.5}シミュレーションの設定}{134}{section.7.5}%
-\contentsline {section}{\numberline {7.6}変数間の相互関係を考慮したシミュレーション}{136}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Merton型倒産リスクシミュレーション}{142}{section.7.7}%
-\contentsline {subsection}{\numberline {7.7.1}Merton型モデルの仕様}{142}{subsection.7.7.1}%
-\contentsline {subsection}{\numberline {7.7.2}ケース設定}{143}{subsection.7.7.2}%
-\contentsline {subsection}{\numberline {7.7.3}3D サーフェスプロットによる可視化}{143}{subsection.7.7.3}%
-\contentsline {subsection}{\numberline {7.7.4}ケース横断的な比較と含意}{153}{subsection.7.7.4}%
-\contentsline {section}{\numberline {7.8}B\&S 型倒産リスクシミュレーション}{153}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}B\&S 型ロジットモデルの仕様}{154}{subsection.7.8.1}%
-\contentsline {subsection}{\numberline {7.8.2}新電力の代表ケースの設定}{154}{subsection.7.8.2}%
-\contentsline {subsection}{\numberline {7.8.3}倒産確率サーフェスの可視化}{155}{subsection.7.8.3}%
-\contentsline {subsection}{\numberline {7.8.4}Merton 型シミュレーションとの整合性}{158}{subsection.7.8.4}%
-\contentsline {subsection}{\numberline {7.8.5}本節の含意と第8章への橋渡し}{159}{subsection.7.8.5}%
-\contentsline {chapter}{\numberline {第8章}実証モデルの構築：潜在倒産距離 $Z_{\text {lin}}$ とロジット推定}{161}{chapter.8}%
-\contentsline {section}{\numberline {8.1}本章の目的}{163}{section.8.1}%
-\contentsline {section}{\numberline {8.2}潜在倒産距離 $Z_{\text {lin}}$ の再掲}{164}{section.8.2}%
-\contentsline {section}{\numberline {8.3}ロジットモデルの定式化}{164}{section.8.3}%
-\contentsline {section}{\numberline {8.4}相互作用項を導入した拡張ロジットモデル}{165}{section.8.4}%
-\contentsline {section}{\numberline {8.5}理論的符号条件}{166}{section.8.5}%
-\contentsline {section}{\numberline {8.6}識別の考え方}{168}{section.8.6}%
-\contentsline {section}{\numberline {8.7}本章のまとめ}{170}{section.8.7}%
-\contentsline {chapter}{\numberline {第9章}実証分析：倒産段階モデルによる新電力企業の倒産リスク分析}{171}{chapter.9}%
-\contentsline {section}{\numberline {9.1}倒産の段階性と従属変数の再定義（日本企業）}{172}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Ordered Logit モデルの理論構造（日本企業）}{174}{section.9.2}%
-\contentsline {section}{\numberline {9.3}推定手順（日本企業）}{175}{section.9.3}%
-\contentsline {subsubsection}{(1) 使用モデルと推定環境}{175}{section*.115}%
-\contentsline {subsubsection}{(2) 説明変数の構築}{175}{section*.116}%
-\contentsline {subsubsection}{(3) 従属変数の整備}{176}{section*.117}%
-\contentsline {subsubsection}{(4) 推定式の構築}{176}{section*.118}%
-\contentsline {subsubsection}{(5) 推定の実行}{177}{section*.119}%
-\contentsline {section}{\numberline {9.4}推定結果（日本企業）}{179}{section.9.4}%
-\contentsline {subsubsection}{(1) 推定結果の概要}{179}{section*.120}%
-\contentsline {subsubsection}{(2) 推定結果}{179}{section*.121}%
-\contentsline {subsubsection}{(3) 推定結果の事実整理}{180}{section*.123}%
-\contentsline {section}{\numberline {9.5}倒産ステージ確率の動学・確率曲線・年次比較（日本企業）}{180}{section.9.5}%
-\contentsline {subsubsection}{9.5.1 倒産ステージ確率の動学的推移}{181}{section*.124}%
-\contentsline {subsubsection}{9.5.2 Ordered Logit に基づく倒産ステージ確率曲線}{183}{section*.127}%
-\contentsline {subsubsection}{9.5.3 倒産確率の年次平均と倒産件数の比較}{183}{section*.129}%
-\contentsline {section}{\numberline {9.6}総合評価（日本企業）}{185}{section.9.6}%
-\contentsline {section}{\numberline {9.7}英国市場への拡張（英国企業）}{186}{section.9.7}%
-\contentsline {subsubsection}{(1) 自由化の歴史が長く，日本より 20 年以上先行している}{186}{section*.131}%
-\contentsline {subsubsection}{(2) 制度設計が日本と類似しており，日本は英国制度を参照して改革を進めた}{187}{section*.132}%
-\contentsline {subsubsection}{(3) 倒産ステータスが明確で，Ordered Logit に適している}{187}{section*.133}%
-\contentsline {subsubsection}{(4) 財務諸表の公開制度が充実しており，研究サンプル数を確保できる}{188}{section*.134}%
-\contentsline {subsubsection}{総合的意義}{188}{section*.135}%
-\contentsline {section}{\numberline {9.8}英国企業分析プロセスの全体構成（英国企業）}{189}{section.9.8}%
-\contentsline {subsubsection}{(1) 分析対象企業の選定}{189}{section*.136}%
-\contentsline {subsubsection}{(2) 財務データの収集と tidy 化}{190}{section*.137}%
-\contentsline {subsubsection}{(3) 倒産ステータスの取得と倒産日の特定}{190}{section*.138}%
-\contentsline {subsubsection}{(4) 四要素の定義：英国企業への写像}{191}{section*.139}%
-\contentsline {subsubsection}{(5) 英国版倒産距離 $Z_{\text {lin}}$ の構築}{195}{section*.141}%
-\contentsline {subsubsection}{(6) データ統合と解析用パネルの完成}{195}{section*.142}%
-\contentsline {subsubsection}{(7) Ordered Logit による倒産段階の推定}{195}{section*.143}%
-\contentsline {section}{\numberline {9.9}英国新電力企業データ構築プロセスの概要（英国企業）}{197}{section.9.9}%
-\contentsline {section}{\numberline {9.10}四要素モデルの英国企業への写像と Ordered Logit への接続（英国企業）}{217}{section.9.10}%
-\contentsline {section}{\numberline {9.11}英国企業 Ordered Logit 推定結果（英国企業）}{221}{section.9.11}%
-\contentsline {section}{\numberline {9.12}日本企業との比較（英国企業）}{227}{section.9.12}%
-\contentsline {section}{\numberline {9.13}第9章の総括（日本企業＋英国企業）}{230}{section.9.13}%
-\contentsline {chapter}{\numberline {第10章}考察：倒産ステージ推移の構造的解釈}{234}{chapter.10}%
-\contentsline {section}{\numberline {10.1}資産成長率 $\mu $ が倒産ステージを押し上げる構造的理由}{235}{section.10.1}%
-\contentsline {section}{\numberline {10.2}負債比率 $D$ が倒産閾値として機能するメカニズム}{237}{section.10.2}%
-\contentsline {section}{\numberline {10.3}外部ショック感応度 $\sigma $ が新電力の脆弱性を増幅する構造}{240}{section.10.3}%
-\contentsline {section}{\numberline {10.4}支援能力 $S$ が倒産回避に果たす役割}{242}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Ordered Logit の閾値構造が示す倒産の段階性}{244}{section.10.5}%
-\contentsline {section}{\numberline {10.6}日本企業と英国企業の構造的比較}{249}{section.10.6}%
-\contentsline {section}{\numberline {10.7}本章のまとめ：構造的脆弱性こそ倒産の本質}{252}{section.10.7}%
-\contentsline {chapter}{\numberline {第11章}結論：新電力会社の資本構成と倒産リスクの総合的解釈}{254}{chapter.11}%
-\contentsline {section}{\numberline {11.1}本研究の総括：中心命題の再確認}{255}{section.11.1}%
-\contentsline {section}{\numberline {11.2}本研究が明らかにした構造的脆弱性}{256}{section.11.2}%
-\contentsline {section}{\numberline {11.3}本研究の理論的貢献（独自性）}{257}{section.11.3}%
-\contentsline {section}{\numberline {11.4}実証分析の結論：日本企業と英国企業の比較}{259}{section.11.4}%
-\contentsline {section}{\numberline {11.5}提示した仮説の妥当性の検討（H1〜H4）}{260}{section.11.5}%
-\contentsline {section}{\numberline {11.6}政策的含意}{262}{section.11.6}%
-\contentsline {section}{\numberline {11.7}本研究の限界}{264}{section.11.7}%
-\contentsline {section}{\numberline {11.8}今後の研究課題}{265}{section.11.8}%
-\contentsline {chapter}{付録 A：Merton モデルにおける倒産距離の数学的導出}{268}{appendix*.241}%
-\contentsline {section}{A.1 Merton モデルの基本構造}{268}{section*.242}%
-\contentsline {section}{A.2 倒産閾値の標準正規分布への写像}{269}{section*.244}%
-\contentsline {chapter}{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}{273}{appendix*.252}%
-\contentsline {section}{B.1　Merton 型構造モデルと倒産距離 DD}{273}{section*.253}%
-\contentsline {section}{B.2　B\&S 推定式とロジットモデル}{274}{section*.254}%
-\contentsline {section}{B.3　本研究の潜在変数モデルとの接続}{275}{section*.255}%
-\contentsline {section}{B.4　数学的厳密性と本研究の位置づけ}{277}{section*.257}%
-\contentsline {chapter}{付録 C：倒産確率の等高線図および差分図}{278}{appendix*.258}%
-\contentsline {section}{C.1 ケース別等高線図（A〜F）}{278}{section*.259}%
-\contentsline {section}{C.2 差分図（B−C および F−E）}{284}{section*.266}%
-\contentsline {chapter}{付録 D：B\&S 推定式に基づく proxy 妥当性シミュレーション}{287}{appendix*.271}%
-\contentsline {section}{D.1　分析の目的と概要}{287}{section*.272}%
-\contentsline {section}{D.2　B\&S 推定式シミュレーション結果の可視化}{289}{section*.278}%
-\contentsline {chapter}{付録 E：倒産企業の貸借対照表（官報決算公告）}{294}{appendix*.287}%
-\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{294}{section*.288}%
-\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{295}{section*.290}%
-\contentsline {section}{E-3 （株）シナジアパワーの貸借対照表}{296}{section*.292}%
-\contentsline {section}{E-4 （株）エフエネの貸借対照表}{297}{section*.294}%
-\contentsline {section}{E-5 洸陽電機（現：シン・エナジー）貸借対照表}{298}{section*.296}%
-\contentsline {chapter}{付録 F：市場データおよび市場ショック指標（$\sigma $）の構築方法}{299}{appendix*.298}%
-\contentsline {section}{F.1 JEPX スポット価格データの取得方法}{299}{section*.299}%
-\contentsline {section}{F.2 日次標準偏差（$\sigma _{\mathrm {daily}}$）の算出方法}{300}{section*.300}%
-\contentsline {section}{F.3 月次市場ショック（$\sigma _{\mathrm {monthly}}$）の算出方法}{300}{section*.301}%
-\contentsline {section}{F.4 価格データの例示}{300}{section*.302}%
-\contentsline {section}{F.5 市場ショック指標（$\sigma $）の推移}{301}{section*.304}%
-\contentsline {section}{F.6 データ利用上の留意点}{301}{section*.306}%
-\contentsline {section}{F.7 記述統計の算出方法}{301}{section*.307}%
-\contentsline {chapter}{付録 G：記号・用語・定義の対応表}{303}{appendix*.308}%
+\contentsline {subsection}{\numberline {5.5.5}Ordered Logit の確率構造の要点}{97}{subsection.5.5.5}%
+\contentsline {section}{\numberline {5.6}線形倒産距離 $Z_{\text {lin}}$ と潜在変数 $y^*$ の構造的対応}{98}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}記号と経済的意味の整理}{98}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}$Z_{\text {lin}}$ と $y^*$ の構造的対応}{99}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}理論モデルから確率モデルへの橋渡し}{100}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}Ordered Logit の確率式と MLE による推定}{101}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Ordered Logit の確率式}{102}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}閾値（cutpoints）の推定}{103}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}尤度関数と MLE}{104}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}潜在変数の値と倒産ステージ確率の関係}{106}{subsection.5.7.4}%
+\contentsline {section}{\numberline {5.8}記号整理}{106}{section.5.8}%
+\contentsline {section}{\numberline {5.9}本章のまとめ}{107}{section.5.9}%
+\contentsline {chapter}{\numberline {第6章}四要素モデルの理論的写像と日本企業データ構築}{109}{chapter.6}%
+\contentsline {section}{\numberline {6.1}四要素モデルの理論的写像：変数定義と採用根拠}{109}{section.6.1}%
+\contentsline {section}{\numberline {6.2}本章の目的と基本方針}{110}{section.6.2}%
+\contentsline {section}{\numberline {6.3}収益性 $\mu $ の定義と採用根拠}{111}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}理論的対応：企業価値の期待成長率としての $\mu $}{111}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}総資産の対数差分（log-diff）による実証的定義}{111}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}企業金融論の視点：総資産成長率が倒産距離を延伸する理由}{112}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}新電力企業の産業特性：総資産が企業価値の主要構成要素となる理由}{112}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}外部ショック感応度 $\sigma $ の定義と採用根拠}{113}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}理論的対応：Merton モデルにおける不確実性の役割}{113}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}新電力企業の倒産構造：ショック依存型ボラティリティ}{113}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}実証上の定義：価格変化率の標準偏差}{114}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}企業金融論の視点：ボラティリティが倒産リスクを規定する理由}{114}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}英国企業におけるショック感応度の補助指標}{115}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {6.4.6}採用根拠：理論・制度・データの三側面からの整合性}{115}{subsection.6.4.6}%
+\contentsline {section}{\numberline {6.5}支援能力 $S$ の定義と採用根拠}{115}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}理論的対応：資本構成と倒産距離の関係}{116}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}日本企業における観測制約}{116}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}英国企業における支援能力の観測可能性：資本構成情報の豊富さ}{117}{subsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.5.4}実証上の定義：資本構成の潜在因子としての $S$}{118}{subsection.6.5.4}%
+\contentsline {subsection}{\numberline {6.5.5}採用根拠：企業金融論との整合性}{118}{subsection.6.5.5}%
+\contentsline {section}{\numberline {6.6}倒産閾値 $D$ の定義と採用根拠}{119}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}理論的対応：Merton モデルにおける負債額 $F$ の役割}{119}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}新電力企業の倒産構造：負債の「性質」の違い}{119}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}実証上の定義：負債比率による倒産閾値の proxy}{120}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}企業金融論の視点：負債比率が倒産閾値を規定する理由}{120}{subsection.6.6.4}%
+\contentsline {subsection}{\numberline {6.6.5}英国企業における倒産閾値の観測可能性}{120}{subsection.6.6.5}%
+\contentsline {subsection}{\numberline {6.6.6}採用根拠：理論・制度・データの三側面からの整合性}{121}{subsection.6.6.6}%
+\contentsline {section}{\numberline {6.7}日本企業データ構築と変数定義：四要素モデルの実証的写像}{121}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}本章の目的と基本方針}{122}{subsection.6.7.1}%
+\contentsline {section}{\numberline {6.8}データ収集の全体像}{122}{section.6.8}%
+\contentsline {section}{\numberline {6.9}財務データの処理}{123}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}抽出項目}{123}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}年次データの月次化}{123}{subsection.6.9.2}%
+\contentsline {section}{\numberline {6.10}市場データ：スポット価格の推移}{124}{section.6.10}%
+\contentsline {section}{\numberline {6.11}四要素モデルの実証的写像（日本企業版）}{124}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}収益性 $\mu $ の定義}{124}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}外部ショック感応度 $\sigma $ の定義}{124}{subsection.6.11.2}%
+\contentsline {subsection}{\numberline {6.11.3}支援能力 $S$ の定義}{125}{subsection.6.11.3}%
+\contentsline {subsection}{\numberline {6.11.4}倒産閾値 $D$ の定義}{125}{subsection.6.11.4}%
+\contentsline {section}{\numberline {6.12}倒産距離 DD の月次計算}{125}{section.6.12}%
+\contentsline {section}{\numberline {6.13}記述統計（7社版）}{126}{section.6.13}%
+\contentsline {section}{\numberline {6.14}第6章のまとめ}{126}{section.6.14}%
+\contentsline {chapter}{\numberline {第7章}理論モデルに基づくシミュレーション分析}{128}{chapter.7}%
+\contentsline {section}{\numberline {7.1}本章の目的と位置づけ}{128}{section.7.1}%
+\contentsline {section}{\numberline {7.2}線形倒産距離をシミュレーション分析用いる正当性}{129}{section.7.2}%
+\contentsline {section}{\numberline {7.3}限界と注意点}{132}{section.7.3}%
+\contentsline {section}{\numberline {7.4}4変数の独立性に関する前提とその正当化}{133}{section.7.4}%
+\contentsline {section}{\numberline {7.5}シミュレーションの設定}{135}{section.7.5}%
+\contentsline {section}{\numberline {7.6}変数間の相互関係を考慮したシミュレーション}{137}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Merton型倒産リスクシミュレーション}{143}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Merton型モデルの仕様}{143}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}ケース設定}{144}{subsection.7.7.2}%
+\contentsline {subsection}{\numberline {7.7.3}3D サーフェスプロットによる可視化}{144}{subsection.7.7.3}%
+\contentsline {subsection}{\numberline {7.7.4}ケース横断的な比較と含意}{154}{subsection.7.7.4}%
+\contentsline {section}{\numberline {7.8}B\&S 型倒産リスクシミュレーション}{154}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}B\&S 型ロジットモデルの仕様}{155}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}新電力の代表ケースの設定}{155}{subsection.7.8.2}%
+\contentsline {subsection}{\numberline {7.8.3}倒産確率サーフェスの可視化}{156}{subsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.8.4}Merton 型シミュレーションとの整合性}{159}{subsection.7.8.4}%
+\contentsline {subsection}{\numberline {7.8.5}本節の含意と第8章への橋渡し}{160}{subsection.7.8.5}%
+\contentsline {chapter}{\numberline {第8章}実証モデルの構築：潜在倒産距離 $Z_{\text {lin}}$ とロジット推定}{162}{chapter.8}%
+\contentsline {section}{\numberline {8.1}本章の目的}{164}{section.8.1}%
+\contentsline {section}{\numberline {8.2}潜在倒産距離 $Z_{\text {lin}}$ の再掲}{165}{section.8.2}%
+\contentsline {section}{\numberline {8.3}ロジットモデルの定式化}{165}{section.8.3}%
+\contentsline {section}{\numberline {8.4}相互作用項を導入した拡張ロジットモデル}{166}{section.8.4}%
+\contentsline {section}{\numberline {8.5}理論的符号条件}{167}{section.8.5}%
+\contentsline {section}{\numberline {8.6}識別の考え方}{169}{section.8.6}%
+\contentsline {section}{\numberline {8.7}本章のまとめ}{171}{section.8.7}%
+\contentsline {chapter}{\numberline {第9章}実証分析：倒産段階モデルによる新電力企業の倒産リスク分析}{172}{chapter.9}%
+\contentsline {section}{\numberline {9.1}倒産の段階性と従属変数の再定義（日本企業）}{173}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Ordered Logit モデルの理論構造（日本企業）}{175}{section.9.2}%
+\contentsline {section}{\numberline {9.3}推定手順（日本企業）}{176}{section.9.3}%
+\contentsline {subsubsection}{(1) 使用モデルと推定環境}{176}{section*.115}%
+\contentsline {subsubsection}{(2) 説明変数の構築}{176}{section*.116}%
+\contentsline {subsubsection}{(3) 従属変数の整備}{177}{section*.117}%
+\contentsline {subsubsection}{(4) 推定式の構築}{177}{section*.118}%
+\contentsline {subsubsection}{(5) 推定の実行}{178}{section*.119}%
+\contentsline {section}{\numberline {9.4}推定結果（日本企業）}{180}{section.9.4}%
+\contentsline {subsubsection}{(1) 推定結果の概要}{180}{section*.120}%
+\contentsline {subsubsection}{(2) 推定結果}{180}{section*.121}%
+\contentsline {subsubsection}{(3) 推定結果の事実整理}{181}{section*.123}%
+\contentsline {section}{\numberline {9.5}倒産ステージ確率の動学・確率曲線・年次比較（日本企業）}{181}{section.9.5}%
+\contentsline {subsubsection}{9.5.1 倒産ステージ確率の動学的推移}{182}{section*.124}%
+\contentsline {subsubsection}{9.5.2 Ordered Logit に基づく倒産ステージ確率曲線}{184}{section*.127}%
+\contentsline {subsubsection}{9.5.3 倒産確率の年次平均と倒産件数の比較}{184}{section*.129}%
+\contentsline {section}{\numberline {9.6}総合評価（日本企業）}{186}{section.9.6}%
+\contentsline {section}{\numberline {9.7}英国市場への拡張（英国企業）}{187}{section.9.7}%
+\contentsline {subsubsection}{(1) 自由化の歴史が長く，日本より 20 年以上先行している}{187}{section*.131}%
+\contentsline {subsubsection}{(2) 制度設計が日本と類似しており，日本は英国制度を参照して改革を進めた}{188}{section*.132}%
+\contentsline {subsubsection}{(3) 倒産ステータスが明確で，Ordered Logit に適している}{188}{section*.133}%
+\contentsline {subsubsection}{(4) 財務諸表の公開制度が充実しており，研究サンプル数を確保できる}{189}{section*.134}%
+\contentsline {subsubsection}{総合的意義}{189}{section*.135}%
+\contentsline {section}{\numberline {9.8}英国企業分析プロセスの全体構成（英国企業）}{190}{section.9.8}%
+\contentsline {subsubsection}{(1) 分析対象企業の選定}{190}{section*.136}%
+\contentsline {subsubsection}{(2) 財務データの収集と tidy 化}{191}{section*.137}%
+\contentsline {subsubsection}{(3) 倒産ステータスの取得と倒産日の特定}{191}{section*.138}%
+\contentsline {subsubsection}{(4) 四要素の定義：英国企業への写像}{192}{section*.139}%
+\contentsline {subsubsection}{(5) 英国版倒産距離 $Z_{\text {lin}}$ の構築}{196}{section*.141}%
+\contentsline {subsubsection}{(6) データ統合と解析用パネルの完成}{196}{section*.142}%
+\contentsline {subsubsection}{(7) Ordered Logit による倒産段階の推定}{196}{section*.143}%
+\contentsline {section}{\numberline {9.9}英国新電力企業データ構築プロセスの概要（英国企業）}{198}{section.9.9}%
+\contentsline {section}{\numberline {9.10}四要素モデルの英国企業への写像と Ordered Logit への接続（英国企業）}{218}{section.9.10}%
+\contentsline {section}{\numberline {9.11}英国企業 Ordered Logit 推定結果（英国企業）}{222}{section.9.11}%
+\contentsline {section}{\numberline {9.12}日本企業との比較（英国企業）}{228}{section.9.12}%
+\contentsline {section}{\numberline {9.13}第9章の総括（日本企業＋英国企業）}{231}{section.9.13}%
+\contentsline {chapter}{\numberline {第10章}考察：倒産ステージ推移の構造的解釈}{235}{chapter.10}%
+\contentsline {section}{\numberline {10.1}資産成長率 $\mu $ が倒産ステージを押し上げる構造的理由}{236}{section.10.1}%
+\contentsline {section}{\numberline {10.2}負債比率 $D$ が倒産閾値として機能するメカニズム}{238}{section.10.2}%
+\contentsline {section}{\numberline {10.3}外部ショック感応度 $\sigma $ が新電力の脆弱性を増幅する構造}{241}{section.10.3}%
+\contentsline {section}{\numberline {10.4}支援能力 $S$ が倒産回避に果たす役割}{243}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Ordered Logit の閾値構造が示す倒産の段階性}{245}{section.10.5}%
+\contentsline {section}{\numberline {10.6}日本企業と英国企業の構造的比較}{250}{section.10.6}%
+\contentsline {section}{\numberline {10.7}本章のまとめ：構造的脆弱性こそ倒産の本質}{253}{section.10.7}%
+\contentsline {chapter}{\numberline {第11章}結論：新電力会社の資本構成と倒産リスクの総合的解釈}{255}{chapter.11}%
+\contentsline {section}{\numberline {11.1}本研究の総括：中心命題の再確認}{256}{section.11.1}%
+\contentsline {section}{\numberline {11.2}本研究が明らかにした構造的脆弱性}{257}{section.11.2}%
+\contentsline {section}{\numberline {11.3}本研究の理論的貢献（独自性）}{258}{section.11.3}%
+\contentsline {section}{\numberline {11.4}実証分析の結論：日本企業と英国企業の比較}{260}{section.11.4}%
+\contentsline {section}{\numberline {11.5}提示した仮説の妥当性の検討（H1〜H4）}{261}{section.11.5}%
+\contentsline {section}{\numberline {11.6}政策的含意}{263}{section.11.6}%
+\contentsline {section}{\numberline {11.7}本研究の限界}{265}{section.11.7}%
+\contentsline {section}{\numberline {11.8}今後の研究課題}{266}{section.11.8}%
+\contentsline {chapter}{付録 A：Merton モデルにおける倒産距離の数学的導出}{269}{appendix*.241}%
+\contentsline {section}{A.1 Merton モデルの基本構造}{269}{section*.242}%
+\contentsline {section}{A.2 倒産閾値の標準正規分布への写像}{270}{section*.244}%
+\contentsline {chapter}{付録 B：Merton 型構造モデルと B\&S 推定式の数学的関係}{274}{appendix*.252}%
+\contentsline {section}{B.1　Merton 型構造モデルと倒産距離 DD}{274}{section*.253}%
+\contentsline {section}{B.2　B\&S 推定式とロジットモデル}{275}{section*.254}%
+\contentsline {section}{B.3　本研究の潜在変数モデルとの接続}{276}{section*.255}%
+\contentsline {section}{B.4　数学的厳密性と本研究の位置づけ}{278}{section*.257}%
+\contentsline {chapter}{付録 C：倒産確率の等高線図および差分図}{279}{appendix*.258}%
+\contentsline {section}{C.1 ケース別等高線図（A〜F）}{279}{section*.259}%
+\contentsline {section}{C.2 差分図（B−C および F−E）}{285}{section*.266}%
+\contentsline {chapter}{付録 D：B\&S 推定式に基づく proxy 妥当性シミュレーション}{288}{appendix*.271}%
+\contentsline {section}{D.1　分析の目的と概要}{288}{section*.272}%
+\contentsline {section}{D.2　B\&S 推定式シミュレーション結果の可視化}{290}{section*.278}%
+\contentsline {chapter}{付録 E：倒産企業の貸借対照表（官報決算公告）}{295}{appendix*.287}%
+\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{295}{section*.288}%
+\contentsline {section}{E-1 （株）F-Powerの貸借対照表}{296}{section*.290}%
+\contentsline {section}{E-3 （株）シナジアパワーの貸借対照表}{297}{section*.292}%
+\contentsline {section}{E-4 （株）エフエネの貸借対照表}{298}{section*.294}%
+\contentsline {section}{E-5 洸陽電機（現：シン・エナジー）貸借対照表}{299}{section*.296}%
+\contentsline {chapter}{付録 F：市場データおよび市場ショック指標（$\sigma $）の構築方法}{300}{appendix*.298}%
+\contentsline {section}{F.1 JEPX スポット価格データの取得方法}{300}{section*.299}%
+\contentsline {section}{F.2 日次標準偏差（$\sigma _{\mathrm {daily}}$）の算出方法}{301}{section*.300}%
+\contentsline {section}{F.3 月次市場ショック（$\sigma _{\mathrm {monthly}}$）の算出方法}{301}{section*.301}%
+\contentsline {section}{F.4 価格データの例示}{301}{section*.302}%
+\contentsline {section}{F.5 市場ショック指標（$\sigma $）の推移}{302}{section*.304}%
+\contentsline {section}{F.6 データ利用上の留意点}{302}{section*.306}%
+\contentsline {section}{F.7 記述統計の算出方法}{302}{section*.307}%
+\contentsline {chapter}{付録 G：記号・用語・定義の対応表}{304}{appendix*.308}%

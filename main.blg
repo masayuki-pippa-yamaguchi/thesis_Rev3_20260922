@@ -1,21 +1,21 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[133] biber-MSWIN64:342> INFO - === 
-[193] Biber.pm:421> INFO - Reading 'main.bcf'
-[338] Biber.pm:1002> INFO - Found 33 citekeys in bib section 0
-[355] Biber.pm:4487> INFO - Processing section 0
-[367] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[441] bibtex.pm:1713> INFO - LaTeX decoding ...
-[492] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[724] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[724] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[724] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[724] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[764] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[781] bbl.pm:779> INFO - Output to main.bbl
-[791] Biber.pm:132> WARN - I didn't find a database entry for 'METI2021AdjustmentFee' (section 0)
-[791] Biber.pm:132> WARN - I didn't find a database entry for 'OCCTO2021ImbalanceReform' (section 0)
-[791] Biber.pm:132> WARN - I didn't find a database entry for 'Ofgem2021PriceCapUpdate' (section 0)
-[791] Biber.pm:132> WARN - I didn't find a database entry for 'CharalambakisGarrett2019' (section 0)
-[791] Biber.pm:132> WARN - I didn't find a database entry for 'Bharath2008' (section 0)
-[791] Biber.pm:134> INFO - WARNINGS: 5
+[128] biber-MSWIN64:342> INFO - === 
+[186] Biber.pm:421> INFO - Reading 'main.bcf'
+[329] Biber.pm:1002> INFO - Found 33 citekeys in bib section 0
+[346] Biber.pm:4487> INFO - Processing section 0
+[358] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[429] bibtex.pm:1713> INFO - LaTeX decoding ...
+[483] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[632] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[632] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[633] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[633] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[663] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[676] bbl.pm:779> INFO - Output to main.bbl
+[680] Biber.pm:132> WARN - I didn't find a database entry for 'METI2021AdjustmentFee' (section 0)
+[681] Biber.pm:132> WARN - I didn't find a database entry for 'OCCTO2021ImbalanceReform' (section 0)
+[681] Biber.pm:132> WARN - I didn't find a database entry for 'Ofgem2021PriceCapUpdate' (section 0)
+[681] Biber.pm:132> WARN - I didn't find a database entry for 'CharalambakisGarrett2019' (section 0)
+[681] Biber.pm:132> WARN - I didn't find a database entry for 'Bharath2008' (section 0)
+[681] Biber.pm:134> INFO - WARNINGS: 5
